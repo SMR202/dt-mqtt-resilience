@@ -1,0 +1,28 @@
+\section{Research Problem and Motivation}
+Cloud-based Digital Twins depend on continuous data exchange between physical assets and their virtual representations. In real deployments, the edge-to-cloud path can experience packet loss, variable delay, jitter, congestion, or temporary disconnection. These conditions can make the virtual state stale or inconsistent. MQTT is widely used for lightweight IoT communication and offers three Quality of Service (QoS) levels, while edge buffering can preserve updates during cloud unavailability. However, stronger delivery guarantees and buffering may introduce additional latency, bandwidth, duplicate processing, storage, and recovery overhead. A deployment therefore needs evidence about which combination provides the best synchronization trade-off under different network conditions.
+
+Recent work demonstrates MQTT-based Digital Twin synchronization, edge-cloud Digital Twin platforms, budget-aware synchronization, federated QoS-aware orchestration, timestamp-based buffering, and high-availability edge Digital Twins \cite{cho2024digital,crespoaguado2024hyperdistributed,li2025budget,narayana2025qos,saday2025synchronization,neagu2026digital}. Separately, MQTT research shows measurable trade-offs among QoS 0, 1, and 2 in latency, packet loss, jitter, bandwidth, and broker resource use \cite{savchenko2026mqtt}. These results motivate a focused empirical study that connects protocol-level messaging choices to Digital Twin-specific outcomes such as state freshness and consistency.
+
+\section{Initial Research Gap}
+The reviewed literature addresses important parts of the problem, but the evidence is fragmented. MQTT-based Digital Twin implementations typically demonstrate synchronization without systematically comparing all MQTT QoS levels under controlled network degradation. Edge-cloud Digital Twin studies focus on platform architecture, resource orchestration, synchronization budgets, or failover. MQTT QoS studies directly compare QoS levels, but generally evaluate IoT/network QoS rather than Digital Twin state freshness and consistency. Therefore, there is room for a reproducible controlled study that jointly evaluates MQTT QoS level and durable edge buffering for cloud-based Digital Twin synchronization under the same degraded-network scenarios, using both network metrics and Digital Twin-specific freshness/consistency metrics. This initial gap will be refined after the full Cutoff-2 literature synthesis.
+
+\section{Research Question}
+\textbf{How do MQTT Quality of Service levels and durable edge buffering strategies affect the freshness, reliability, latency, consistency, and communication overhead of cloud-based Digital Twin synchronization under unstable network conditions?}
+
+\section{Objectives}
+\begin{enumerate}
+    \item Design and implement a reproducible edge-cloud Digital Twin testbed using simulated physical assets, an edge gateway, MQTT messaging, and a cloud-hosted twin state service.
+    \item Experimentally compare MQTT QoS 0, QoS 1, and QoS 2 with edge buffering enabled and disabled under controlled network degradation.
+    \item Measure Digital Twin freshness, synchronization latency, delivery reliability, state consistency, communication overhead, duplicate processing, resource utilization, and outage recovery behavior.
+    \item Identify the configuration(s) that provide the best reliability-performance trade-off for different network conditions and derive evidence-based deployment recommendations.
+\end{enumerate}
+
+\section{Proposed Methodology}
+A controlled experiment will be used. Simulated physical assets will generate timestamped state updates. An edge gateway will forward these updates through MQTT to a cloud Digital Twin service. Each update will contain an asset identifier, sequence number, source timestamp, and state values, allowing the cloud state to be compared with known ground truth.
+
+The independent variables are MQTT QoS level (0, 1, 2), durable edge buffering (off/on), and controlled network condition (baseline, moderate degradation, severe degradation, and temporary outage/recovery). A pilot study will determine stable numerical impairment levels and workload scales; those settings will then be frozen in version-controlled configuration files.
+
+The primary metrics are end-to-end synchronization latency, Age of Information/twin staleness, delivery ratio, state consistency/synchronization error, bandwidth usage, duplicate update rate, CPU/memory use, buffer occupancy, recovery time, and backlog clearance rate. Repeated automated runs will be used, with descriptive statistics, confidence intervals, and appropriate inferential tests/effect sizes where justified.
+
+\section{Expected Outcomes}
+The expected contribution is a quantitative trade-off map rather than a claim that one setting is universally best. Higher QoS levels are expected to improve reliability while adding protocol overhead, and edge buffering is expected to preserve updates during disconnections while introducing replay/storage overhead. The final study will provide a reproducible benchmark and practical guidance for selecting MQTT QoS and buffering strategies according to network quality and Digital Twin freshness/reliability requirements. These are hypotheses/expected outcomes, not reported findings.
