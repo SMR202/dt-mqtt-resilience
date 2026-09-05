@@ -44,8 +44,8 @@ Physical asset simulators → edge gateway → MQTT → cloud Digital Twin state
 All experiment parameters, seeds, software versions, scripts, and result-generation steps will be documented. Secrets, credentials, private data, and cloud tokens must never be committed.
 
 ## Authors
-- [Student 1]
-- [Student 2]
+- Muhammad Sameer
+- Humayun Bilal
 
 ## License
 MIT for repository code unless the team/instructor later selects a different compatible license.
