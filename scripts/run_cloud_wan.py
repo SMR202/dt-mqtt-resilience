@@ -18,7 +18,7 @@ def main():
     p=argparse.ArgumentParser();p.add_argument('--host',required=True);p.add_argument('--key',type=Path,required=True);p.add_argument('--known-hosts',type=Path,required=True);p.add_argument('--output',type=Path,default=ROOT/'results/cloud_wan');a=p.parse_args()
     a.output.mkdir(parents=True,exist_ok=False)
     cfg=json.loads((ROOT/'configs/cloud_wan.json').read_text())
-    options=['-i',str(a.key),'-o','BatchMode=yes','-o','StrictHostKeyChecking=yes','-o','UserKnownHostsFile='+str(a.known_hosts),'-o','ConnectTimeout=10','-o','ServerAliveInterval=5']
+    options=['-i',str(a.key),'-o','KexAlgorithms=curve25519-sha256','-o','BatchMode=yes','-o','StrictHostKeyChecking=yes','-o','UserKnownHostsFile='+str(a.known_hosts),'-o','ConnectTimeout=10','-o','ServerAliveInterval=5']
     destination='ubuntu@'+a.host
     ssh=['ssh',*options,destination]
     def remote(cmd,timeout=30):return subprocess.check_output(ssh+[cmd],text=True,timeout=timeout)

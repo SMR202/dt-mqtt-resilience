@@ -23,6 +23,7 @@ def main():
     else:
         prefixes=['src','scripts','configs','baseline','docs','paper','hardware','tests','results/linux_attacks_attempt1','results/linux_attacks_attempt2','results/linux_netem','results/simulation','results/live','results/baseline_core','results/processed','figures']
         paths=[f for pre in prefixes for f in (ROOT/pre).rglob('*') if f.is_file() and '__pycache__' not in f.parts and f.suffix not in ['.log','.sqlite','.pyc']]
+        paths += [f for f in (ROOT/'results/cloud_wan').rglob('*') if f.is_file()]
         values={f.relative_to(ROOT).as_posix():digest(f) for f in sorted(paths)}
         MANIFEST.write_text(json.dumps(values,indent=2)+'\n')
         print('Recorded',len(values),'hashes')

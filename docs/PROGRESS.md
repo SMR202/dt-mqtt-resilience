@@ -38,3 +38,9 @@ See `EXTERNAL_REQUIREMENTS.md` for the current state. Linux/Docker bounded attac
 - Prepared full LaTeX/report/image upload ZIP, AWS bootstrap, cloud publisher/receiver and optional physical-sensor firmware. Six local cloud-script integration checks passed; none are labeled WAN evidence.
 - Attempted built-in LaTeX compilation; the platform failed to locate standard directories. Source remains editable; Overleaf compile verification is pending.
 - AWS account provider confirmed; sign-in requested in Chrome. No cloud spend/resource creation or WAN results are claimed.
+
+## Completion on 7 October 2026
+
+All 36 planned AWS runs completed: 14,256 source-audited generated samples, 3,709 unique cloud receipts, 3,709 publisher completions and seven rejected duplicate/stale callbacks. Every unique receipt matched its edge audit. Across QoS 0/1/2 in the tunnel-interruption condition, descriptive mean age was 7.202/9.363/10.941 seconds for FIFO and 1.480/1.850/3.156 seconds for latest-state coalescing. Conditional clock envelopes and all seed pairs are retained; this is an exploratory short synthetic workload.
+
+Cleanup was verified in the AWS console: instance terminated; root volume absent; dedicated SSH key pair and security group deleted; no running instances, volumes, elastic IPs or snapshots remained in Stockholm. The default VPC/security group was preserved. The dashboard showed account credits but could not load the cost chart, so the final charge was not independently verified. Compute-only cost for roughly 38 minutes at the console rate is about US$0.007 before IPv4/storage and account credits. Previously incurred usage may appear later; deletion prevents continued experiment compute/disk charges. No paid resource remains from this experiment.

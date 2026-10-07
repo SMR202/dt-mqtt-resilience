@@ -1,0 +1,30 @@
+{
+  "duration": 20,
+  "warmup": 3,
+  "devices": 4,
+  "rate": 5,
+  "dispatch_cap": 12,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "qos": [
+    0,
+    1,
+    2
+  ],
+  "policies": [
+    "fifo",
+    "latest"
+  ],
+  "scenarios": [
+    "healthy",
+    "tunnel_break"
+  ],
+  "tunnel_break": [
+    8,
+    12
+  ],
+  "semantics": "Real Internet transport from PC to AWS, MQTT over SSH. Controlled interruption kills and restarts the owned SSH tunnel; not an ISP outage. Edge application withholding disabled. Nonblocking single-inflight publication and common dispatch cap. Synthetic telemetry, no physical sensors."
+}

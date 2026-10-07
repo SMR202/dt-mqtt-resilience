@@ -23,10 +23,12 @@ def inline(s):
         pos=m.end()
     chunks.append(esc(s[pos:]))
     return ''.join(chunks).replace('*','')
-def build():
+def build(source_path=None,output_path=None,title_text=None,zip_path=None):
+    global OUT
+    OUT=Path(output_path) if output_path else ROOT/'paper/overleaf'
     OUT.mkdir(parents=True,exist_ok=True)
     (OUT/'figures').mkdir(exist_ok=True)
-    text=(ROOT/'paper/FINAL_RESEARCH_REPORT.md').read_text(encoding='utf-8')
+    text=Path(source_path or ROOT/'paper/FINAL_RESEARCH_REPORT.md').read_text(encoding='utf-8')
     text=text.replace('remote cloud validation and instructor approval remain open','remote cloud validation remains open; mentor approval was reported by the project team on 7 October 2026')
     text=text.replace('Instructor/mentor confirmation, official Overleaf integration/access','Mentor approval is reported by the team. Official Overleaf integration/access')
     body=[]; lines=text.splitlines(); i=0
@@ -59,6 +61,7 @@ def build():
             body.append(paragraph+'\n')
         else: body.append('')
     meta=json.loads((ROOT/'docs/literature_metadata.json').read_text(encoding='utf-8'))
+    if title_text:meta=meta[:1]
     bibliography=[r'\begin{thebibliography}{99}']
     for j,m in enumerate(meta,1):
         authors=', '.join(a.get('family','') for a in m['authors'])
@@ -94,13 +97,15 @@ For ground truth $x_d(t)$ and held twin state $\hat x_d(t)$, mean absolute error
 \end{enumerate}
 The local audit does not imply remote archival completeness, and MQTT completion is not an application commit acknowledgement.
 '''
-    source+='\n'.join(body)+equations+'\n'.join(bibliography)+'\n'+r'\end{document}'+'\n'
+    source+='\n'.join(body)+(equations if not title_text else '')+'\n'.join(bibliography)+'\n'+r'\end{document}'+'\n'
+    if title_text:
+        source=source.replace('Freshness-aware Edge Replay for MQTT Digital-twin Synchronization',esc(title_text))
     (OUT/'main.tex').write_text(source,encoding='utf-8')
-    for name in ['architecture.png','live_comparison.png','simulation_comparison.png','load_sensitivity.png']:
+    for name in [Path(p).name for p in re.findall(r'!\[[^]]*\]\(([^)]+)\)',text)]:
         shutil.copy2(ROOT/'figures'/name,OUT/'figures'/name)
     shutil.copy2(ROOT/'paper/phase2_references.bib',OUT/'references.bib')
-    with zipfile.ZipFile(ROOT/'paper/overleaf_upload.zip','w',zipfile.ZIP_DEFLATED) as z:
+    with zipfile.ZipFile(zip_path or ROOT/'paper/overleaf_upload.zip','w',zipfile.ZIP_DEFLATED) as z:
         for p in sorted(OUT.rglob('*')):
             if p.is_file(): z.write(p,p.relative_to(OUT))
-    print('Created complete main.tex and Overleaf ZIP with four figures and BibTeX.')
+    print('Created complete main.tex and Overleaf ZIP with referenced figures and BibTeX.')
 if __name__=='__main__': build()

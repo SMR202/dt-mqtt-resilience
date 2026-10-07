@@ -64,3 +64,7 @@ Source/log/table checks are reproducibility evidence. They do not establish indu
 `scripts/build_report.py` uses Windows Arial fonts for report layout; the experiment and verification scripts do not require these fonts.
 
 For the executed Docker/netem extension, follow docs/LINUX_EXTENSION.md. For complete editable LaTeX and image upload, follow docs/OVERLEAF_UPLOAD.md. Prepared remote cloud scripts have six passing local integration checks; they are not WAN measurements.
+
+## Cloud audit and current reports
+
+Run `python -m scripts.analyze_cloud_wan` to audit all delivered cloud receipts against edge SQLite histories and regenerate the cloud tables/figure. Run `python -m scripts.build_report`, `python -m scripts.build_overleaf`, and `python -m scripts.build_initial_report` to regenerate the final and initial PDF/source packages. PDF generation uses ReportLab and the documented Times fonts on Windows; Overleaf needs no local TeX installation. A fresh WAN rerun requires a separately authorized VM and verified SSH identity; the original experiment VM has been deleted.

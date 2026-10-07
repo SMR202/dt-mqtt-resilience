@@ -1,0 +1,14 @@
+{
+  "run": "wan-tunnel_break-latest-q2-s2",
+  "cpu_seconds": 0.028391962000000007,
+  "peak_rss_bytes": 25296896,
+  "started_utc": 1791389123.8870885,
+  "ended_utc": 1791389159.2949975,
+  "platform": "Linux-6.17.0-1017-aws-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "counts": {
+    "callbacks": 27,
+    "accepted": 26,
+    "rejected": 1
+  }
+}

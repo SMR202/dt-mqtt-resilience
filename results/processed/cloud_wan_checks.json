@@ -1,0 +1,12 @@
+{
+  "scope": "Real Internet transport from PC to AWS, MQTT over SSH. Controlled interruption kills and restarts the owned SSH tunnel; not an ISP outage. Edge application withholding disabled. Nonblocking single-inflight publication and common dispatch cap. Synthetic telemetry, no physical sensors.",
+  "completed_runs": 36,
+  "planned_runs": 36,
+  "generated": 14256,
+  "received_unique": 3709,
+  "published": 3709,
+  "rejected_callbacks": 7,
+  "audit_checks": "Every unique cloud receipt maps to the matching edge audit sample and timestamp. Publication completion is not proof of cloud commit.",
+  "clock_method": "Envelope of before/after SSH time probes tightened by receipt causality; midpoint is descriptive, not certified one-way timing. A constant clock offset within each 20-second run is assumed.",
+  "physical_sensor": false
+}

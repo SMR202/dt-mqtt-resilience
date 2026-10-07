@@ -174,6 +174,34 @@ The results support the FIFO-versus-latest freshness trade-off under executed pa
 
 '''
         text=text.replace('## References\n',extra+'## References\n')
+    cloud_path=ROOT/'results/processed/cloud_wan_checks.json'
+    if cloud_path.exists():
+        cloud=json.loads(cloud_path.read_text())
+        cloud_table=pd.read_csv(ROOT/'results/processed/cloud_wan_summary.csv')
+        cloud_rows=[[r.scenario,int(r.qos),r.policy,f'{r.age_seconds_midpoint:.3f}',f'{r.age_clock_envelope_lower:.3f}--{r.age_clock_envelope_upper:.3f}',f'{r.receipt_ratio:.3f}',int(r.max_queue)] for r in cloud_table.itertuples()]
+        cloud_text='## 13. Executed AWS Internet validation\n\n'+f"The temporary Ubuntu 24.04 t3.micro VM in Stockholm used Mosquitto 2.0.18 and Paho 2.1.0. {cloud['completed_runs']} of {cloud['planned_runs']} planned randomized runs completed. Four synthetic generators target 5Hz each for 20 seconds; FIFO/latest share a 12/s dispatch cap and nonblocking acknowledgement polling. MQTT traverses an SSH tunnel from the Windows edge PC to cloud localhost. The interruption condition closes and restores the owned tunnel at approximately seconds 8--12; it is not an ISP outage. No physical sensor or public-network attack is involved.\n\nEvery unique cloud receipt was checked against its source SQLite audit record. Generated samples total {cloud['generated']:,}; unique cloud receipts total {cloud['received_unique']:,}; publisher completions total {cloud['published']:,}. The sequence guard rejected {cloud['rejected_callbacks']} duplicate/stale callbacks. Publisher completion and cloud commit remain separate semantics.\n\n"+table(['Scenario','QoS','Policy','Mean age (s)','Clock envelope (s)','Receipt ratio','Mean max queue'],cloud_rows)+'\n\nAge is integrated from accepted cloud receipts over seconds 3--20, with initial held timestamps set to run start. Before/after SSH time probes and receipt causality bound clock offset. A constant offset within each short run is assumed. Midpoint age and conditional envelopes are reported; these are not hardware-synchronized one-way measurements. Per-run CPU seconds and peak RSS are in the verified CSV. Raw databases, receiver logs, clock probes, actual tunnel timings and environment are retained. This small experiment complements the larger local sweep; MQTT-over-SSH, one region, one PC and short horizons limit generalization. See docs/AWS_WAN_VALIDATION.md for cleanup status and costs.\n\n'
+        verified=pd.read_csv(ROOT/'results/processed/cloud_wan_verified.csv')
+        costs=[]
+        for policy,group in verified.groupby('policy'):
+            costs.append([policy,f'{group.edge_wall_seconds.mean():.2f}',f'{group.cloud_wall_seconds.mean():.2f}',f'{group.edge_cpu_seconds.mean():.3f}',f'{group.cloud_cpu_seconds.mean():.3f}',f'{group.edge_peak_rss_bytes.max()/1048576:.2f}',f'{group.cloud_peak_rss_bytes.max()/1048576:.2f}'])
+        cloud_text+='Process costs are averaged across conditions/QoS; RSS is the maximum observed for each policy. Receiver wall time includes startup, settle time and clock probing. These are edge/receiver process measurements and exclude broker, SSH tunnel and whole-machine consumption.\n\n'+table(['Policy','Edge wall (s)','Receiver wall (s)','Edge CPU (s)','Receiver CPU (s)','Edge RSS (MiB)','Receiver RSS (MiB)'],costs)+'\n\n'
+        cloud_text+='![Actual AWS WAN age comparison with conditional clock envelopes](../figures/cloud_wan_comparison.png)\n\n'
+        text=text.replace('## References\n',cloud_text+'## References\n')
+        text=text.replace('Actual AWS edge/cloud deployment, archive delivery and hardware/power experiments are not yet measured.','Actual AWS edge/cloud deployment is now measured in Section 13; remote archive delivery and hardware/power experiments remain unmeasured.')
+        text=text.replace('Physical-device validation and AWS WAN measurements are pending actual equipment/cloud access.','AWS WAN evidence is provided in Section 13. Physical validation is not claimed; hardware is optional unless the instructor requires it.')
+    text=text.replace('Reproducibility: The code and reproducibility materials for this study are publicly available at: https://github.com/SMR202/dt-mqtt-resilience','Reproducibility: [Project repository](https://github.com/SMR202/dt-mqtt-resilience); [research changes and evidence](https://github.com/SMR202/dt-mqtt-resilience/pull/1).')
+    text=text.replace('## 2. Baseline selection and reproduction\n','## 2. Baseline selection and reproduction\n')
+    reference_box='Reference authors: Cláudio Rodrigues, Waldir S. S. Júnior, Wilson Oliveira and Isomar Lima. Venue: Sensors 25(24), 7476; year: 2025. [Paper and publisher record](https://doi.org/10.3390/s25247476); [official GitHub artifact](https://github.com/woliveira1728/digital-twin). The separate initial reproduction report supplies the full data/environment inventory, transcribed published Table 2 statistics, installation problems and item-by-item deviations.\n\n'
+    text=text.replace('The selected reference is Rodrigues',reference_box+'The selected reference is Rodrigues')
+    if cloud_path.exists():
+        text=text.replace('Exact original-paper numerical replication and remote cloud validation remain open.','Exact original-paper numerical replication remains unavailable; executed AWS validation is reported in Section 13.')
+        text=text.replace('They do not establish packet-loss resilience, production durability, attack-classification accuracy or public-cloud performance.','Supplemental Linux packet-impairment and AWS Internet experiments are reported below. Production durability and attack-classification accuracy remain outside the measured scope.')
+        text=text.replace('Physical measurements, cloud WAN deployment and billing are not part of the evidence.','The initial benchmark co-locates services; Section 13 adds actual cloud transport. Physical measurements are outside this study.')
+        text=text.replace('Neither is a physical outage or a measured WAN.','These initial local studies are followed by the separate AWS experiment in Section 13.')
+    conclusion=re.search(r'## 11\. Conclusion\n(.*?)(?=## )',text,re.S)
+    if conclusion:
+        text=text[:conclusion.start()]+text[conclusion.end():]
+        text=text.replace('## References\n','## 14. Conclusion\n'+conclusion.group(1)+'The additional AWS experiment confirms the same freshness-versus-history trade-off over actual Internet transport, with short-run clock uncertainty reported explicitly. All temporary cloud resources were removed after evidence transfer.\n\n## References\n')
     (ROOT/'paper/FINAL_RESEARCH_REPORT.md').write_text(text,encoding='utf-8')
 
 def architecture():
@@ -197,14 +225,14 @@ def pdf(source,target):
     from reportlab.pdfbase import pdfmetrics
     from reportlab.pdfbase.ttfonts import TTFont
     from reportlab.platypus import SimpleDocTemplate,Paragraph,Spacer,Table,TableStyle,Image,Preformatted,KeepTogether
-    for name,file in [('Research','arial.ttf'),('ResearchBold','arialbd.ttf')]:
+    for name,file in [('Research','times.ttf'),('ResearchBold','timesbd.ttf'),('ResearchItalic','timesi.ttf')]:
         pdfmetrics.registerFont(TTFont(name,str(Path('C:/Windows/Fonts')/file)))
-    pdfmetrics.registerFontFamily('Research',normal='Research',bold='ResearchBold',italic='Research',boldItalic='ResearchBold')
+    pdfmetrics.registerFontFamily('Research',normal='Research',bold='ResearchBold',italic='ResearchItalic',boldItalic='ResearchBold')
     styles=getSampleStyleSheet()
     body=ParagraphStyle('ResearchBody',fontName='Research',fontSize=9.7,leading=14.2,spaceAfter=8,textColor=colors.HexColor('#263849'))
-    head=ParagraphStyle('ResearchHeading',parent=body,fontName='ResearchBold',fontSize=14,leading=18,spaceBefore=14,spaceAfter=8,textColor=colors.HexColor('#147a79'))
+    head=ParagraphStyle('ResearchHeading',parent=body,fontName='ResearchBold',fontSize=13,leading=17,spaceBefore=14,spaceAfter=8,textColor=colors.HexColor('#18354a'),keepWithNext=True)
     title=ParagraphStyle('ResearchTitle',parent=head,fontSize=23,leading=28,spaceBefore=0,spaceAfter=18)
-    small=ParagraphStyle('ResearchTable',parent=body,fontSize=7.8,leading=10.5,spaceAfter=0,wordWrap='CJK')
+    small=ParagraphStyle('ResearchTable',parent=body,fontSize=8,leading=10.5,spaceAfter=0)
     def rich(text):
         text=html.escape(text)
         text=re.sub(r'\[([^]]+)\]\(([^)]+)\)',lambda m:'<link href="'+m.group(2)+'" color="#147a79">'+m.group(1)+'</link>',text)
@@ -249,6 +277,8 @@ def pdf(source,target):
 
 if __name__=='__main__':
     architecture();report()
-    pdf(ROOT/'paper/FINAL_RESEARCH_REPORT.md',ROOT/'paper/FINAL_RESEARCH_REPORT_EXTENDED.pdf')
-    pdf(ROOT/'docs/INITIAL_REPRODUCTION_AUDIT.md',ROOT/'paper/INITIAL_REPRODUCTION_AUDIT.pdf')
-    print('Created initial audit and final research-phase report')
+    target='FINAL_RESEARCH_REPORT_WITH_CLOUD.pdf' if (ROOT/'results/processed/cloud_wan_checks.json').exists() else 'FINAL_RESEARCH_REPORT_EXTENDED.pdf'
+    pdf(ROOT/'paper/FINAL_RESEARCH_REPORT.md',ROOT/'paper'/target)
+    if (ROOT/'paper/INITIAL_REPRODUCTION_REPORT.md').exists():
+        pdf(ROOT/'paper/INITIAL_REPRODUCTION_REPORT.md',ROOT/'paper/INITIAL_REPRODUCTION_REPORT.pdf')
+    print('Created research-phase reports')

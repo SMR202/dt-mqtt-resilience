@@ -1,3 +1,5 @@
+> Historical initial audit. Later Linux and AWS execution supersedes availability notes below; see `paper/INITIAL_REPRODUCTION_REPORT.md` and `docs/AWS_WAN_VALIDATION.md` for current evidence.
+
 # Initial reproduction report and feasibility audit
 
 Audit date: 7 October 2026. This report precedes final analysis and distinguishes published methods, official code and our extension.

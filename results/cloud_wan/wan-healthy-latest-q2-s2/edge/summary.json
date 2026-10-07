@@ -1,0 +1,262 @@
+{
+  "mode": "synthetic real-WAN workload",
+  "physical_capture_age_verified": false,
+  "clock_sync_verified": false,
+  "outage": "edge application withholding; not WAN packet blackout",
+  "args": {
+    "run": "wan-healthy-latest-q2-s2",
+    "policy": "latest",
+    "output": "C:\\Users\\PC\\Documents\\Codex\\2026-10-07\\referenced-chatgpt-conversation-this-is-an\\outputs\\dt-mqtt-resilience\\results\\cloud_wan\\wan-healthy-latest-q2-s2\\edge",
+    "port": 18885,
+    "qos": 2,
+    "duration": 20.0,
+    "serial_port": null,
+    "outage_start": -1.0,
+    "outage_end": -1.0,
+    "dispatch_cap": 12.0,
+    "seed": 2
+  },
+  "started_utc": 1791390112.4881954,
+  "generated": 396,
+  "published": 37,
+  "remaining": 4,
+  "max_queue": 4,
+  "failures": [],
+  "measured_end_utc": 1791390132.4879699,
+  "ended_utc": 1791390132.8577504,
+  "connections": [
+    {
+      "event": "connect",
+      "utc": 1791390112.487681,
+      "reason": "Success"
+    }
+  ],
+  "published_updates": [
+    {
+      "device": 0,
+      "seq": 1,
+      "submitted_utc": 1791390112.4934666,
+      "publication_complete_utc": 1791390113.0440066
+    },
+    {
+      "device": 1,
+      "seq": 3,
+      "submitted_utc": 1791390113.0440066,
+      "publication_complete_utc": 1791390113.59817
+    },
+    {
+      "device": 2,
+      "seq": 6,
+      "submitted_utc": 1791390113.59817,
+      "publication_complete_utc": 1791390114.1523402
+    },
+    {
+      "device": 3,
+      "seq": 9,
+      "submitted_utc": 1791390114.152905,
+      "publication_complete_utc": 1791390114.7048376
+    },
+    {
+      "device": 0,
+      "seq": 11,
+      "submitted_utc": 1791390114.705412,
+      "publication_complete_utc": 1791390115.2593355
+    },
+    {
+      "device": 1,
+      "seq": 14,
+      "submitted_utc": 1791390115.2593355,
+      "publication_complete_utc": 1791390115.8109474
+    },
+    {
+      "device": 2,
+      "seq": 17,
+      "submitted_utc": 1791390115.8109474,
+      "publication_complete_utc": 1791390116.3649511
+    },
+    {
+      "device": 3,
+      "seq": 20,
+      "submitted_utc": 1791390116.3649511,
+      "publication_complete_utc": 1791390116.9171758
+    },
+    {
+      "device": 0,
+      "seq": 22,
+      "submitted_utc": 1791390116.9171758,
+      "publication_complete_utc": 1791390117.4702027
+    },
+    {
+      "device": 1,
+      "seq": 25,
+      "submitted_utc": 1791390117.4707975,
+      "publication_complete_utc": 1791390118.0230155
+    },
+    {
+      "device": 2,
+      "seq": 28,
+      "submitted_utc": 1791390118.0235887,
+      "publication_complete_utc": 1791390118.5802896
+    },
+    {
+      "device": 3,
+      "seq": 31,
+      "submitted_utc": 1791390118.5802896,
+      "publication_complete_utc": 1791390119.1311781
+    },
+    {
+      "device": 0,
+      "seq": 33,
+      "submitted_utc": 1791390119.131758,
+      "publication_complete_utc": 1791390119.669797
+    },
+    {
+      "device": 1,
+      "seq": 36,
+      "submitted_utc": 1791390119.6703918,
+      "publication_complete_utc": 1791390120.2246761
+    },
+    {
+      "device": 2,
+      "seq": 39,
+      "submitted_utc": 1791390120.2246761,
+      "publication_complete_utc": 1791390120.7633252
+    },
+    {
+      "device": 3,
+      "seq": 41,
+      "submitted_utc": 1791390120.763905,
+      "publication_complete_utc": 1791390121.3169105
+    },
+    {
+      "device": 0,
+      "seq": 44,
+      "submitted_utc": 1791390121.3169105,
+      "publication_complete_utc": 1791390121.8550649
+    },
+    {
+      "device": 1,
+      "seq": 47,
+      "submitted_utc": 1791390121.8550649,
+      "publication_complete_utc": 1791390122.4076643
+    },
+    {
+      "device": 2,
+      "seq": 49,
+      "submitted_utc": 1791390122.4076643,
+      "publication_complete_utc": 1791390122.9612708
+    },
+    {
+      "device": 3,
+      "seq": 52,
+      "submitted_utc": 1791390122.9619217,
+      "publication_complete_utc": 1791390123.5136228
+    },
+    {
+      "device": 0,
+      "seq": 55,
+      "submitted_utc": 1791390123.5136228,
+      "publication_complete_utc": 1791390124.0698245
+    },
+    {
+      "device": 1,
+      "seq": 58,
+      "submitted_utc": 1791390124.0698245,
+      "publication_complete_utc": 1791390124.6210394
+    },
+    {
+      "device": 2,
+      "seq": 60,
+      "submitted_utc": 1791390124.6210394,
+      "publication_complete_utc": 1791390125.172863
+    },
+    {
+      "device": 3,
+      "seq": 63,
+      "submitted_utc": 1791390125.172863,
+      "publication_complete_utc": 1791390125.7117906
+    },
+    {
+      "device": 0,
+      "seq": 66,
+      "submitted_utc": 1791390125.7117906,
+      "publication_complete_utc": 1791390126.2658777
+    },
+    {
+      "device": 1,
+      "seq": 68,
+      "submitted_utc": 1791390126.2658777,
+      "publication_complete_utc": 1791390126.8195837
+    },
+    {
+      "device": 2,
+      "seq": 71,
+      "submitted_utc": 1791390126.8201694,
+      "publication_complete_utc": 1791390127.3724375
+    },
+    {
+      "device": 3,
+      "seq": 74,
+      "submitted_utc": 1791390127.3730054,
+      "publication_complete_utc": 1791390127.92795
+    },
+    {
+      "device": 0,
+      "seq": 77,
+      "submitted_utc": 1791390127.9284613,
+      "publication_complete_utc": 1791390128.464445
+    },
+    {
+      "device": 1,
+      "seq": 79,
+      "submitted_utc": 1791390128.464445,
+      "publication_complete_utc": 1791390129.0151265
+    },
+    {
+      "device": 2,
+      "seq": 82,
+      "submitted_utc": 1791390129.0157192,
+      "publication_complete_utc": 1791390129.5689774
+    },
+    {
+      "device": 3,
+      "seq": 85,
+      "submitted_utc": 1791390129.5689774,
+      "publication_complete_utc": 1791390130.1212525
+    },
+    {
+      "device": 0,
+      "seq": 87,
+      "submitted_utc": 1791390130.1212525,
+      "publication_complete_utc": 1791390130.6746893
+    },
+    {
+      "device": 1,
+      "seq": 90,
+      "submitted_utc": 1791390130.6746893,
+      "publication_complete_utc": 1791390131.2278917
+    },
+    {
+      "device": 2,
+      "seq": 93,
+      "submitted_utc": 1791390131.22848,
+      "publication_complete_utc": 1791390131.7656977
+    },
+    {
+      "device": 3,
+      "seq": 95,
+      "submitted_utc": 1791390131.7656977,
+      "publication_complete_utc": 1791390132.3184252
+    },
+    {
+      "device": 0,
+      "seq": 98,
+      "submitted_utc": 1791390132.3184252,
+      "publication_complete_utc": 1791390132.8577504
+    }
+  ],
+  "generator": "nonblocking publication-completion polling; generation independent of acknowledgement waits; nominal 4 devices x 5Hz",
+  "pending": false,
+  "cpu_seconds": 0.328125,
+  "peak_rss_bytes": 26849280
+}

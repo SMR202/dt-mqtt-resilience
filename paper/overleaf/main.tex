@@ -18,26 +18,29 @@
 Prepared 7 October 2026 ;  Cloud Computing research project ;  Muhammad Sameer and Humayun Bilal (proposal team names; authorship/contributions require human confirmation).
 
 
-\textbf{Status:} executed local research package and preliminary manuscript material, including an additional Linux Docker attack reproduction and real packet-impairment sweep. Exact original-paper numerical replication and remote cloud validation remain open. Mentor approval is reported by the team on 7 October 2026. This PDF is not the final instructor-template Overleaf manuscript.
+\textbf{Status:} executed local research package and preliminary manuscript material, including an additional Linux Docker attack reproduction and real packet-impairment sweep. Exact original-paper numerical replication remains unavailable; executed AWS validation is reported in Section 13. Mentor approval is reported by the team on 7 October 2026. This PDF is not the final instructor-template Overleaf manuscript.
 
 
 \section{Abstract}
 
-Buffered telemetry can preserve a replay opportunity while leaving a digital twin's current state stale. We audit and execute the feasible MQTT core of a recent communication-monitoring study, then evaluate fair latest-state coalescing with a sequence-checked receiver and separate durable local history. The empirical package contains 108 actual MQTT loopback runs across three QoS levels and four application-shaped uplink conditions, plus 1,200 application-simulation executions across load, scale and policy variations. In the live outage condition, mean Age of Information decreases from 1.852 s with FIFO to 0.503 s with the proposed policy (72.8\%); finite-horizon delivery remains approximately 53.9\%. A fair epoch-only baseline reaches similar freshness in short live tests, so universal superiority is not claimed. Every generated live sample is preserved locally; intermediate updates are not all delivered remotely. Removing the receiver guard causes 5,945 regressions across the unguarded simulation runs. The results support distinguishing current-state freshness from traffic rate and history completeness. They do not establish packet-loss resilience, production durability, attack-classification accuracy or public-cloud performance.
+Buffered telemetry can preserve a replay opportunity while leaving a digital twin's current state stale. We audit and execute the feasible MQTT core of a recent communication-monitoring study, then evaluate fair latest-state coalescing with a sequence-checked receiver and separate durable local history. The empirical package contains 108 actual MQTT loopback runs across three QoS levels and four application-shaped uplink conditions, plus 1,200 application-simulation executions across load, scale and policy variations. In the live outage condition, mean Age of Information decreases from 1.852 s with FIFO to 0.503 s with the proposed policy (72.8\%); finite-horizon delivery remains approximately 53.9\%. A fair epoch-only baseline reaches similar freshness in short live tests, so universal superiority is not claimed. Every generated live sample is preserved locally; intermediate updates are not all delivered remotely. Removing the receiver guard causes 5,945 regressions across the unguarded simulation runs. The results support distinguishing current-state freshness from traffic rate and history completeness. Supplemental Linux packet-impairment and AWS Internet experiments are reported below. Production durability and attack-classification accuracy remain outside the measured scope.
 
 
-Reproducibility: The code and reproducibility materials for this study are publicly available at: https://github.com/SMR202/dt-mqtt-resilience
+Reproducibility: \href{https://github.com/SMR202/dt-mqtt-resilience}{Project repository}; \href{https://github.com/SMR202/dt-mqtt-resilience/pull/1}{research changes and evidence}.
 
 
 \section{Problem, motivation and contribution}
 
-A twin receiving old updates can appear active while its state is obsolete. For a current-state service, replay order and per-device coverage matter in addition to communication reliability. We investigate this application-layer trade-off within the existing Digital Twin + cloud/MQTT project. The cloud component is an independently deployable MQTT subscriber/current-state service; the executed benchmark co-locates it with the edge and broker. Physical measurements, cloud WAN deployment and billing are not part of the evidence.
+A twin receiving old updates can appear active while its state is obsolete. For a current-state service, replay order and per-device coverage matter in addition to communication reliability. We investigate this application-layer trade-off within the existing Digital Twin + cloud/MQTT project. The cloud component is an independently deployable MQTT subscriber/current-state service; the executed benchmark co-locates it with the edge and broker. The initial benchmark co-locates services; Section 13 adds actual cloud transport. Physical measurements are outside this study.
 
 
 Our contribution is a reproducible systems experiment combining committed local audit history, per-device latest-state coalescing, round-robin dispatch and a monotonic receiver. These elements are established techniques. We claim a scoped implementation/evaluation contribution and a paper/code reproducibility audit; no theoretical novelty or globally optimal scheduling result is asserted.
 
 
 \section{Reference selection and initial reproduction}
+
+Reference authors: Claudio Rodrigues, Waldir S. S. Junior, Wilson Oliveira and Isomar Lima. Venue: Sensors 25(24), 7476; year: 2025. \href{https://doi.org/10.3390/s25247476}{Paper and publisher record}; \href{https://github.com/woliveira1728/digital-twin}{official GitHub artifact}. The separate initial reproduction report supplies the full data/environment inventory, transcribed published Table 2 statistics, installation problems and item-by-item deviations.
+
 
 The selected reference is Rodrigues et al., A Data Rate Monitoring Approach for Cyberattack Detection in Digital Twin Communication, Sensors 25(24), 7476 (2025), DOI 10.3390/s25247476. The official artifact is pinned to commit \texttt{43346f60a9f41392611242ff3cb7589d7a758aa7}. The full selection rationale, original environment/settings and rejected alternatives are in the initial audit. That audit is part of this report package and avoids treating paper descriptions as executed results.\cite{ref1}
 
@@ -180,18 +183,13 @@ Paired bootstrap intervals resample whole seed pairs, with 10,000 draws. The thr
 
 \section{Limitations and remaining external work}
 
-The reference core is an adapted method reproduction, not exact numerical replication. Its original captures and published attack figures were not reproduced. The later Linux extension executes official Docker services and bounded scenarios, with adaptations disclosed below. The native source remains separately fetched because no project-level license was verified. The first 108 live runs use application impairment; only the separate Linux sweep applies actual packet delay/loss. Neither is a physical outage or a measured WAN. The signal/workload is synthetic, clocks are co-located, runs are short, and desktop scheduling/storage alter service capacity. Timing/resource values vary across hosts.
+The reference core is an adapted method reproduction, not exact numerical replication. Its original captures and published attack figures were not reproduced. The later Linux extension executes official Docker services and bounded scenarios, with adaptations disclosed below. The native source remains separately fetched because no project-level license was verified. The first 108 live runs use application impairment; only the separate Linux sweep applies actual packet delay/loss. These initial local studies are followed by the separate AWS experiment in Section 13. The signal/workload is synthetic, clocks are co-located, runs are short, and desktop scheduling/storage alter service capacity. Timing/resource values vary across hosts.
 
 
 Latest-value coalescing sacrifices intermediate live deliveries. A separate local audit preserves them but does not deliver them remotely. The audit currently has no retention policy. Receiver state and scheduling pointer are not persistent across processes; device epochs and end-to-end application acknowledgements are required for production restart guarantees. SQLite restart unit tests do not constitute physical power-loss tests. Overflow caps were not reached; differing live/model overflow choices are not evaluated.
 
 
-Mentor approval is reported by the project team. Official Overleaf integration/access, group registration, human authorship/contribution review and defense remain external. Actual AWS edge/cloud deployment, archive delivery and hardware/power experiments are not yet measured. Physical hardware is optional unless required by the instructor, and no physical-validation claim is made. A full Overleaf source/image ZIP and tested deployment scripts are supplied. The course's final poster/presentation/submission workflow is separate from this phase report. No paper was submitted and no acceptance is implied.
-
-
-\section{Conclusion}
-
-This research-phase package reproduces a feasible official MQTT communication core, exposes important paper/code differences, and implements a measurable current-state recovery extension. Under the executed constrained conditions, coalescing materially improves freshness over FIFO while leaving remote completeness as a separate concern. A fair unbuffered policy remains competitive, and established AoI/scheduling literature limits novelty claims. The defensible outcome is a transparent, reproducible evaluation and methodology foundation for instructor review and stronger external validation.
+Mentor approval is reported by the project team. Official Overleaf integration/access, group registration, human authorship/contribution review and defense remain external. Actual AWS edge/cloud deployment is now measured in Section 13; remote archive delivery and hardware/power experiments remain unmeasured. Physical hardware is optional unless required by the instructor, and no physical-validation claim is made. A full Overleaf source/image ZIP and tested deployment scripts are supplied. The course's final poster/presentation/submission workflow is separate from this phase report. No paper was submitted and no acceptance is implied.
 
 
 \section{Additional Linux/Docker and packet-impairment validation}
@@ -228,7 +226,55 @@ healthy & latest & 2 & 0.282 & 55.56 \\
 Unlike the nearly continuous initial live sweep, packet delay and synchronous QoS waits create sparse, irregular in-loop samples. The largest difference between sampled and independently integrated mean age is 0.504 s. Consequently, the table uses event-integral device-time mean age as the primary metric, calculated from actual accepted receipts over seconds 1--6. This change prevents biased sample-cadence comparisons. Generated counts may be below the nominal 120 when a blocking publication reaches the horizon before the generator catches up; actual counts, not nominal counts, form each denominator.
 
 
-The results support the FIFO-versus-latest freshness trade-off under executed packet impairment. QoS-specific throughput differences reflect this synchronous implementation, TCP behavior and the short local testbed; they are not universal MQTT-QoS rankings. Three seed repetitions are exploratory. Early build/attack work shared the host with the sweep, and the runner was capped at two CPUs/1GiB; resource values remain descriptive. Physical-device validation and AWS WAN measurements are pending actual equipment/cloud access. Six additional loopback integration checks confirm the prepared cloud publisher/receiver scripts work; those checks are explicitly not cloud results.
+The results support the FIFO-versus-latest freshness trade-off under executed packet impairment. QoS-specific throughput differences reflect this synchronous implementation, TCP behavior and the short local testbed; they are not universal MQTT-QoS rankings. Three seed repetitions are exploratory. Early build/attack work shared the host with the sweep, and the runner was capped at two CPUs/1GiB; resource values remain descriptive. AWS WAN evidence is provided in Section 13. Physical validation is not claimed; hardware is optional unless the instructor requires it. Six additional loopback integration checks confirm the prepared cloud publisher/receiver scripts work; those checks are explicitly not cloud results.
+
+
+\section{Executed AWS Internet validation}
+
+The temporary Ubuntu 24.04 t3.micro VM in Stockholm used Mosquitto 2.0.18 and Paho 2.1.0. 36 of 36 planned randomized runs completed. Four synthetic generators target 5Hz each for 20 seconds; FIFO/latest share a 12/s dispatch cap and nonblocking acknowledgement polling. MQTT traverses an SSH tunnel from the Windows edge PC to cloud localhost. The interruption condition closes and restores the owned tunnel at approximately seconds 8--12; it is not an ISP outage. No physical sensor or public-network attack is involved.
+
+
+Every unique cloud receipt was checked against its source SQLite audit record. Generated samples total 14,256; unique cloud receipts total 3,709; publisher completions total 3,709. The sequence guard rejected 7 duplicate/stale callbacks. Publisher completion and cloud commit remain separate semantics.
+
+
+\begingroup\small\setlength{\tabcolsep}{3pt}\begin{longtable}{p{0.12571428571428572\linewidth}p{0.12571428571428572\linewidth}p{0.12571428571428572\linewidth}p{0.12571428571428572\linewidth}p{0.12571428571428572\linewidth}p{0.12571428571428572\linewidth}p{0.12571428571428572\linewidth}}	oprule
+Scenario & QoS & Policy & Mean age (s) & Clock envelope (s) & Receipt ratio & Mean max queue \\
+\midrule\endhead
+healthy & 0 & fifo & 5.495 & 5.447--5.543 & 0.540 & 183 \\
+healthy & 0 & latest & 0.370 & 0.280--0.460 & 0.540 & 4 \\
+healthy & 1 & fifo & 8.410 & 8.384--8.437 & 0.288 & 283 \\
+healthy & 1 & latest & 0.536 & 0.446--0.625 & 0.289 & 4 \\
+healthy & 2 & fifo & 10.623 & 10.597--10.650 & 0.094 & 359 \\
+healthy & 2 & latest & 1.449 & 1.177--1.725 & 0.095 & 4 \\
+tunnel\_break & 0 & fifo & 7.202 & 7.170--7.234 & 0.378 & 248 \\
+tunnel\_break & 0 & latest & 1.480 & 1.390--1.571 & 0.379 & 4 \\
+tunnel\_break & 1 & fifo & 9.363 & 9.347--9.379 & 0.193 & 320 \\
+tunnel\_break & 1 & latest & 1.850 & 1.760--1.940 & 0.197 & 4 \\
+tunnel\_break & 2 & fifo & 10.941 & 10.924--10.957 & 0.065 & 371 \\
+tunnel\_break & 2 & latest & 3.156 & 2.881--3.433 & 0.065 & 4 \\
+\bottomrule\end{longtable}\endgroup
+
+Age is integrated from accepted cloud receipts over seconds 3--20, with initial held timestamps set to run start. Before/after SSH time probes and receipt causality bound clock offset. A constant offset within each short run is assumed. Midpoint age and conditional envelopes are reported; these are not hardware-synchronized one-way measurements. Per-run CPU seconds and peak RSS are in the verified CSV. Raw databases, receiver logs, clock probes, actual tunnel timings and environment are retained. This small experiment complements the larger local sweep; MQTT-over-SSH, one region, one PC and short horizons limit generalization. See docs/AWS\_WAN\_VALIDATION.md for cleanup status and costs.
+
+
+Process costs are averaged across conditions/QoS; RSS is the maximum observed for each policy. Receiver wall time includes startup, settle time and clock probing. These are edge/receiver process measurements and exclude broker, SSH tunnel and whole-machine consumption.
+
+
+\begingroup\small\setlength{\tabcolsep}{3pt}\begin{longtable}{p{0.12571428571428572\linewidth}p{0.12571428571428572\linewidth}p{0.12571428571428572\linewidth}p{0.12571428571428572\linewidth}p{0.12571428571428572\linewidth}p{0.12571428571428572\linewidth}p{0.12571428571428572\linewidth}}	oprule
+Policy & Edge wall (s) & Receiver wall (s) & Edge CPU (s) & Receiver CPU (s) & Edge RSS (MiB) & Receiver RSS (MiB) \\
+\midrule\endhead
+fifo & 20.10 & 34.67 & 0.457 & 0.073 & 25.85 & 24.36 \\
+latest & 20.13 & 34.69 & 0.471 & 0.072 & 25.81 & 24.23 \\
+\bottomrule\end{longtable}\endgroup
+
+\begin{figure}[htbp]\centering\IfFileExists{figures/cloud_wan_comparison.png}{\includegraphics[width=.95\linewidth]{figures/cloud_wan_comparison.png}}{\fbox{\parbox{.85\linewidth}{Upload figures/cloud\_wan\_comparison.png to display this figure.}}}\caption{Actual AWS WAN age comparison with conditional clock envelopes}\end{figure}
+
+\section{Conclusion}
+
+This research-phase package reproduces a feasible official MQTT communication core, exposes important paper/code differences, and implements a measurable current-state recovery extension. Under the executed constrained conditions, coalescing materially improves freshness over FIFO while leaving remote completeness as a separate concern. A fair unbuffered policy remains competitive, and established AoI/scheduling literature limits novelty claims. The defensible outcome is a transparent, reproducible evaluation and methodology foundation for instructor review and stronger external validation.
+
+
+The additional AWS experiment confirms the same freshness-versus-history trade-off over actual Internet transport, with short-run clock uncertainty reported explicitly. All temporary cloud resources were removed after evidence transfer.
 
 
 \section*{Metric definitions and algorithm}

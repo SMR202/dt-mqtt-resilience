@@ -1,0 +1,14 @@
+{
+  "run": "wan-healthy-fifo-q1-s2",
+  "cpu_seconds": 0.077468667,
+  "peak_rss_bytes": 25329664,
+  "started_utc": 1791389944.638314,
+  "ended_utc": 1791389979.1847694,
+  "platform": "Linux-6.17.0-1017-aws-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "counts": {
+    "callbacks": 108,
+    "accepted": 108,
+    "rejected": 0
+  }
+}

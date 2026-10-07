@@ -11,3 +11,7 @@ This log does not attribute the AI-assisted implementation/experiments to a stud
 # Follow-up assistance, 7 October 2026
 
 AI-assisted work added official-source Docker execution with bounded attacks, Linux tc/netem experiments and independent analysis, complete LaTeX/figure upload materials, and cloud/hardware deployment preparations. The user reported mentor approval and an AWS account, and clarified that no physical sensor is available. Hardware/WAN measurements are not assigned to the students or claimed complete. Human review/defense and final authorship verification remain required.
+
+### 7 October 2026 — AWS completion and report delivery
+
+AI-assisted execution completed the 36 AWS WAN runs, independently matched raw receipts to source audits, computed conditional clock/age envelopes and process costs, and preserved raw/processed evidence. The user performed AWS sign-in/launch and authorized permanent cleanup; the agent terminated the VM and verified removal of its disk, dedicated key and security group. The agent authored the instructor coverage matrix, six-page initial report, final cloud-results report and full LaTeX/image packages. Student authorship and substantive contributions require the team’s own review; no unperformed student work is assigned here.

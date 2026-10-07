@@ -1,0 +1,14 @@
+{
+  "run": "wan-healthy-latest-q1-s2",
+  "cpu_seconds": 0.086412984,
+  "peak_rss_bytes": 25411584,
+  "started_utc": 1791389233.872893,
+  "ended_utc": 1791389268.298273,
+  "platform": "Linux-6.17.0-1017-aws-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "counts": {
+    "callbacks": 118,
+    "accepted": 118,
+    "rejected": 0
+  }
+}

@@ -1,0 +1,26 @@
+SUBSCRIBED
+{"device": 0, "seq": 1, "accepted": true, "raw_clock_difference_seconds": 0.639153242111206}
+{"device": 1, "seq": 3, "accepted": true, "raw_clock_difference_seconds": 0.7985470294952393}
+{"device": 2, "seq": 6, "accepted": true, "raw_clock_difference_seconds": 0.7568113803863525}
+{"device": 3, "seq": 9, "accepted": true, "raw_clock_difference_seconds": 0.708472490310669}
+{"device": 0, "seq": 12, "accepted": true, "raw_clock_difference_seconds": 0.6849892139434814}
+{"device": 1, "seq": 15, "accepted": true, "raw_clock_difference_seconds": 0.6361191272735596}
+{"device": 2, "seq": 17, "accepted": true, "raw_clock_difference_seconds": 0.8003184795379639}
+{"device": 3, "seq": 20, "accepted": true, "raw_clock_difference_seconds": 0.7595131397247314}
+{"device": 0, "seq": 23, "accepted": true, "raw_clock_difference_seconds": 0.7086434364318848}
+{"device": 1, "seq": 26, "accepted": true, "raw_clock_difference_seconds": 0.6794862747192383}
+{"device": 2, "seq": 29, "accepted": true, "raw_clock_difference_seconds": 0.6335530281066895}
+{"device": 3, "seq": 31, "accepted": true, "raw_clock_difference_seconds": 0.7873320579528809}
+{"device": 0, "seq": 34, "accepted": true, "raw_clock_difference_seconds": 0.7560338973999023}
+{"device": 1, "seq": 37, "accepted": true, "raw_clock_difference_seconds": 0.7113184928894043}
+{"device": 2, "seq": 40, "accepted": true, "raw_clock_difference_seconds": 6.929139137268066}
+{"device": 3, "seq": 73, "accepted": true, "raw_clock_difference_seconds": 0.7157492637634277}
+{"device": 0, "seq": 76, "accepted": true, "raw_clock_difference_seconds": 0.6429533958435059}
+{"device": 1, "seq": 78, "accepted": true, "raw_clock_difference_seconds": 0.7810070514678955}
+{"device": 2, "seq": 81, "accepted": true, "raw_clock_difference_seconds": 0.7173521518707275}
+{"device": 3, "seq": 84, "accepted": true, "raw_clock_difference_seconds": 0.6418178081512451}
+{"device": 0, "seq": 86, "accepted": true, "raw_clock_difference_seconds": 0.7955729961395264}
+{"device": 1, "seq": 89, "accepted": true, "raw_clock_difference_seconds": 0.7349250316619873}
+{"device": 2, "seq": 92, "accepted": true, "raw_clock_difference_seconds": 0.6893429756164551}
+{"device": 3, "seq": 95, "accepted": true, "raw_clock_difference_seconds": 0.6277599334716797}
+{"device": 0, "seq": 97, "accepted": true, "raw_clock_difference_seconds": 0.7815587520599365}

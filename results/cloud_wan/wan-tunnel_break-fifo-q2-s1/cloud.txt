@@ -1,0 +1,27 @@
+SUBSCRIBED
+{"device": 1, "seq": 1, "accepted": true, "raw_clock_difference_seconds": 0.619621992111206}
+{"device": 2, "seq": 1, "accepted": true, "raw_clock_difference_seconds": 1.172675609588623}
+{"device": 3, "seq": 1, "accepted": true, "raw_clock_difference_seconds": 1.725123643875122}
+{"device": 0, "seq": 1, "accepted": true, "raw_clock_difference_seconds": 2.279627799987793}
+{"device": 2, "seq": 2, "accepted": true, "raw_clock_difference_seconds": 2.6210813522338867}
+{"device": 3, "seq": 2, "accepted": true, "raw_clock_difference_seconds": 3.173250198364258}
+{"device": 0, "seq": 2, "accepted": true, "raw_clock_difference_seconds": 3.7341253757476807}
+{"device": 1, "seq": 2, "accepted": true, "raw_clock_difference_seconds": 4.2788050174713135}
+{"device": 3, "seq": 3, "accepted": true, "raw_clock_difference_seconds": 4.634259462356567}
+{"device": 0, "seq": 3, "accepted": true, "raw_clock_difference_seconds": 5.186384201049805}
+{"device": 1, "seq": 3, "accepted": true, "raw_clock_difference_seconds": 5.741472005844116}
+{"device": 2, "seq": 3, "accepted": true, "raw_clock_difference_seconds": 6.291918516159058}
+{"device": 0, "seq": 4, "accepted": true, "raw_clock_difference_seconds": 6.632349491119385}
+{"device": 1, "seq": 4, "accepted": true, "raw_clock_difference_seconds": 7.18710732460022}
+{"device": 2, "seq": 4, "accepted": true, "raw_clock_difference_seconds": 13.95193600654602}
+{"device": 3, "seq": 4, "accepted": true, "raw_clock_difference_seconds": 14.489666938781738}
+{"device": 1, "seq": 5, "accepted": true, "raw_clock_difference_seconds": 14.826876163482666}
+{"device": 2, "seq": 5, "accepted": true, "raw_clock_difference_seconds": 15.36439824104309}
+{"device": 3, "seq": 5, "accepted": true, "raw_clock_difference_seconds": 15.902300119400024}
+{"device": 0, "seq": 5, "accepted": true, "raw_clock_difference_seconds": 16.437339544296265}
+{"device": 2, "seq": 6, "accepted": true, "raw_clock_difference_seconds": 16.775935173034668}
+{"device": 3, "seq": 6, "accepted": true, "raw_clock_difference_seconds": 17.314831256866455}
+{"device": 0, "seq": 6, "accepted": true, "raw_clock_difference_seconds": 17.854825258255005}
+{"device": 1, "seq": 6, "accepted": true, "raw_clock_difference_seconds": 18.393259286880493}
+{"device": 3, "seq": 7, "accepted": true, "raw_clock_difference_seconds": 18.703553438186646}
+{"device": 0, "seq": 7, "accepted": true, "raw_clock_difference_seconds": 19.240227699279785}

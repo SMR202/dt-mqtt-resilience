@@ -1,13 +1,13 @@
 # Complete LaTeX report: upload and compile
 
-`paper/overleaf_upload.zip` is the complete upload package. It contains `main.tex`, `references.bib`, and a `figures/` folder with architecture and the three measured-results charts. `main.tex` contains the entire report, metric equations, policy algorithm, measured tables and all 16 inline bibliography entries. The separate BibTeX file is supplied for migration into an official template; this source does not require BibTeX to compile.
+`paper/overleaf_upload.zip` is the complete upload package. It contains `main.tex`, `references.bib`, and a `figures/` folder with architecture and four measured-results charts (including AWS). `main.tex` contains the entire report, metric equations, policy algorithm, measured tables and all 16 inline bibliography entries. The separate BibTeX file is supplied for migration into an official template; this source does not require BibTeX to compile.
 
 ## New Overleaf project
 
 1. Download `overleaf_upload.zip` from the GitHub research branch or use the delivered local ZIP.
 2. In the Overleaf project dashboard, choose **New project → Existing project (.zip)** and select the ZIP. Preserve `main.tex` at the root and the `figures/` subfolder.
 3. Select `main.tex` as the main document. Use **pdfLaTeX** and a recent TeX Live version. Click **Recompile**.
-4. Check all four figures and result tables. The source deliberately shows a missing-image notice if a figure was omitted, rather than inventing an image.
+4. Check all five figures and result tables. The source deliberately shows a missing-image notice if a figure was omitted, rather than inventing an image.
 5. Confirm names, affiliations, student IDs and contributions. Replace the article layout with the supplied official course/journal template if required. The official template was not provided.
 6. Share the project with the instructor and teammate as required; this package does not create Overleaf sharing permissions.
 
@@ -32,3 +32,7 @@ No video or audio is required for this paper. Upload PNG/PDF figures as project 
 The Codex built-in compiler was attempted on 7 October 2026 and returned `Unable to find standard directories for platform`. This is a compiler-platform failure, not a successful compile or a document-specific diagnostic. The source remains open/editable. Overleaf compilation still needs verification; send its actual error text if it reports a source error.
 
 Official instructions verified 7 October 2026: [uploading a project](https://docs.overleaf.com/managing-projects-and-files/uploading-a-project), [inserting images](https://docs.overleaf.com/writing-and-editing/inserting-images).
+
+## Initial reproduction report
+
+Use `paper/initial_overleaf_upload.zip` for the separate instructor-requested initial report. It contains the complete `main.tex`, references and baseline architecture image. Import the ZIP in the same way. The delivered PDFs were rendered and reviewed; LaTeX compilation remains unverified because the built-in compiler failed at platform setup.
