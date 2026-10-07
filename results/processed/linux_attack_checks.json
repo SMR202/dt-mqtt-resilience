@@ -1,0 +1,36 @@
+{
+  "scope": "executed official Docker topology with isolation/resource/dependency adaptations; bounded attacks; not exact Table 2 or 60-minute healthy calibration",
+  "original_calibration_completed": true,
+  "executed": true,
+  "scenarios": [
+    {
+      "scenario": "exploit",
+      "returncode": 0,
+      "elapsed": 4.082617521286011,
+      "new_proxy_modifications": 0,
+      "new_device_shutdowns": 3,
+      "new_device_flood_receipts": 0,
+      "new_rate_alerts": 0
+    },
+    {
+      "scenario": "mitm-proxy",
+      "returncode": 0,
+      "elapsed": 3.0774753093719482,
+      "new_proxy_modifications": 1,
+      "new_device_shutdowns": 1,
+      "new_device_flood_receipts": 0,
+      "new_rate_alerts": 0
+    },
+    {
+      "scenario": "dos-http",
+      "returncode": 0,
+      "elapsed": 6.7182087898254395,
+      "new_proxy_modifications": 0,
+      "new_device_shutdowns": 0,
+      "new_device_flood_receipts": 1033,
+      "new_rate_alerts": 14
+    }
+  ],
+  "maximum_reported_command_application_messages_per_second": 237,
+  "published_attack_values_not_reproduced": true
+}

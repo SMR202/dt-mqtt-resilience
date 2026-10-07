@@ -1,0 +1,25 @@
+{
+  "executed": false,
+  "platform": "Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "adaptations": [
+    "internal private bridge; no host port exposure",
+    "resource caps 0.5CPU/256MiB per Python service",
+    "broker starts before clients",
+    "unmodified official Dockerfiles install unpinned current dependencies",
+    "bounded 5-second single-worker HTTP flood instead of uncontrolled 50 workers"
+  ],
+  "source_commit": "43346f60a9f41392611242ff3cb7589d7a758aa7",
+  "source_sha256": {
+    "attacker/attacker.py": "f7c0c5feaf637d58e0c350a504d9c09d4597891e8b80c31d51a95c2ed9ab947d",
+    "device/device.py": "dc8a59fe6fbaa860e662cc363305437122d3aa731a63aaa3250b1a42eedf7c6f",
+    "digital_twin/digital_twin.py": "522a30e56308663cbffb990d89d2ac998aeb4fccc2728f5967b6a6c1381ed16e",
+    "mitm_proxy/proxy.py": "2b66ed5b4247f45a6fa412c57bb32597a018d751c5cc0f37781dbd6c38dad25f",
+    "sensors/coap_sensor.py": "bb6e2b9f74d7aae2fa31f91663d2e59fd571a9c791223d11c1a5075ad1a5e579",
+    "sensors/http_sensor.py": "8583ecf6939069f0aaf5e8e0f2b57f0ec1be19aa1a780483657583298bfcb07f",
+    "sensors/mqtt_sensor.py": "f00566a0b11ceca99619a441cf52b99edc06a42d927023e6123c5dc6737b67c6",
+    "sensors/opcua_sensor.py": "4df6a94073134b1bf6776773a922e2ec4c1cd7c92c2ef938b0d3028ef4d20f36",
+    "sniffer/sniffer.py": "22361287c52e00b1b79987bedbe0e1f81a5e95acffbd158546f1685b94dd557f"
+  },
+  "original_calibration_completed": false,
+  "failure": "RuntimeError('Original calibration completion absent; inspect logs before any attack interpretation')"
+}

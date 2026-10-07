@@ -62,3 +62,5 @@ Completed core scope is MQTT sensors/receiver/rate monitor, original calibration
 
 Source/log/table checks are reproducibility evidence. They do not establish industrial safety, production durability, remote archival completeness or novel theoretical optimality.
 `scripts/build_report.py` uses Windows Arial fonts for report layout; the experiment and verification scripts do not require these fonts.
+
+For the executed Docker/netem extension, follow docs/LINUX_EXTENSION.md. For complete editable LaTeX and image upload, follow docs/OVERLEAF_UPLOAD.md. Prepared remote cloud scripts have six passing local integration checks; they are not WAN measurements.

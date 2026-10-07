@@ -41,7 +41,7 @@ def report():
 
 Prepared 7 October 2026 • Cloud Computing research project • Muhammad Sameer and Humayun Bilal (proposal team names; authorship/contributions require human confirmation).
 
-**Status:** executed local research package and preliminary manuscript material. Exact original-paper numerical reproduction, remote cloud validation and instructor approval remain open. This PDF is not the final instructor-template Overleaf manuscript.
+**Status:** executed local research package and preliminary manuscript material, including an additional Linux Docker attack reproduction and real packet-impairment sweep. Exact original-paper numerical replication and remote cloud validation remain open. Mentor approval is reported by the team on 7 October 2026. This PDF is not the final instructor-template Overleaf manuscript.
 
 ## Abstract
 
@@ -137,11 +137,11 @@ Paired bootstrap intervals resample whole seed pairs, with 10,000 draws. The thr
 
 ## 10. Limitations and remaining external work
 
-The reference core is an adapted method reproduction, not exact numerical replication. Its original captures and full Linux/Docker attacks were not reproduced. The native source remains separately fetched because no project-level license was verified. Our application impairment is not TCP loss or a physical outage. The signal/workload is synthetic, clocks are co-located, runs are short, QoS handshakes are local, and desktop sleep resolution/storage alter service capacity. Timing/resource values vary across hosts.
+The reference core is an adapted method reproduction, not exact numerical replication. Its original captures and published attack figures were not reproduced. The later Linux extension executes official Docker services and bounded scenarios, with adaptations disclosed below. The native source remains separately fetched because no project-level license was verified. The first 108 live runs use application impairment; only the separate Linux sweep applies actual packet delay/loss. Neither is a physical outage or a measured WAN. The signal/workload is synthetic, clocks are co-located, runs are short, and desktop scheduling/storage alter service capacity. Timing/resource values vary across hosts.
 
 Latest-value coalescing sacrifices intermediate live deliveries. A separate local audit preserves them but does not deliver them remotely. The audit currently has no retention policy. Receiver state and scheduling pointer are not persistent across processes; device epochs and end-to-end application acknowledgements are required for production restart guarantees. SQLite restart unit tests do not constitute physical power-loss tests. Overflow caps were not reached; differing live/model overflow choices are not evaluated.
 
-Instructor/mentor confirmation, official Overleaf integration/access, group registration, human authorship/contribution review and defense remain external. Future Linux netem, actual edge/cloud deployment, archive delivery and hardware/power experiments are explicitly unexecuted. The course's final poster/presentation/submission workflow is separate from this phase report. No paper was submitted and no acceptance is implied.
+Mentor approval is reported by the project team. Official Overleaf integration/access, group registration, human authorship/contribution review and defense remain external. Actual AWS edge/cloud deployment, archive delivery and hardware/power experiments are not yet measured. Physical hardware is optional unless required by the instructor, and no physical-validation claim is made. A full Overleaf source/image ZIP and tested deployment scripts are supplied. The course's final poster/presentation/submission workflow is separate from this phase report. No paper was submitted and no acceptance is implied.
 
 ## 11. Conclusion
 
@@ -150,6 +150,30 @@ This research-phase package reproduces a feasible official MQTT communication co
 ## References
 
 '''+'\n\n'.join(references)+'\n'
+    extension_path=ROOT/'results/processed/linux_netem_checks.json'
+    if extension_path.exists():
+        extension=json.loads(extension_path.read_text())
+        attack=json.loads((ROOT/'results/processed/linux_attack_checks.json').read_text())
+        net=pd.read_csv(ROOT/'results/processed/linux_netem_summary.csv')
+        nett=table(['Condition','Policy','QoS','Mean event age (s)','Receipt/generated (%)'],[[r.scenario,r.policy,int(r.qos),f'{r.event_integral_mean_aoi:.3f}',f'{100*r.delivery_ratio:.2f}'] for r in net.itertuples()])
+        extra=f'''## 12. Additional Linux/Docker and packet-impairment validation
+
+After the initial report, Ubuntu/WSL2 was verified on this PC. Docker Desktop remained unavailable. Official Ubuntu packages were extracted into a private research runtime rather than installing a system Docker service; a separate Docker 29.1.3 daemon/socket/data directory was used. The official baseline Dockerfiles and source were built without modifying their Python method bodies. This installed current unpinned dependencies, including Paho 2.1.0 and aiocoap 0.4.17; these are not the paper's stated environment. Image IDs, source hashes and build/runtime logs are retained.
+
+The first Docker attempt failed service-name resolution and generated no valid attack evidence. It is retained separately. The successful topology uses explicit private addresses/host mappings, an internal bridge, no exposed host ports, broker-first startup and service resource limits. The original approximately 66-second calibration completed without the native control-message repair. This does not reproduce the paper's 60-minute healthy capture.
+
+The HTTP injection scenario produced three logged device sensor shutdowns. The MiTM proxy logged one benign-to-malicious command modification and one corresponding device temperature-sensor shutdown. A bounded single-worker five-second invocation of the original HTTP-flood function produced 1,033 logged device command receipts and 14 rate alerts in the observed post-attack window. The largest monitor-reported command rate was {attack['maximum_reported_command_application_messages_per_second']} application messages/s. These counters are not wire packets/s, and alerts alone do not establish classification accuracy. No confusion matrix or published Table 2 value is invented. Flood worker count/duration/resource limits differ from the unbounded official defaults.
+
+The extension runs {extension['runs']} real MQTT tests (three seeds x three QoS levels x FIFO/latest x healthy/delay-loss) in an isolated Docker network namespace with no external network. Four synthetic devices target 5Hz each for six seconds; the common application dispatch cap is 12/s. The packet-impairment condition applies 100ms delay with +/-20ms jitter and 2% configured loss to the namespace's loopback egress, affecting both MQTT connections. It is actual Linux tc/netem packet impairment, not a remote WAN or independently controlled link in each direction. Every run completes; the qdisc logs record {extension['reported_qdisc_drops']} actual packet drops. Raw TCP/MQTT PCAP, per-run events, settings, resource measurements and SQLite audit snapshots are retained. All {extension['generated']:,} generated samples are verified in audit snapshots; all {extension['published']:,} published messages are received. TCP recovery and finite-horizon edge suppression mean packet loss must not be interpreted as equal MQTT application-message loss.
+
+{nett}
+
+Unlike the nearly continuous initial live sweep, packet delay and synchronous QoS waits create sparse, irregular in-loop samples. The largest difference between sampled and independently integrated mean age is {extension['max_sampled_vs_integral_age_difference_seconds']:.3f} s. Consequently, the table uses event-integral device-time mean age as the primary metric, calculated from actual accepted receipts over seconds 1--6. This change prevents biased sample-cadence comparisons. Generated counts may be below the nominal 120 when a blocking publication reaches the horizon before the generator catches up; actual counts, not nominal counts, form each denominator.
+
+The results support the FIFO-versus-latest freshness trade-off under executed packet impairment. QoS-specific throughput differences reflect this synchronous implementation, TCP behavior and the short local testbed; they are not universal MQTT-QoS rankings. Three seed repetitions are exploratory. Early build/attack work shared the host with the sweep, and the runner was capped at two CPUs/1GiB; resource values remain descriptive. Physical-device validation and AWS WAN measurements are pending actual equipment/cloud access. Six additional loopback integration checks confirm the prepared cloud publisher/receiver scripts work; those checks are explicitly not cloud results.
+
+'''
+        text=text.replace('## References\n',extra+'## References\n')
     (ROOT/'paper/FINAL_RESEARCH_REPORT.md').write_text(text,encoding='utf-8')
 
 def architecture():
@@ -225,6 +249,6 @@ def pdf(source,target):
 
 if __name__=='__main__':
     architecture();report()
-    pdf(ROOT/'paper/FINAL_RESEARCH_REPORT.md',ROOT/'paper/FINAL_RESEARCH_REPORT.pdf')
+    pdf(ROOT/'paper/FINAL_RESEARCH_REPORT.md',ROOT/'paper/FINAL_RESEARCH_REPORT_EXTENDED.pdf')
     pdf(ROOT/'docs/INITIAL_REPRODUCTION_AUDIT.md',ROOT/'paper/INITIAL_REPRODUCTION_AUDIT.pdf')
     print('Created initial audit and final research-phase report')

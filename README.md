@@ -86,3 +86,7 @@ All experiment parameters, seeds, software versions, scripts, and result-generat
 MIT for repository code unless the team/instructor later selects a different compatible license.
 
 Upstream reference code is not redistributed or relicensed. AI-assisted work is documented honestly in the contribution log. Overleaf registration/access, mentor/instructor approval and scholarly submission are external and are not asserted as completed.
+
+## Extended validation and Overleaf package
+
+Official-source Docker scenarios and 36 Linux packet-impairment runs are now complete; see [Linux execution](docs/LINUX_EXTENSION.md). The updated report is [FINAL_RESEARCH_REPORT_EXTENDED.pdf](paper/FINAL_RESEARCH_REPORT_EXTENDED.pdf); the earlier PDF retains the original phase scope. [Full Overleaf ZIP](paper/overleaf_upload.zip), [LaTeX source](paper/overleaf/main.tex), [upload instructions](docs/OVERLEAF_UPLOAD.md), and [AWS/optional hardware setup](docs/CLOUD_AND_HARDWARE_SETUP.md) are included. Mentor approval is team-reported. Actual AWS WAN measurement and optional physical validation remain pending access/equipment.

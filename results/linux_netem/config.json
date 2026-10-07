@@ -1,0 +1,34 @@
+{
+  "devices": 4,
+  "rate": 5,
+  "duration": 6,
+  "warmup": 1,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "qos": [
+    0,
+    1,
+    2
+  ],
+  "policies": [
+    "fifo",
+    "latest"
+  ],
+  "scenarios": {
+    "healthy": {
+      "capacity": 12,
+      "delay": 0,
+      "jitter": 0,
+      "outage": null
+    },
+    "delay_loss": {
+      "capacity": 12,
+      "delay": 0,
+      "jitter": 0,
+      "outage": null
+    }
+  }
+}

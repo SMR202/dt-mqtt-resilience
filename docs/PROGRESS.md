@@ -26,4 +26,15 @@ Only final `results/live` and `results/simulation` feed headline analysis. Inter
 
 ## Outstanding external items
 
-See `EXTERNAL_REQUIREMENTS.md`: original Linux/Docker numerical/attack experiments, netem packet impairment, actual edge/cloud WAN/hardware/power tests, end-to-end archive/restart guarantees and instructor/Overleaf/registration/submission responsibilities. These are not silently marked done.
+See `EXTERNAL_REQUIREMENTS.md` for the current state. Linux/Docker bounded attacks and 36 packet-impairment tests are now executed. Exact paper numbers, AWS WAN/hardware/power tests, end-to-end archive/restart guarantees and formal Overleaf/registration/submission responsibilities remain explicit.
+
+## Follow-up execution: 7 October 2026
+
+- Recorded user-reported mentor approval. Physical sensors are unavailable; physical validation remains optional unless required by the instructor.
+- Verified Ubuntu/WSL and tc/netem. Docker Desktop failed to start. Extracted official Ubuntu Docker/runtime packages into a dedicated private runtime and started a separate research daemon without installing a system service.
+- Built unchanged official baseline Dockerfiles. The first attempt failed embedded service DNS; logs retained. The successful attempt uses private static host mappings/internal networking, resource caps and broker-first startup.
+- Original calibration completed. HTTP injection shut down three sensors; proxy modification shut down one; a five-second single-worker HTTP flood produced 1,033 device receipts and 14 rate alerts. These are bounded-source execution observations, not published Table 2 replication.
+- Executed all 36 actual Linux netem tests with packet captures and zero run failures. Verified 4,248 generated/audited and 1,527 published/received samples, plus 87 qdisc drops. Independent event-integral AoI is primary because blocking QoS samples differ by up to 0.504 seconds.
+- Prepared full LaTeX/report/image upload ZIP, AWS bootstrap, cloud publisher/receiver and optional physical-sensor firmware. Six local cloud-script integration checks passed; none are labeled WAN evidence.
+- Attempted built-in LaTeX compilation; the platform failed to locate standard directories. Source remains editable; Overleaf compile verification is pending.
+- AWS account provider confirmed; sign-in requested in Chrome. No cloud spend/resource creation or WAN results are claimed.

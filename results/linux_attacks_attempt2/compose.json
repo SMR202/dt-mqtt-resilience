@@ -1,0 +1,165 @@
+{
+  "services": {
+    "device": {
+      "build": {
+        "context": "/mnt/c/Users/PC/Documents/Codex/2026-10-07/referenced-chatgpt-conversation-this-is-an/outputs/dt-mqtt-resilience/work/upstream-digital-twin/device",
+        "network": "host"
+      },
+      "networks": {
+        "lab": {
+          "ipv4_address": "172.30.91.10"
+        }
+      },
+      "environment": {
+        "PYTHONUNBUFFERED": "1"
+      },
+      "cpus": 0.5,
+      "mem_limit": "256m",
+      "extra_hosts": {
+        "device": "172.30.91.10",
+        "digital_twin": "172.30.91.11",
+        "sniffer": "172.30.91.12",
+        "attacker": "172.30.91.13",
+        "mitm_proxy": "172.30.91.14",
+        "mqtt_broker": "172.30.91.15"
+      }
+    },
+    "digital_twin": {
+      "build": {
+        "context": "/mnt/c/Users/PC/Documents/Codex/2026-10-07/referenced-chatgpt-conversation-this-is-an/outputs/dt-mqtt-resilience/work/upstream-digital-twin/digital_twin",
+        "network": "host"
+      },
+      "networks": {
+        "lab": {
+          "ipv4_address": "172.30.91.11"
+        }
+      },
+      "environment": {
+        "PYTHONUNBUFFERED": "1"
+      },
+      "cpus": 0.5,
+      "mem_limit": "256m",
+      "extra_hosts": {
+        "device": "172.30.91.10",
+        "digital_twin": "172.30.91.11",
+        "sniffer": "172.30.91.12",
+        "attacker": "172.30.91.13",
+        "mitm_proxy": "172.30.91.14",
+        "mqtt_broker": "172.30.91.15"
+      }
+    },
+    "sniffer": {
+      "build": {
+        "context": "/mnt/c/Users/PC/Documents/Codex/2026-10-07/referenced-chatgpt-conversation-this-is-an/outputs/dt-mqtt-resilience/work/upstream-digital-twin/sniffer",
+        "network": "host"
+      },
+      "networks": {
+        "lab": {
+          "ipv4_address": "172.30.91.12"
+        }
+      },
+      "environment": {
+        "PYTHONUNBUFFERED": "1"
+      },
+      "cpus": 0.5,
+      "mem_limit": "256m",
+      "volumes": [
+        "/mnt/c/Users/PC/Documents/Codex/2026-10-07/referenced-chatgpt-conversation-this-is-an/outputs/dt-mqtt-resilience/results/linux_attacks_attempt2/sniffer:/logs"
+      ],
+      "extra_hosts": {
+        "device": "172.30.91.10",
+        "digital_twin": "172.30.91.11",
+        "sniffer": "172.30.91.12",
+        "attacker": "172.30.91.13",
+        "mitm_proxy": "172.30.91.14",
+        "mqtt_broker": "172.30.91.15"
+      }
+    },
+    "attacker": {
+      "build": {
+        "context": "/mnt/c/Users/PC/Documents/Codex/2026-10-07/referenced-chatgpt-conversation-this-is-an/outputs/dt-mqtt-resilience/work/upstream-digital-twin/attacker",
+        "network": "host"
+      },
+      "networks": {
+        "lab": {
+          "ipv4_address": "172.30.91.13"
+        }
+      },
+      "environment": {
+        "PYTHONUNBUFFERED": "1"
+      },
+      "cpus": 0.5,
+      "mem_limit": "256m",
+      "command": [
+        "python",
+        "-c",
+        "import time; time.sleep(36000)"
+      ],
+      "extra_hosts": {
+        "device": "172.30.91.10",
+        "digital_twin": "172.30.91.11",
+        "sniffer": "172.30.91.12",
+        "attacker": "172.30.91.13",
+        "mitm_proxy": "172.30.91.14",
+        "mqtt_broker": "172.30.91.15"
+      }
+    },
+    "mitm_proxy": {
+      "build": {
+        "context": "/mnt/c/Users/PC/Documents/Codex/2026-10-07/referenced-chatgpt-conversation-this-is-an/outputs/dt-mqtt-resilience/work/upstream-digital-twin/mitm_proxy",
+        "network": "host"
+      },
+      "networks": {
+        "lab": {
+          "ipv4_address": "172.30.91.14"
+        }
+      },
+      "environment": {
+        "PYTHONUNBUFFERED": "1"
+      },
+      "cpus": 0.5,
+      "mem_limit": "256m",
+      "extra_hosts": {
+        "device": "172.30.91.10",
+        "digital_twin": "172.30.91.11",
+        "sniffer": "172.30.91.12",
+        "attacker": "172.30.91.13",
+        "mitm_proxy": "172.30.91.14",
+        "mqtt_broker": "172.30.91.15"
+      }
+    },
+    "mqtt_broker": {
+      "image": "eclipse-mosquitto:2",
+      "networks": {
+        "lab": {
+          "ipv4_address": "172.30.91.15"
+        }
+      },
+      "volumes": [
+        "/mnt/c/Users/PC/Documents/Codex/2026-10-07/referenced-chatgpt-conversation-this-is-an/outputs/dt-mqtt-resilience/work/upstream-digital-twin/mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro"
+      ],
+      "cpus": 0.5,
+      "mem_limit": "128m",
+      "extra_hosts": {
+        "device": "172.30.91.10",
+        "digital_twin": "172.30.91.11",
+        "sniffer": "172.30.91.12",
+        "attacker": "172.30.91.13",
+        "mitm_proxy": "172.30.91.14",
+        "mqtt_broker": "172.30.91.15"
+      }
+    }
+  },
+  "networks": {
+    "lab": {
+      "internal": true,
+      "ipam": {
+        "config": [
+          {
+            "subnet": "172.30.91.0/24"
+          }
+        ]
+      }
+    }
+  }
+}

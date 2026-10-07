@@ -1,0 +1,180 @@
+delay_loss-latest-q2-s2
+qdisc netem 8002: root refcnt 2 limit 1000 delay 100ms  20ms loss 2% seed 3
+ Sent 19985 bytes 258 pkt (dropped 2, overlimits 0 requeues 0) 
+ backlog 674b 10p requeues 0
+
+delay_loss-latest-q1-s1
+qdisc netem 8003: root refcnt 2 limit 1000 delay 100ms  20ms loss 2% seed 2
+ Sent 15099 bytes 180 pkt (dropped 6, overlimits 0 requeues 0) 
+ backlog 674b 10p requeues 0
+
+healthy-latest-q1-s2
+qdisc noqueue 0: root refcnt 2 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+healthy-latest-q2-s0
+qdisc noqueue 0: root refcnt 2 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+healthy-latest-q0-s0
+qdisc noqueue 0: root refcnt 2 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+delay_loss-fifo-q1-s2
+qdisc netem 8004: root refcnt 2 limit 1000 delay 100ms  20ms loss 2% seed 3
+ Sent 16379 bytes 193 pkt (dropped 2, overlimits 0 requeues 0) 
+ backlog 530b 8p requeues 0
+
+healthy-fifo-q2-s1
+qdisc noqueue 0: root refcnt 2 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+healthy-fifo-q0-s1
+qdisc noqueue 0: root refcnt 2 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+delay_loss-latest-q1-s0
+qdisc netem 8005: root refcnt 2 limit 1000 delay 100ms  20ms loss 2% seed 1
+ Sent 13747 bytes 158 pkt (dropped 4, overlimits 0 requeues 0) 
+ backlog 665b 10p requeues 0
+
+delay_loss-fifo-q2-s0
+qdisc netem 8006: root refcnt 2 limit 1000 delay 100ms  20ms loss 2% seed 1
+ Sent 18554 bytes 244 pkt (dropped 6, overlimits 0 requeues 0) 
+ backlog 599b 9p requeues 0
+
+delay_loss-fifo-q0-s1
+qdisc netem 8007: root refcnt 2 limit 1000 delay 100ms  20ms loss 2% seed 2
+ Sent 19388 bytes 205 pkt (dropped 8, overlimits 0 requeues 0) 
+ backlog 596b 9p requeues 0
+
+healthy-fifo-q2-s2
+qdisc noqueue 0: root refcnt 2 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+delay_loss-latest-q2-s0
+qdisc netem 8008: root refcnt 2 limit 1000 delay 100ms  20ms loss 2% seed 1
+ Sent 16403 bytes 210 pkt (dropped 6, overlimits 0 requeues 0) 
+ backlog 665b 10p requeues 0
+
+delay_loss-fifo-q2-s1
+qdisc netem 8009: root refcnt 2 limit 1000 delay 100ms  20ms loss 2% seed 2
+ Sent 15680 bytes 205 pkt (dropped 8, overlimits 0 requeues 0) 
+ backlog 533b 8p requeues 0
+
+delay_loss-fifo-q0-s0
+qdisc netem 800a: root refcnt 2 limit 1000 delay 100ms  20ms loss 2% seed 1
+ Sent 18506 bytes 196 pkt (dropped 6, overlimits 0 requeues 0) 
+ backlog 608b 9p requeues 0
+
+healthy-fifo-q1-s2
+qdisc noqueue 0: root refcnt 2 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+delay_loss-fifo-q1-s0
+qdisc netem 800b: root refcnt 2 limit 1000 delay 100ms  20ms loss 2% seed 1
+ Sent 13451 bytes 158 pkt (dropped 4, overlimits 0 requeues 0) 
+ backlog 665b 10p requeues 0
+
+delay_loss-fifo-q0-s2
+qdisc netem 800c: root refcnt 2 limit 1000 delay 100ms  20ms loss 2% seed 3
+ Sent 21834 bytes 234 pkt (dropped 2, overlimits 0 requeues 0) 
+ backlog 662b 10p requeues 0
+
+healthy-latest-q2-s2
+qdisc noqueue 0: root refcnt 2 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+delay_loss-latest-q1-s2
+qdisc netem 800d: root refcnt 2 limit 1000 delay 100ms  20ms loss 2% seed 3
+ Sent 15619 bytes 181 pkt (dropped 2, overlimits 0 requeues 0) 
+ backlog 596b 9p requeues 0
+
+healthy-fifo-q0-s0
+qdisc noqueue 0: root refcnt 2 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+delay_loss-latest-q0-s1
+qdisc netem 800e: root refcnt 2 limit 1000 delay 100ms  20ms loss 2% seed 2
+ Sent 19218 bytes 188 pkt (dropped 7, overlimits 0 requeues 0) 
+ backlog 610b 9p requeues 0
+
+delay_loss-latest-q2-s1
+qdisc netem 800f: root refcnt 2 limit 1000 delay 100ms  20ms loss 2% seed 2
+ Sent 18114 bytes 236 pkt (dropped 8, overlimits 0 requeues 0) 
+ backlog 596b 9p requeues 0
+
+delay_loss-latest-q0-s0
+qdisc netem 8010: root refcnt 2 limit 1000 delay 100ms  20ms loss 2% seed 1
+ Sent 19053 bytes 199 pkt (dropped 6, overlimits 0 requeues 0) 
+ backlog 596b 9p requeues 0
+
+healthy-fifo-q0-s2
+qdisc noqueue 0: root refcnt 2 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+delay_loss-fifo-q1-s1
+qdisc netem 8011: root refcnt 2 limit 1000 delay 100ms  20ms loss 2% seed 2
+ Sent 15726 bytes 185 pkt (dropped 6, overlimits 0 requeues 0) 
+ backlog 596b 9p requeues 0
+
+healthy-fifo-q1-s1
+qdisc noqueue 0: root refcnt 2 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+delay_loss-fifo-q2-s2
+qdisc netem 8012: root refcnt 2 limit 1000 delay 100ms  20ms loss 2% seed 3
+ Sent 19691 bytes 258 pkt (dropped 2, overlimits 0 requeues 0) 
+ backlog 674b 10p requeues 0
+
+healthy-latest-q0-s2
+qdisc noqueue 0: root refcnt 2 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+delay_loss-latest-q0-s2
+qdisc netem 8013: root refcnt 2 limit 1000 delay 100ms  20ms loss 2% seed 3
+ Sent 20657 bytes 210 pkt (dropped 2, overlimits 0 requeues 0) 
+ backlog 674b 10p requeues 0
+
+healthy-fifo-q2-s0
+qdisc noqueue 0: root refcnt 2 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+healthy-latest-q1-s0
+qdisc noqueue 0: root refcnt 2 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+healthy-latest-q1-s1
+qdisc noqueue 0: root refcnt 2 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+healthy-fifo-q1-s0
+qdisc noqueue 0: root refcnt 2 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+healthy-latest-q2-s1
+qdisc noqueue 0: root refcnt 2 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
+healthy-latest-q0-s1
+qdisc noqueue 0: root refcnt 2 
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+
