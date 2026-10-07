@@ -1,0 +1,10 @@
+{
+  "simulation_runs": 1200,
+  "live_runs": 108,
+  "all_live_generated_updates_preserved_in_local_audit": true,
+  "all_live_published_updates_received": true,
+  "all_guarded_live_runs_monotonic": true,
+  "unguarded_simulation_regressions": 5945,
+  "independent_event_integral_check": "all live runs within 40ms of sampled mean AoI",
+  "bootstrap_note": "paired within seed; exploratory percentile intervals, n=3 live / n=10 simulation; not multiplicity-adjusted significance claims"
+}

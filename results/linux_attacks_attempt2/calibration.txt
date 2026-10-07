@@ -1,0 +1,712 @@
+mitm_proxy-1  | 2026-10-07T15:30:44.897762900Z [PROXY] Iniciando proxy. Escutando em 0.0.0.0:1885
+mitm_proxy-1  | 2026-10-07T15:30:44.897818237Z [PROXY] Redirecionando para mqtt_broker:1884
+device-1      | 2026-10-07T15:30:45.570403227Z /app/device.py:48: DeprecationWarning: Callback API version 1 is deprecated, update to latest version
+device-1      | 2026-10-07T15:30:45.570446897Z   client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION1)
+device-1      | 2026-10-07T15:30:45.576503997Z /app/device.py:124: DeprecationWarning: Callback API version 1 is deprecated, update to latest version
+device-1        | 2026-10-07T15:30:45.576523586Z   client_sim = mqtt.Client(mqtt.CallbackAPIVersion.VERSION1)
+digital_twin-1  | 2026-10-07T15:30:47.181317581Z [TWIN] Servidor iniciando...
+sniffer-1       | 2026-10-07T15:30:46.279185827Z [SNIFFER] Servidor iniciando...
+sniffer-1       | 2026-10-07T15:30:46.284321572Z Direção            |      PPS |      BPS
+sniffer-1       | 2026-10-07T15:30:46.285158590Z ------------------------------------------
+sniffer-1       | 2026-10-07T15:30:46.285181070Z /app/sniffer.py:181: DeprecationWarning: Callback API version 1 is deprecated, update to latest version
+sniffer-1       | 2026-10-07T15:30:46.285191312Z   client = Client(CallbackAPIVersion.VERSION1)
+sniffer-1       | 2026-10-07T15:30:46.286796465Z [SNIFFER] Monitorando conexões TCP na porta 9000...
+sniffer-1       | 2026-10-07T15:30:46.291969641Z 
+sniffer-1       | 2026-10-07T15:30:46.291992894Z ******************************************************
+sniffer-1       | 2026-10-07T15:30:46.291997307Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:30:46.292007429Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:30:46.292182552Z ******************************************************
+sniffer-1       | 2026-10-07T15:30:46.294977975Z [SNIFFER] Monitorando conexões HTTP na porta 8000...
+sniffer-1       | 2026-10-07T15:30:46.296682496Z [SNIFFER] Monitorando conexões MQTT na porta 1884...
+sniffer-1       | 2026-10-07T15:30:46.300337466Z [SNIFFER] Conectado ao broker MQTT com código 0
+sniffer-1       | 2026-10-07T15:30:46.362280515Z [SNIFFER] Monitorando conexões CoAP na porta 5684...
+sniffer-1       | 2026-10-07T15:30:47.298939081Z 
+sniffer-1       | 2026-10-07T15:30:47.298960239Z ******************************************************
+mqtt_broker-1   | 2026-10-07T15:30:37.703354599Z 1791387037: Info: running mosquitto as user: mosquitto.
+sniffer-1       | 2026-10-07T15:30:47.298963984Z Device→Twin        |        0 |        0
+device-1        | 2026-10-07T15:30:45.577230451Z [DEVICE][SIM] Início do teste: Todos os sensores ligados para calibração (15s).
+sniffer-1       | 2026-10-07T15:30:47.298967441Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:30:47.298969981Z ******************************************************
+device-1        | 2026-10-07T15:31:00.593276658Z [DEVICE][SIM] Teste: Desligando sensor 'temp' para medição (15s).
+device-1        | 2026-10-07T15:31:00.593297390Z [DEVICE] Comando recebido do Twin: desliga_temp
+sniffer-1       | 2026-10-07T15:30:47.522259964Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.71
+digital_twin-1  | 2026-10-07T15:30:47.181828385Z /app/digital_twin.py:24: DeprecationWarning: Callback API version 1 is deprecated, update to latest version
+digital_twin-1  | 2026-10-07T15:30:47.181849643Z   command_publisher_client = Client(CallbackAPIVersion.VERSION1, "twin_command_publisher")
+digital_twin-1  | 2026-10-07T15:30:47.185893191Z [TWIN] Cliente publicador de comandos conectado ao broker.
+digital_twin-1  | 2026-10-07T15:30:47.187399200Z /app/digital_twin.py:84: DeprecationWarning: Callback API version 1 is deprecated, update to latest version
+digital_twin-1  | 2026-10-07T15:30:47.187416821Z   client = Client(CallbackAPIVersion.VERSION1)
+digital_twin-1  | 2026-10-07T15:30:47.188025429Z [TWIN] Aguardando conexões TCP na porta 9090...[TWIN] Servidor HTTP escutando na porta 8080...
+digital_twin-1  | 2026-10-07T15:30:47.193649078Z 
+digital_twin-1  | 2026-10-07T15:30:47.215012049Z [TWIN] Gêmeo Digital em execução. Pressione Ctrl+C para parar se estiver em modo interativo.
+digital_twin-1  | 2026-10-07T15:30:47.373148719Z [TWIN] Servidor MQTT escutando na porta 1884...
+digital_twin-1  | 2026-10-07T15:30:47.479129619Z [TWIN] Conectado ao broker MQTT com código 0
+digital_twin-1  | 2026-10-07T15:30:47.599272379Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.71
+digital_twin-1  | 2026-10-07T15:30:47.878320007Z [TWIN] Servidor CoAP escutando na porta 5683...
+digital_twin-1  | 2026-10-07T15:30:49.505211537Z [TWIN] Servidor OPC-UA escutando na porta 4840...
+digital_twin-1  | 2026-10-07T15:30:49.505223787Z Endpoints other than open requested but private key and certificate are not set.
+digital_twin-1  | 2026-10-07T15:30:49.507253667Z Listening on 0.0.0.0:4840
+digital_twin-1  | 2026-10-07T15:30:50.233767736Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.33
+digital_twin-1  | 2026-10-07T15:30:50.582005989Z [TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=21.31
+digital_twin-1  | 2026-10-07T15:30:50.582032489Z [TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=55.48
+digital_twin-1  | 2026-10-07T15:30:51.560694343Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=5.98
+digital_twin-1  | 2026-10-07T15:30:54.564357740Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.44
+digital_twin-1  | 2026-10-07T15:30:55.584817055Z [TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=20.90
+digital_twin-1  | 2026-10-07T15:30:55.590181933Z [TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=57.58
+digital_twin-1  | 2026-10-07T15:30:56.008757133Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.80
+device-1        | 2026-10-07T15:31:00.593305125Z [DEVICE] Sensor de temperatura desligado!
+digital_twin-1  | 2026-10-07T15:30:57.804874947Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.28
+digital_twin-1  | 2026-10-07T15:30:59.084701136Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.52
+device-1        | 2026-10-07T15:31:15.603131887Z [DEVICE][SIM] Teste: Religando sensor 'temp'.
+sniffer-1       | 2026-10-07T15:30:48.304195513Z 
+device-1        | 2026-10-07T15:31:15.603420393Z [DEVICE] Comando recebido do Twin: liga_temp
+digital_twin-1  | 2026-10-07T15:31:00.588898064Z [TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=23.27
+sniffer-1       | 2026-10-07T15:30:48.304225015Z ******************************************************
+digital_twin-1  | 2026-10-07T15:31:00.593331856Z [TWIN] Dados recebidos via MQTT no tópico device/commands: desliga_temp
+digital_twin-1  | 2026-10-07T15:31:00.593358965Z [TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=57.09
+sniffer-1       | 2026-10-07T15:30:48.304230185Z Device→Twin        |        1 |       64
+device-1        | 2026-10-07T15:31:15.603447034Z [DEVICE] Sensor de temperatura ligado!
+device-1        | 2026-10-07T15:31:17.605454323Z [DEVICE][SIM] Teste: Desligando sensor 'umid' para medição (15s).
+sniffer-1       | 2026-10-07T15:30:48.304234109Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:30:48.304237436Z ******************************************************
+sniffer-1       | 2026-10-07T15:30:49.309328766Z 
+mqtt_broker-1   | 2026-10-07T15:30:37.703431299Z 1791387037: mosquitto version 2.1.2 starting
+digital_twin-1  | 2026-10-07T15:31:02.088018284Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.32
+mqtt_broker-1   | 2026-10-07T15:30:37.703438869Z 1791387037: Config loaded from /mosquitto/config/mosquitto.conf.
+mqtt_broker-1   | 2026-10-07T15:30:37.703442585Z 1791387037: Bridge support available.
+mqtt_broker-1   | 2026-10-07T15:30:37.703445890Z 1791387037: Persistence support available.
+mqtt_broker-1   | 2026-10-07T15:30:37.703449156Z 1791387037: TLS support available.
+digital_twin-1  | 2026-10-07T15:31:03.413141892Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.48
+mqtt_broker-1   | 2026-10-07T15:30:37.703452122Z 1791387037: TLS-PSK support available.
+mqtt_broker-1   | 2026-10-07T15:30:37.703455168Z 1791387037: Websockets support available.
+mqtt_broker-1   | 2026-10-07T15:30:37.703540462Z 1791387037: Opening ipv4 listen socket on port 1884.
+mqtt_broker-1   | 2026-10-07T15:30:37.703558579Z 1791387037: mosquitto version 2.1.2 running
+mqtt_broker-1   | 2026-10-07T15:30:45.573981336Z 1791387045: New connection from 172.30.91.10:54163 on port 1884.
+mqtt_broker-1   | 2026-10-07T15:30:45.576851878Z 1791387045: New client connected from 172.30.91.10:54163 as auto-B7E84058-838D-7E61-6C14-3D3B254CE1FB (p4, c1, k60).
+mqtt_broker-1   | 2026-10-07T15:30:45.576988967Z 1791387045: New connection from 172.30.91.10:33171 on port 1884.
+mqtt_broker-1   | 2026-10-07T15:30:45.577013757Z 1791387045: New client connected from 172.30.91.10:33171 as auto-A0F4DC5C-180D-631D-043F-F2D4E46B7258 (p4, c1, k60).
+mqtt_broker-1   | 2026-10-07T15:30:46.295768890Z 1791387046: New connection from 172.30.91.12:45963 on port 1884.
+mqtt_broker-1   | 2026-10-07T15:30:46.295799685Z 1791387046: New client connected from 172.30.91.12:45963 as auto-4178F590-6601-3CB8-7075-BC1B6C881989 (p4, c1, k60).
+mqtt_broker-1   | 2026-10-07T15:30:47.184815166Z 1791387047: New connection from 172.30.91.11:41867 on port 1884.
+mqtt_broker-1   | 2026-10-07T15:30:47.184839791Z 1791387047: New client connected from 172.30.91.11:41867 as twin_command_publisher (p4, c1, k60).
+mqtt_broker-1   | 2026-10-07T15:30:47.292752733Z 1791387047: New connection from 172.30.91.11:33789 on port 1884.
+mqtt_broker-1   | 2026-10-07T15:30:47.309308373Z 1791387047: New client connected from 172.30.91.11:33789 as auto-A107BF4D-E19D-1CE5-3B22-85C574A0B8B5 (p4, c1, k60).
+mqtt_broker-1   | 2026-10-07T15:31:51.639301618Z 1791387111: Client auto-A0F4DC5C-180D-631D-043F-F2D4E46B7258 [172.30.91.10:33171] disconnected.
+sniffer-1       | 2026-10-07T15:30:49.309439983Z ******************************************************
+sniffer-1       | 2026-10-07T15:30:49.309448797Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:30:49.309453936Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:30:49.309458438Z ******************************************************
+sniffer-1       | 2026-10-07T15:30:50.233667999Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.33
+sniffer-1       | 2026-10-07T15:30:50.314119682Z 
+sniffer-1       | 2026-10-07T15:30:50.314167473Z ******************************************************
+sniffer-1       | 2026-10-07T15:30:50.314172303Z Device→Twin        |        1 |       66
+sniffer-1       | 2026-10-07T15:30:50.314218122Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:30:50.314223758Z ******************************************************
+sniffer-1       | 2026-10-07T15:30:50.581914156Z [SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=21.31
+sniffer-1       | 2026-10-07T15:30:50.585353065Z [SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=55.48
+sniffer-1       | 2026-10-07T15:30:51.318582982Z 
+sniffer-1       | 2026-10-07T15:30:51.318602987Z ******************************************************
+sniffer-1       | 2026-10-07T15:30:51.318606104Z Device→Twin        |        2 |       61
+sniffer-1       | 2026-10-07T15:30:51.318609300Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:30:51.318611849Z ******************************************************
+sniffer-1       | 2026-10-07T15:30:51.560661952Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=5.98
+sniffer-1       | 2026-10-07T15:30:52.324154024Z 
+sniffer-1       | 2026-10-07T15:30:52.324185737Z ******************************************************
+sniffer-1       | 2026-10-07T15:30:52.324193006Z Device→Twin        |        1 |       51
+sniffer-1       | 2026-10-07T15:30:52.324199269Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:30:52.324204536Z ******************************************************
+sniffer-1       | 2026-10-07T15:30:53.328908353Z 
+sniffer-1       | 2026-10-07T15:30:53.328940741Z ******************************************************
+sniffer-1       | 2026-10-07T15:30:53.328947486Z Device→Twin        |        0 |        0
+digital_twin-1  | 2026-10-07T15:31:05.598088513Z [TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=52.04
+digital_twin-1  | 2026-10-07T15:31:05.891861832Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=0.61
+digital_twin-1  | 2026-10-07T15:31:06.503688292Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.41
+digital_twin-1  | 2026-10-07T15:31:09.504721013Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.59
+digital_twin-1  | 2026-10-07T15:31:10.603292727Z [TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=45.82
+digital_twin-1  | 2026-10-07T15:31:11.098859619Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.61
+device-1        | 2026-10-07T15:31:17.605478126Z [DEVICE] Comando recebido do Twin: desliga_umid
+device-1        | 2026-10-07T15:31:17.605482319Z [DEVICE] Sensor de umidade desligado!
+device-1        | 2026-10-07T15:31:32.620336574Z [DEVICE][SIM] Teste: Religando sensor 'umid'.
+device-1        | 2026-10-07T15:31:32.620362958Z [DEVICE] Comando recebido do Twin: liga_umid
+device-1        | 2026-10-07T15:31:32.620368180Z [DEVICE] Sensor de umidade ligado!
+device-1        | 2026-10-07T15:31:34.623172744Z [DEVICE][SIM] Teste: Desligando sensor 'arm' para medição (15s).
+device-1        | 2026-10-07T15:31:34.623200746Z [DEVICE] Comando recebido do Twin: desliga_arm
+device-1        | 2026-10-07T15:31:34.623207250Z [DEVICE] Sensor do braço desligado!
+device-1        | 2026-10-07T15:31:49.636386707Z [DEVICE][SIM] Teste: Religando sensor 'arm'.
+device-1        | 2026-10-07T15:31:49.636437274Z [DEVICE] Comando recebido do Twin: liga_arm
+device-1        | 2026-10-07T15:31:49.636444596Z [DEVICE] Sensor do braço ligado!
+device-1        | 2026-10-07T15:31:51.638253263Z [DEVICE][SIM] Fim do teste de calibração. Enviando sinal para o sniffer.
+device-1        | 2026-10-07T15:31:51.639228484Z [DEVICE] Comando recebido do Twin: fim_teste_inicial
+sniffer-1       | 2026-10-07T15:30:53.328953782Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:30:53.328958483Z ******************************************************
+sniffer-1       | 2026-10-07T15:30:54.334240045Z 
+sniffer-1       | 2026-10-07T15:30:54.334273655Z ******************************************************
+sniffer-1       | 2026-10-07T15:30:54.334279696Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:30:54.334285279Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:30:54.334291565Z ******************************************************
+sniffer-1       | 2026-10-07T15:30:54.564235572Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.44
+sniffer-1       | 2026-10-07T15:30:55.341471134Z 
+sniffer-1       | 2026-10-07T15:30:55.341500858Z ******************************************************
+sniffer-1       | 2026-10-07T15:30:55.341507278Z Device→Twin        |        1 |       64
+sniffer-1       | 2026-10-07T15:30:55.341512002Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:30:55.341516086Z ******************************************************
+sniffer-1       | 2026-10-07T15:30:55.584848668Z [SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=20.90
+sniffer-1       | 2026-10-07T15:30:55.590150337Z [SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=57.58
+sniffer-1       | 2026-10-07T15:30:56.008669421Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.80
+sniffer-1       | 2026-10-07T15:30:56.347245488Z 
+sniffer-1       | 2026-10-07T15:30:56.347272958Z ******************************************************
+sniffer-1       | 2026-10-07T15:30:56.347277630Z Device→Twin        |        3 |      125
+sniffer-1       | 2026-10-07T15:30:56.347281673Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:30:56.347285169Z ******************************************************
+sniffer-1       | 2026-10-07T15:30:57.352221148Z 
+sniffer-1       | 2026-10-07T15:30:57.352243483Z ******************************************************
+sniffer-1       | 2026-10-07T15:30:57.352248225Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:30:57.352252421Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:30:57.352256000Z ******************************************************
+sniffer-1       | 2026-10-07T15:30:57.804785478Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.28
+sniffer-1       | 2026-10-07T15:30:58.357624772Z 
+sniffer-1       | 2026-10-07T15:30:58.357644338Z ******************************************************
+digital_twin-1  | 2026-10-07T15:31:12.714053550Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.30
+digital_twin-1  | 2026-10-07T15:31:14.012080125Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.50
+digital_twin-1  | 2026-10-07T15:31:15.603533700Z [TWIN] Dados recebidos via MQTT no tópico device/commands: liga_temp
+digital_twin-1  | 2026-10-07T15:31:15.604531810Z [TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=57.99
+digital_twin-1  | 2026-10-07T15:31:16.604388730Z [TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=23.65
+digital_twin-1  | 2026-10-07T15:31:17.012705808Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.08
+digital_twin-1  | 2026-10-07T15:31:17.605739344Z [TWIN] Dados recebidos via MQTT no tópico device/commands: desliga_umid
+digital_twin-1  | 2026-10-07T15:31:18.096655600Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.65
+digital_twin-1  | 2026-10-07T15:31:19.748735346Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.05
+digital_twin-1  | 2026-10-07T15:31:20.798050956Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=3.78
+digital_twin-1  | 2026-10-07T15:31:21.609647758Z [TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=29.96
+digital_twin-1  | 2026-10-07T15:31:23.801029338Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.86
+digital_twin-1  | 2026-10-07T15:31:25.664955558Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.87
+digital_twin-1  | 2026-10-07T15:31:26.615133448Z [TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=27.53
+digital_twin-1  | 2026-10-07T15:31:27.539636866Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=0.81
+digital_twin-1  | 2026-10-07T15:31:28.347494103Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.54
+digital_twin-1  | 2026-10-07T15:31:31.348982908Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.53
+sniffer-1       | 2026-10-07T15:30:58.357647699Z Device→Twin        |        1 |       66
+sniffer-1       | 2026-10-07T15:30:58.357651009Z Twin→Device        |        0 |        0
+digital_twin-1  | 2026-10-07T15:31:31.620516854Z [TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=21.38
+digital_twin-1  | 2026-10-07T15:31:32.620620306Z [TWIN] Dados recebidos via MQTT no tópico device/commands: liga_umid
+digital_twin-1  | 2026-10-07T15:31:32.621885471Z [TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=50.79
+digital_twin-1  | 2026-10-07T15:31:32.883906390Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.94
+digital_twin-1  | 2026-10-07T15:31:34.623456379Z [TWIN] Dados recebidos via MQTT no tópico device/commands: desliga_arm
+digital_twin-1  | 2026-10-07T15:31:35.822398642Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=0.74
+digital_twin-1  | 2026-10-07T15:31:36.562478951Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=5.21
+digital_twin-1  | 2026-10-07T15:31:36.625786014Z [TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=22.54
+digital_twin-1  | 2026-10-07T15:31:37.627271739Z [TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=51.84
+digital_twin-1  | 2026-10-07T15:31:41.630763614Z [TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=20.86
+digital_twin-1  | 2026-10-07T15:31:42.631953530Z [TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=57.11
+digital_twin-1  | 2026-10-07T15:31:46.635998840Z [TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=26.09
+digital_twin-1  | 2026-10-07T15:31:47.637058083Z [TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=45.11
+digital_twin-1  | 2026-10-07T15:31:49.636650826Z [TWIN] Dados recebidos via MQTT no tópico device/commands: liga_arm
+digital_twin-1  | 2026-10-07T15:31:50.576309290Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.19
+digital_twin-1  | 2026-10-07T15:31:51.638868794Z [TWIN] Dados recebidos via MQTT no tópico device/commands: fim_teste_inicial
+digital_twin-1  | 2026-10-07T15:31:51.641141679Z [TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=26.24
+digital_twin-1  | 2026-10-07T15:31:51.767009323Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.63
+digital_twin-1  | 2026-10-07T15:31:52.640862707Z [TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=58.32
+digital_twin-1  | 2026-10-07T15:31:54.402788346Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=0.64
+digital_twin-1  | 2026-10-07T15:31:55.044411514Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.46
+sniffer-1       | 2026-10-07T15:30:58.357653572Z ******************************************************
+sniffer-1       | 2026-10-07T15:30:59.084630835Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.52
+sniffer-1       | 2026-10-07T15:30:59.363821356Z 
+sniffer-1       | 2026-10-07T15:30:59.363846410Z ******************************************************
+sniffer-1       | 2026-10-07T15:30:59.363851185Z Device→Twin        |        1 |       51
+sniffer-1       | 2026-10-07T15:30:59.363855547Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:30:59.363859264Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:00.370159485Z 
+sniffer-1       | 2026-10-07T15:31:00.370186352Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:00.370191693Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:00.370195576Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:00.370198533Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:00.588895882Z [SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=23.27
+sniffer-1       | 2026-10-07T15:31:00.593187939Z [SNIFFER][ALERTA] Sensor de temperatura desligado!
+sniffer-1       | 2026-10-07T15:31:00.597828095Z [SNIFFER] Capturado via MQTT no tópico device/commands: desliga_temp
+sniffer-1       | 2026-10-07T15:31:00.601889838Z [SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=57.09
+sniffer-1       | 2026-10-07T15:31:01.374920153Z 
+sniffer-1       | 2026-10-07T15:31:01.374943128Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:01.374950843Z Device→Twin        |        2 |       61
+sniffer-1       | 2026-10-07T15:31:01.374958217Z Twin→Device        |        1 |       12
+sniffer-1       | 2026-10-07T15:31:01.374976299Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:01.378459132Z [SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+sniffer-1       | 2026-10-07T15:31:02.088000771Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.32
+sniffer-1       | 2026-10-07T15:31:02.382976831Z 
+sniffer-1       | 2026-10-07T15:31:02.383004091Z ******************************************************
+digital_twin-1  | 2026-10-07T15:31:56.645516867Z [TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=27.03
+digital_twin-1  | 2026-10-07T15:31:57.646309534Z [TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=41.71
+digital_twin-1  | 2026-10-07T15:31:58.047912960Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.88
+digital_twin-1  | 2026-10-07T15:31:59.929532219Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.79
+digital_twin-1  | 2026-10-07T15:32:01.651014748Z [TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=29.45
+digital_twin-1  | 2026-10-07T15:32:02.648894331Z [TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=40.99
+digital_twin-1  | 2026-10-07T15:32:02.721042792Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.47
+digital_twin-1  | 2026-10-07T15:32:04.189503396Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=6.13
+digital_twin-1  | 2026-10-07T15:32:06.656438091Z [TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=20.68
+digital_twin-1  | 2026-10-07T15:32:07.192822598Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.04
+digital_twin-1  | 2026-10-07T15:32:07.652708646Z [TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=54.92
+digital_twin-1  | 2026-10-07T15:32:08.236700306Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.85
+digital_twin-1  | 2026-10-07T15:32:11.090758694Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.23
+digital_twin-1  | 2026-10-07T15:32:11.661016127Z [TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=25.61
+digital_twin-1  | 2026-10-07T15:32:12.326169904Z [TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=5.13
+digital_twin-1  | 2026-10-07T15:32:12.656762339Z [TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=40.05
+sniffer-1       | 2026-10-07T15:31:02.383009629Z Device→Twin        |        1 |       64
+sniffer-1       | 2026-10-07T15:31:02.383013984Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:02.383017596Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:02.386668293Z [SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+sniffer-1       | 2026-10-07T15:31:03.391539033Z 
+sniffer-1       | 2026-10-07T15:31:03.391569263Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:03.391575006Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:03.391579286Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:03.391582844Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:03.394967528Z [SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+sniffer-1       | 2026-10-07T15:31:03.412972118Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.48
+sniffer-1       | 2026-10-07T15:31:04.399488518Z 
+sniffer-1       | 2026-10-07T15:31:04.399514205Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:04.399521666Z Device→Twin        |        1 |       64
+sniffer-1       | 2026-10-07T15:31:04.399525762Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:04.399528396Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:04.402709883Z [SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+sniffer-1       | 2026-10-07T15:31:05.406827292Z 
+sniffer-1       | 2026-10-07T15:31:05.406848776Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:05.406852058Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:05.406855441Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:05.406858052Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:05.410436284Z [SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+sniffer-1       | 2026-10-07T15:31:05.598045974Z [SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=52.04
+sniffer-1       | 2026-10-07T15:31:05.891723783Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=0.61
+sniffer-1       | 2026-10-07T15:31:06.414758833Z 
+sniffer-1       | 2026-10-07T15:31:06.414780813Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:06.414790913Z Device→Twin        |        2 |       95
+sniffer-1       | 2026-10-07T15:31:06.414795073Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:06.414808303Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:06.419120259Z [SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+sniffer-1       | 2026-10-07T15:31:06.503624582Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.41
+sniffer-1       | 2026-10-07T15:31:07.423046372Z 
+sniffer-1       | 2026-10-07T15:31:07.423069429Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:07.423074176Z Device→Twin        |        1 |       51
+sniffer-1       | 2026-10-07T15:31:07.423078363Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:07.423087088Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:07.426415394Z [SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+sniffer-1       | 2026-10-07T15:31:08.430701525Z 
+sniffer-1       | 2026-10-07T15:31:08.430722382Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:08.430725529Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:08.430728845Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:08.430731502Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:08.433704377Z [SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+sniffer-1       | 2026-10-07T15:31:09.438114580Z 
+sniffer-1       | 2026-10-07T15:31:09.438134599Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:09.438137724Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:09.438140889Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:09.438143545Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:09.442170064Z [SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+sniffer-1       | 2026-10-07T15:31:09.504651960Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.59
+sniffer-1       | 2026-10-07T15:31:10.446720525Z 
+sniffer-1       | 2026-10-07T15:31:10.446746164Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:10.446750783Z Device→Twin        |        1 |       64
+sniffer-1       | 2026-10-07T15:31:10.446755063Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:10.446758614Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:10.450291552Z [SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+sniffer-1       | 2026-10-07T15:31:10.603236620Z [SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=45.82
+sniffer-1       | 2026-10-07T15:31:11.098833465Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.61
+sniffer-1       | 2026-10-07T15:31:11.454581007Z 
+sniffer-1       | 2026-10-07T15:31:11.454607724Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:11.454615104Z Device→Twin        |        2 |       93
+sniffer-1       | 2026-10-07T15:31:11.454618724Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:11.454635509Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:11.458109171Z [SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+sniffer-1       | 2026-10-07T15:31:12.462949715Z 
+sniffer-1       | 2026-10-07T15:31:12.462968877Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:12.462971928Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:12.462975258Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:12.462977790Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:12.466273825Z [SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+sniffer-1       | 2026-10-07T15:31:12.713954590Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.30
+sniffer-1       | 2026-10-07T15:31:13.470433851Z 
+sniffer-1       | 2026-10-07T15:31:13.470457383Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:13.470462137Z Device→Twin        |        1 |       66
+sniffer-1       | 2026-10-07T15:31:13.470466274Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:13.470471118Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:13.474369301Z [SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+sniffer-1       | 2026-10-07T15:31:14.011950230Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.50
+sniffer-1       | 2026-10-07T15:31:14.479496644Z 
+sniffer-1       | 2026-10-07T15:31:14.479518497Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:14.479521825Z Device→Twin        |        1 |       51
+sniffer-1       | 2026-10-07T15:31:14.479525134Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:14.479527705Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:14.482899368Z [SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+sniffer-1       | 2026-10-07T15:31:15.487139778Z 
+sniffer-1       | 2026-10-07T15:31:15.487160531Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:15.487163759Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:15.487167156Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:15.487169786Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:15.490667720Z [SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+sniffer-1       | 2026-10-07T15:31:15.603531239Z [SNIFFER][ALERTA] Sensor de temperatura ligado!
+sniffer-1       | 2026-10-07T15:31:15.606742991Z [SNIFFER] Capturado via MQTT no tópico device/commands: liga_temp
+sniffer-1       | 2026-10-07T15:31:15.610020120Z [SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=57.99
+sniffer-1       | 2026-10-07T15:31:16.494672036Z 
+sniffer-1       | 2026-10-07T15:31:16.494698004Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:16.494701989Z Device→Twin        |        1 |       29
+sniffer-1       | 2026-10-07T15:31:16.494705445Z Twin→Device        |        1 |        9
+sniffer-1       | 2026-10-07T15:31:16.494726244Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:16.604356257Z [SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=23.65
+sniffer-1       | 2026-10-07T15:31:17.012661130Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.08
+sniffer-1       | 2026-10-07T15:31:17.499040460Z 
+sniffer-1       | 2026-10-07T15:31:17.499062660Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:17.499065757Z Device→Twin        |        2 |       96
+sniffer-1       | 2026-10-07T15:31:17.499068974Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:17.499071524Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:17.605696418Z [SNIFFER][ALERTA] Sensor de umidade desligado!
+sniffer-1       | 2026-10-07T15:31:17.609179567Z [SNIFFER] Capturado via MQTT no tópico device/commands: desliga_umid
+sniffer-1       | 2026-10-07T15:31:18.096548857Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.65
+sniffer-1       | 2026-10-07T15:31:18.504042833Z 
+sniffer-1       | 2026-10-07T15:31:18.504068247Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:18.504072480Z Device→Twin        |        1 |       64
+sniffer-1       | 2026-10-07T15:31:18.504076266Z Twin→Device        |        1 |       12
+sniffer-1       | 2026-10-07T15:31:18.504079504Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:18.507543797Z [SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+sniffer-1       | 2026-10-07T15:31:19.511679267Z 
+sniffer-1       | 2026-10-07T15:31:19.512418731Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:19.512429848Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:19.512434111Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:19.512437338Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:19.514950735Z [SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+sniffer-1       | 2026-10-07T15:31:19.748660427Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.05
+sniffer-1       | 2026-10-07T15:31:20.518898918Z 
+sniffer-1       | 2026-10-07T15:31:20.518921746Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:20.518925650Z Device→Twin        |        1 |       66
+sniffer-1       | 2026-10-07T15:31:20.518929654Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:20.518933160Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:20.522441007Z [SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+sniffer-1       | 2026-10-07T15:31:20.797970969Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=3.78
+sniffer-1       | 2026-10-07T15:31:21.526629674Z 
+sniffer-1       | 2026-10-07T15:31:21.526649980Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:21.526653475Z Device→Twin        |        1 |       51
+sniffer-1       | 2026-10-07T15:31:21.526669141Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:21.526671889Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:21.529932590Z [SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+sniffer-1       | 2026-10-07T15:31:21.609610133Z [SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=29.96
+sniffer-1       | 2026-10-07T15:31:22.534599249Z 
+sniffer-1       | 2026-10-07T15:31:22.534623736Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:22.534626893Z Device→Twin        |        1 |       32
+sniffer-1       | 2026-10-07T15:31:22.534630318Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:22.534632838Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:22.538232247Z [SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+sniffer-1       | 2026-10-07T15:31:23.543540538Z 
+sniffer-1       | 2026-10-07T15:31:23.543566268Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:23.543570022Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:23.543574045Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:23.543577590Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:23.547090969Z [SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+sniffer-1       | 2026-10-07T15:31:23.801054781Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.86
+sniffer-1       | 2026-10-07T15:31:24.551557014Z 
+sniffer-1       | 2026-10-07T15:31:24.551581269Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:24.551585491Z Device→Twin        |        1 |       64
+sniffer-1       | 2026-10-07T15:31:24.551589752Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:24.551593386Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:24.554759954Z [SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+sniffer-1       | 2026-10-07T15:31:25.559360288Z 
+sniffer-1       | 2026-10-07T15:31:25.559388097Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:25.559395781Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:25.559405265Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:25.559414084Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:25.563196096Z [SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+sniffer-1       | 2026-10-07T15:31:25.665018903Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.87
+sniffer-1       | 2026-10-07T15:31:26.571328709Z 
+sniffer-1       | 2026-10-07T15:31:26.571354722Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:26.571361227Z Device→Twin        |        1 |       64
+sniffer-1       | 2026-10-07T15:31:26.571367254Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:26.571389585Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:26.575525032Z [SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+sniffer-1       | 2026-10-07T15:31:26.615199725Z [SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=27.53
+sniffer-1       | 2026-10-07T15:31:27.539719417Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=0.81
+sniffer-1       | 2026-10-07T15:31:27.582582796Z 
+sniffer-1       | 2026-10-07T15:31:27.582610164Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:27.582617240Z Device→Twin        |        2 |       98
+sniffer-1       | 2026-10-07T15:31:27.582621510Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:27.582625943Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:27.586556125Z [SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+sniffer-1       | 2026-10-07T15:31:28.347432474Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.54
+sniffer-1       | 2026-10-07T15:31:28.591852375Z 
+sniffer-1       | 2026-10-07T15:31:28.591874195Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:28.591878150Z Device→Twin        |        1 |       51
+sniffer-1       | 2026-10-07T15:31:28.591881912Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:28.591884964Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:28.595336457Z [SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+sniffer-1       | 2026-10-07T15:31:29.600005303Z 
+sniffer-1       | 2026-10-07T15:31:29.600038990Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:29.600057716Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:29.600068702Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:29.600079355Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:29.603333734Z [SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+sniffer-1       | 2026-10-07T15:31:30.607670633Z 
+sniffer-1       | 2026-10-07T15:31:30.607707241Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:30.607720345Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:30.607729593Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:30.607734985Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:30.611659789Z [SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+sniffer-1       | 2026-10-07T15:31:31.348980424Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.53
+sniffer-1       | 2026-10-07T15:31:31.616210062Z 
+sniffer-1       | 2026-10-07T15:31:31.616236114Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:31.616242645Z Device→Twin        |        1 |       64
+sniffer-1       | 2026-10-07T15:31:31.616248500Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:31.616253771Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:31.619681217Z [SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+sniffer-1       | 2026-10-07T15:31:31.620460154Z [SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=21.38
+sniffer-1       | 2026-10-07T15:31:32.620563694Z [SNIFFER][ALERTA] Sensor de umidade ligado!
+sniffer-1       | 2026-10-07T15:31:32.624073078Z [SNIFFER] Capturado via MQTT no tópico device/commands: liga_umid
+sniffer-1       | 2026-10-07T15:31:32.624093566Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:32.624096665Z Device→Twin        |        1 |       32
+sniffer-1       | 2026-10-07T15:31:32.624099392Z Twin→Device        |        1 |        9
+sniffer-1       | 2026-10-07T15:31:32.624101948Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:32.624104383Z 
+sniffer-1       | 2026-10-07T15:31:32.627518435Z [SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=50.79
+sniffer-1       | 2026-10-07T15:31:32.883852765Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.94
+sniffer-1       | 2026-10-07T15:31:33.628062700Z 
+sniffer-1       | 2026-10-07T15:31:33.628085340Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:33.628090816Z Device→Twin        |        2 |       93
+sniffer-1       | 2026-10-07T15:31:33.628096122Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:33.628100604Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:34.623432702Z [SNIFFER][ALERTA] Sensor do braço desligado!
+sniffer-1       | 2026-10-07T15:31:34.626879594Z [SNIFFER] Capturado via MQTT no tópico device/commands: desliga_arm
+sniffer-1       | 2026-10-07T15:31:34.632854971Z 
+sniffer-1       | 2026-10-07T15:31:34.632880615Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:34.632886577Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:34.632892358Z Twin→Device        |        1 |       11
+sniffer-1       | 2026-10-07T15:31:34.632898210Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:34.636266089Z [SNIFFER][ALERTA] Sensor 'braco' está desligado!
+sniffer-1       | 2026-10-07T15:31:35.640587576Z 
+sniffer-1       | 2026-10-07T15:31:35.640612290Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:35.640616612Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:35.640621485Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:35.640625214Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:35.643792273Z [SNIFFER][ALERTA] Sensor 'braco' está desligado!
+sniffer-1       | 2026-10-07T15:31:35.822348654Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=0.74
+sniffer-1       | 2026-10-07T15:31:36.562440725Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=5.21
+sniffer-1       | 2026-10-07T15:31:36.625765432Z [SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=22.54
+sniffer-1       | 2026-10-07T15:31:36.648141389Z 
+sniffer-1       | 2026-10-07T15:31:36.648166362Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:36.648170960Z Device→Twin        |        3 |      149
+sniffer-1       | 2026-10-07T15:31:36.648175458Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:36.648178703Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:36.651454484Z [SNIFFER][ALERTA] Sensor 'braco' está desligado!
+sniffer-1       | 2026-10-07T15:31:37.627304439Z [SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=51.84
+sniffer-1       | 2026-10-07T15:31:37.655800159Z 
+sniffer-1       | 2026-10-07T15:31:37.655845621Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:37.655851987Z Device→Twin        |        1 |       29
+sniffer-1       | 2026-10-07T15:31:37.655856901Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:37.655860314Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:37.659148546Z [SNIFFER][ALERTA] Sensor 'braco' está desligado!
+sniffer-1       | 2026-10-07T15:31:38.663307416Z 
+sniffer-1       | 2026-10-07T15:31:38.663328350Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:38.663331541Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:38.663334822Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:38.663337412Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:38.666659306Z [SNIFFER][ALERTA] Sensor 'braco' está desligado!
+sniffer-1       | 2026-10-07T15:31:39.671352870Z 
+sniffer-1       | 2026-10-07T15:31:39.671374831Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:39.671378160Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:39.671381349Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:39.671384088Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:39.675829419Z [SNIFFER][ALERTA] Sensor 'braco' está desligado!
+sniffer-1       | 2026-10-07T15:31:40.681149330Z 
+sniffer-1       | 2026-10-07T15:31:40.681171369Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:40.681174576Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:40.681178183Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:40.681181010Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:40.685030869Z [SNIFFER][ALERTA] Sensor 'braco' está desligado!
+sniffer-1       | 2026-10-07T15:31:41.630728304Z [SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=20.86
+sniffer-1       | 2026-10-07T15:31:41.689913817Z 
+sniffer-1       | 2026-10-07T15:31:41.689940699Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:41.689944983Z Device→Twin        |        1 |       32
+sniffer-1       | 2026-10-07T15:31:41.689949377Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:41.689973803Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:41.694408291Z [SNIFFER][ALERTA] Sensor 'braco' está desligado!
+sniffer-1       | 2026-10-07T15:31:42.632037871Z [SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=57.11
+sniffer-1       | 2026-10-07T15:31:42.699092038Z 
+sniffer-1       | 2026-10-07T15:31:42.699116637Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:42.699121378Z Device→Twin        |        1 |       29
+sniffer-1       | 2026-10-07T15:31:42.699125459Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:42.699129201Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:42.703300533Z [SNIFFER][ALERTA] Sensor 'braco' está desligado!
+sniffer-1       | 2026-10-07T15:31:43.708672209Z 
+sniffer-1       | 2026-10-07T15:31:43.708696161Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:43.708703733Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:43.708708212Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:43.708711514Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:43.712894991Z [SNIFFER][ALERTA] Sensor 'braco' está desligado!
+sniffer-1       | 2026-10-07T15:31:44.718070681Z 
+sniffer-1       | 2026-10-07T15:31:44.718189137Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:44.718195170Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:44.718199678Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:44.718203129Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:44.721635749Z [SNIFFER][ALERTA] Sensor 'braco' está desligado!
+sniffer-1       | 2026-10-07T15:31:45.725737039Z 
+sniffer-1       | 2026-10-07T15:31:45.725765343Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:45.725768992Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:45.725772641Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:45.725775533Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:45.728846738Z [SNIFFER][ALERTA] Sensor 'braco' está desligado!
+sniffer-1       | 2026-10-07T15:31:46.635866727Z [SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=26.09
+sniffer-1       | 2026-10-07T15:31:46.733327222Z 
+sniffer-1       | 2026-10-07T15:31:46.733346519Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:46.733350925Z Device→Twin        |        1 |       32
+sniffer-1       | 2026-10-07T15:31:46.733359128Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:46.733365468Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:46.737576712Z [SNIFFER][ALERTA] Sensor 'braco' está desligado!
+sniffer-1       | 2026-10-07T15:31:47.637059842Z [SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=45.11
+sniffer-1       | 2026-10-07T15:31:47.743089056Z 
+sniffer-1       | 2026-10-07T15:31:47.743115385Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:47.743120467Z Device→Twin        |        1 |       29
+sniffer-1       | 2026-10-07T15:31:47.743124733Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:47.743128021Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:47.746922756Z [SNIFFER][ALERTA] Sensor 'braco' está desligado!
+sniffer-1       | 2026-10-07T15:31:48.752092107Z 
+sniffer-1       | 2026-10-07T15:31:48.752111645Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:48.752114704Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:48.752117962Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:48.752120463Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:48.755396917Z [SNIFFER][ALERTA] Sensor 'braco' está desligado!
+sniffer-1       | 2026-10-07T15:31:49.636598882Z [SNIFFER][ALERTA] Sensor do braço ligado!
+sniffer-1       | 2026-10-07T15:31:49.639644817Z [SNIFFER] Capturado via MQTT no tópico device/commands: liga_arm
+sniffer-1       | 2026-10-07T15:31:49.759372671Z 
+sniffer-1       | 2026-10-07T15:31:49.759391589Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:49.759394737Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:49.759398034Z Twin→Device        |        1 |        8
+sniffer-1       | 2026-10-07T15:31:49.759400674Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:50.576203878Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.19
+sniffer-1       | 2026-10-07T15:31:50.763486061Z 
+sniffer-1       | 2026-10-07T15:31:50.763507309Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:50.763511055Z Device→Twin        |        1 |       64
+sniffer-1       | 2026-10-07T15:31:50.763514711Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:50.763517869Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:51.638848071Z [SNIFFER] Teste inicial finalizado. Alertas dinâmicos ativados!
+sniffer-1       | 2026-10-07T15:31:51.644009187Z [SNIFFER] Capturado via MQTT no tópico device/commands: fim_teste_inicial
+sniffer-1       | 2026-10-07T15:31:51.648314751Z [SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=26.24
+sniffer-1       | 2026-10-07T15:31:51.766938383Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.63
+sniffer-1       | 2026-10-07T15:31:51.767839398Z 
+sniffer-1       | 2026-10-07T15:31:51.767852715Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:51.767855713Z Device→Twin        |        2 |       96
+sniffer-1       | 2026-10-07T15:31:51.767858821Z Twin→Device        |        1 |       17
+sniffer-1       | 2026-10-07T15:31:51.767861341Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:51.770548407Z [SNIFFER][ALERTA] BPS de twin_to_device (17) excedeu o máximo de 12 definido no teste inicial.
+sniffer-1       | 2026-10-07T15:31:52.640920709Z [SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=58.32
+sniffer-1       | 2026-10-07T15:31:52.774505501Z 
+sniffer-1       | 2026-10-07T15:31:52.774529603Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:52.774536884Z Device→Twin        |        1 |       29
+sniffer-1       | 2026-10-07T15:31:52.774540668Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:52.774543258Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:53.779230472Z 
+sniffer-1       | 2026-10-07T15:31:53.779254532Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:53.779257619Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:53.779260836Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:53.779263305Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:54.402747200Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=0.64
+sniffer-1       | 2026-10-07T15:31:54.783506190Z 
+sniffer-1       | 2026-10-07T15:31:54.783530148Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:54.783534898Z Device→Twin        |        1 |       66
+sniffer-1       | 2026-10-07T15:31:54.783539140Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:54.783542855Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:55.044375797Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.46
+sniffer-1       | 2026-10-07T15:31:55.788131862Z 
+sniffer-1       | 2026-10-07T15:31:55.788156337Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:55.788160389Z Device→Twin        |        1 |       51
+sniffer-1       | 2026-10-07T15:31:55.788164442Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:55.788167648Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:56.645453325Z [SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=27.03
+sniffer-1       | 2026-10-07T15:31:56.792599177Z 
+sniffer-1       | 2026-10-07T15:31:56.792629554Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:56.792633676Z Device→Twin        |        1 |       32
+sniffer-1       | 2026-10-07T15:31:56.792637579Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:56.792641014Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:57.646280865Z [SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=41.71
+sniffer-1       | 2026-10-07T15:31:57.798335382Z 
+sniffer-1       | 2026-10-07T15:31:57.798356877Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:57.798360076Z Device→Twin        |        1 |       29
+sniffer-1       | 2026-10-07T15:31:57.798363572Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:57.798380477Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:58.047845037Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.88
+sniffer-1       | 2026-10-07T15:31:58.803716182Z 
+sniffer-1       | 2026-10-07T15:31:58.803751333Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:58.803757406Z Device→Twin        |        1 |       64
+sniffer-1       | 2026-10-07T15:31:58.803761552Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:58.803764843Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:59.808762249Z 
+sniffer-1       | 2026-10-07T15:31:59.808782730Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:59.808785930Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:59.808789272Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:31:59.808792178Z ******************************************************
+sniffer-1       | 2026-10-07T15:31:59.929445495Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.79
+sniffer-1       | 2026-10-07T15:32:00.813978024Z 
+sniffer-1       | 2026-10-07T15:32:00.813999031Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:00.814003409Z Device→Twin        |        1 |       64
+sniffer-1       | 2026-10-07T15:32:00.814007908Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:32:00.814011445Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:01.650884249Z [SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=29.45
+sniffer-1       | 2026-10-07T15:32:01.819191360Z 
+sniffer-1       | 2026-10-07T15:32:01.819216132Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:01.819220247Z Device→Twin        |        1 |       32
+sniffer-1       | 2026-10-07T15:32:01.819224575Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:32:01.819227962Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:02.648817319Z [SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=40.99
+sniffer-1       | 2026-10-07T15:32:02.721076083Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.47
+sniffer-1       | 2026-10-07T15:32:02.823938288Z 
+sniffer-1       | 2026-10-07T15:32:02.823962264Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:02.823965413Z Device→Twin        |        2 |       95
+sniffer-1       | 2026-10-07T15:32:02.823968632Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:32:02.823971185Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:03.828106971Z 
+sniffer-1       | 2026-10-07T15:32:03.828131592Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:03.828136025Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:32:03.828140437Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:32:03.828166398Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:04.189525636Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=6.13
+sniffer-1       | 2026-10-07T15:32:04.832727091Z 
+sniffer-1       | 2026-10-07T15:32:04.832744674Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:04.832747973Z Device→Twin        |        1 |       51
+sniffer-1       | 2026-10-07T15:32:04.832751484Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:32:04.832754149Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:05.837431560Z 
+sniffer-1       | 2026-10-07T15:32:05.837451129Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:05.837454293Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:32:05.837457669Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:32:05.837460361Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:06.656389929Z [SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=20.68
+sniffer-1       | 2026-10-07T15:32:06.841734000Z 
+sniffer-1       | 2026-10-07T15:32:06.841757519Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:06.841762525Z Device→Twin        |        1 |       32
+sniffer-1       | 2026-10-07T15:32:06.841767161Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:32:06.841770763Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:07.192747775Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.04
+sniffer-1       | 2026-10-07T15:32:07.652603123Z [SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=54.92
+sniffer-1       | 2026-10-07T15:32:07.845938085Z 
+sniffer-1       | 2026-10-07T15:32:07.845958955Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:07.845962132Z Device→Twin        |        2 |       93
+sniffer-1       | 2026-10-07T15:32:07.845965340Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:32:07.845967926Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:08.236736202Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.85
+sniffer-1       | 2026-10-07T15:32:08.850383864Z 
+sniffer-1       | 2026-10-07T15:32:08.850403623Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:08.850406778Z Device→Twin        |        1 |       64
+sniffer-1       | 2026-10-07T15:32:08.850410233Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:32:08.850412937Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:09.855168161Z 
+sniffer-1       | 2026-10-07T15:32:09.855196491Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:09.855201255Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:32:09.855228414Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:32:09.855232967Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:10.860336877Z 
+sniffer-1       | 2026-10-07T15:32:10.860367418Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:10.860375098Z Device→Twin        |        0 |        0
+sniffer-1       | 2026-10-07T15:32:10.860380798Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:32:10.860385188Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:11.090695869Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.23
+sniffer-1       | 2026-10-07T15:32:11.660951468Z [SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=25.61
+sniffer-1       | 2026-10-07T15:32:11.864163047Z 
+sniffer-1       | 2026-10-07T15:32:11.864186824Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:11.864190861Z Device→Twin        |        2 |       98
+sniffer-1       | 2026-10-07T15:32:11.864194979Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:32:11.864198247Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:12.326271558Z [SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=5.13
+sniffer-1       | 2026-10-07T15:32:12.656683607Z [SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=40.05
+sniffer-1       | 2026-10-07T15:32:12.868990790Z 
+sniffer-1       | 2026-10-07T15:32:12.869019648Z ******************************************************
+sniffer-1       | 2026-10-07T15:32:12.869024213Z Device→Twin        |        2 |       80
+sniffer-1       | 2026-10-07T15:32:12.869033423Z Twin→Device        |        0 |        0
+sniffer-1       | 2026-10-07T15:32:12.869038388Z ******************************************************

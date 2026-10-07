@@ -1,0 +1,45 @@
+{
+  "executed": true,
+  "platform": "Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "adaptations": [
+    "internal private bridge; no host port exposure",
+    "explicit private addresses and extra_hosts because temporary daemon embedded DNS did not resolve",
+    "resource caps 0.5CPU/256MiB per Python service",
+    "broker starts before clients",
+    "unmodified official Dockerfiles install unpinned current dependencies",
+    "bounded 5-second single-worker HTTP flood instead of uncontrolled 50 workers"
+  ],
+  "source_commit": "43346f60a9f41392611242ff3cb7589d7a758aa7",
+  "source_sha256": {
+    "attacker/attacker.py": "f7c0c5feaf637d58e0c350a504d9c09d4597891e8b80c31d51a95c2ed9ab947d",
+    "device/device.py": "dc8a59fe6fbaa860e662cc363305437122d3aa731a63aaa3250b1a42eedf7c6f",
+    "digital_twin/digital_twin.py": "522a30e56308663cbffb990d89d2ac998aeb4fccc2728f5967b6a6c1381ed16e",
+    "mitm_proxy/proxy.py": "2b66ed5b4247f45a6fa412c57bb32597a018d751c5cc0f37781dbd6c38dad25f",
+    "sensors/coap_sensor.py": "bb6e2b9f74d7aae2fa31f91663d2e59fd571a9c791223d11c1a5075ad1a5e579",
+    "sensors/http_sensor.py": "8583ecf6939069f0aaf5e8e0f2b57f0ec1be19aa1a780483657583298bfcb07f",
+    "sensors/mqtt_sensor.py": "f00566a0b11ceca99619a441cf52b99edc06a42d927023e6123c5dc6737b67c6",
+    "sensors/opcua_sensor.py": "4df6a94073134b1bf6776773a922e2ec4c1cd7c92c2ef938b0d3028ef4d20f36",
+    "sniffer/sniffer.py": "22361287c52e00b1b79987bedbe0e1f81a5e95acffbd158546f1685b94dd557f"
+  },
+  "original_calibration_completed": true,
+  "scenarios": [
+    {
+      "scenario": "exploit",
+      "attacker_output": "[ATTACKER][EXPLOIT] Simulando invas\u00e3o do Digital Twin para atacar o device...\n[ATTACKER][EXPLOIT] Comando 'desliga_temp' enviado com sucesso atrav\u00e9s da API do Twin.\n[ATTACKER][EXPLOIT] Comando 'desliga_umid' enviado com sucesso atrav\u00e9s da API do Twin.\n[ATTACKER][EXPLOIT] Comando 'desliga_arm' enviado com sucesso atrav\u00e9s da API do Twin.\n[ATTACKER][EXPLOIT] Ataque finalizado.\n",
+      "new_service_log": "Full timestamped service log retained; stream ordering prevents prefix subtraction"
+    },
+    {
+      "scenario": "mitm-proxy",
+      "attacker_output": "[ATTACKER][MiTM-Proxy] Iniciando ataque via proxy...\n[ATTACKER][MiTM-Proxy] Conectado ao proxy em mitm_proxy:1885.\n[ATTACKER][MiTM-Proxy] Enviando comando original benigno: 'liga_temp'\n[ATTACKER][MiTM-Proxy] Ataque finalizado. O proxy deveria ter alterado o comando.\n/app/attacker.py:135: DeprecationWarning: Callback API version 1 is deprecated, update to latest version\n  client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION1, \"mitm_proxy_attacker\")\n",
+      "new_service_log": "Full timestamped service log retained; stream ordering prevents prefix subtraction"
+    },
+    {
+      "scenario": "dos-http",
+      "duration_seconds": 5,
+      "workers": 1,
+      "attacker_output": "[ATTACKER][DoS-HTTP] Iniciando ataque com 1 workers contra http://digital_twin:8080/...\n"
+    }
+  ],
+  "images": "[{\"ID\":\"sha256:9e105e389d90c036d23bfe8e03432cd35f31c8b4c44c24a3717f35e53d43388d\",\"ContainerName\":\"dt_research_attacks-attacker-1\",\"Repository\":\"dt_research_attacks-attacker\",\"Tag\":\"latest\",\"Platform\":\"linux/amd64\",\"Size\":49747480,\"LastTagTime\":\"2026-10-07T15:30:29.693125203Z\"},{\"ID\":\"sha256:a662e8613884dd4cdf4219c5c75975eb94bfaae258e9d941a8fcc1a8c0d749a8\",\"ContainerName\":\"dt_research_attacks-device-1\",\"Repository\":\"dt_research_attacks-device\",\"Tag\":\"latest\",\"Platform\":\"linux/amd64\",\"Size\":50035095,\"LastTagTime\":\"2026-10-07T15:30:30.742581567Z\"},{\"ID\":\"sha256:3d05a088c65fd3d9853eb195e62e0510a54353f857f13d8dcd482c86bfedc6ca\",\"ContainerName\":\"dt_research_attacks-digital_twin-1\",\"Repository\":\"dt_research_attacks-digital_twin\",\"Tag\":\"latest\",\"Platform\":\"linux/amd64\",\"Size\":96565519,\"LastTagTime\":\"2026-10-07T15:30:30.793359185Z\"},{\"ID\":\"sha256:dd7322ed6472e483b623d6ab0dc8e0d41e071d058411b3cebb42a61f1c11e06a\",\"ContainerName\":\"dt_research_attacks-sniffer-1\",\"Repository\":\"dt_research_attacks-sniffer\",\"Tag\":\"latest\",\"Platform\":\"linux/amd64\",\"Size\":73698968,\"LastTagTime\":\"2026-10-07T15:30:30.535533123Z\"},{\"ID\":\"sha256:38c0da4f2ef84284d47b3b3eeea1cb3bdeabe81ee10caf0cd5c5ff61ee3ea408\",\"ContainerName\":\"dt_research_attacks-mqtt_broker-1\",\"Repository\":\"eclipse-mosquitto\",\"Tag\":\"2\",\"Platform\":\"linux/amd64\",\"Size\":12983433,\"LastTagTime\":\"2026-10-07T15:27:30.22688803Z\"},{\"ID\":\"sha256:7e05361c35d56f985313a8b2f5d96732e05f87d1dc87787920789137f945afe5\",\"ContainerName\":\"dt_research_attacks-mitm_proxy-1\",\"Repository\":\"dt_research_attacks-mitm_proxy\",\"Tag\":\"latest\",\"Platform\":\"linux/amd64\",\"Size\":44965986,\"LastTagTime\":\"2026-10-07T15:30:28.411866357Z\"}]\n\n",
+  "freeze": "aiocoap==0.4.17\nimportlib_metadata==9.0.1\nlinkify-it-py==2.2.0\nmarkdown-it-py==4.2.0\nmdit-py-plugins==0.6.1\nmdurl==0.1.2\npackaging==26.3\npaho-mqtt==2.1.0\nPygments==2.21.0\nrich==15.0.0\ntextual==0.44.1\ntyping_extensions==4.16.0\nzipp==4.1.1\n"
+}

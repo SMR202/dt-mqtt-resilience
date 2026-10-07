@@ -1,0 +1,14 @@
+{
+  "run": "wan-tunnel_break-fifo-q1-s0",
+  "cpu_seconds": 0.05998967699999999,
+  "peak_rss_bytes": 25407488,
+  "started_utc": 1791389998.9714313,
+  "ended_utc": 1791390033.5434453,
+  "platform": "Linux-6.17.0-1017-aws-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "counts": {
+    "callbacks": 78,
+    "accepted": 77,
+    "rejected": 1
+  }
+}

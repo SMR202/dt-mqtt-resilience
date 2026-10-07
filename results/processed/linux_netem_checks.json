@@ -1,0 +1,13 @@
+{
+  "scope": "actual Linux tc/netem loopback TCP packet delay/loss; isolated Docker namespace; not a real WAN",
+  "runs": 36,
+  "failures": 0,
+  "generated": 4248,
+  "published": 1527,
+  "received": 1527,
+  "reported_qdisc_drops": 87,
+  "max_sampled_vs_integral_age_difference_seconds": 0.5041234668442902,
+  "age_analysis": "event-integral is primary; synchronous QoS waits bias irregular in-loop samples",
+  "network": "100ms +/-20ms netem delay and 2% configured packet loss on isolated loopback; two MQTT connections; not a real WAN",
+  "resource_confound": "attack/build and network jobs initially overlap; Docker runner capped 2CPU/1GiB; descriptive costs only"
+}

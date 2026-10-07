@@ -1,0 +1,8 @@
+{
+  "live_runs_raw_and_sqlite_verified": 108,
+  "baseline_burst_messages_verified": 200,
+  "live_generated": 51840,
+  "live_published": 26247,
+  "live_received": 26247,
+  "claim_scope": "application events and local SQLite evidence; not original PCAP reproduction"
+}

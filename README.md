@@ -7,7 +7,42 @@ Evaluating MQTT QoS and Edge Buffering Strategies for Resilient Cloud-Based Digi
 How do MQTT Quality of Service levels and durable edge buffering strategies affect the freshness, reliability, latency, consistency, and communication overhead of cloud-based Digital Twin synchronization under unstable network conditions?
 
 ## Status
-Cloud Computing 100-Day Research Assignment — Cutoff 1.
+Cloud Computing research phase: implementation and local evaluation completed on 7 October 2026. This is a preliminary research package for instructor review, with explicitly limited reproduction scope.
+
+## Executed evidence
+
+- Feasible MQTT core of the official 2025 Sensors reference executed with a documented native adapter; original numerical attack results are **not reproduced**.
+- **108 real MQTT loopback runs** (QoS 0/1/2, four application-shaped conditions, three policies, three seeds).
+- **1,200 application-simulation executions**, including load/scale sensitivity, expiry and receiver-guard ablations.
+- All **51,840** live-test generated samples independently verified in local audit histories; all **26,247** published messages received.
+- In the live outage condition, mean state age is **1.852 s with FIFO** and **0.503 s with latest-state replay** (72.8% reduction); delivery is approximately 54% for both within the finite horizon.
+- A fair epoch-only baseline reaches similar freshness. Local history completeness, remote live completeness and state freshness are reported separately. No universal advantage is claimed.
+
+## Start here
+
+- [Checklist and execution plan](docs/PHASE2_CHECKLIST.md)
+- [Final research-phase report (PDF)](paper/FINAL_RESEARCH_REPORT.pdf) · [editable Markdown](paper/FINAL_RESEARCH_REPORT.md)
+- [Initial reproduction audit (PDF)](paper/INITIAL_REPRODUCTION_AUDIT.pdf) · [audit details](docs/INITIAL_REPRODUCTION_AUDIT.md)
+- [16-paper literature comparison and research gap](docs/LITERATURE_REVIEW.md)
+- [Methodology](docs/METHODOLOGY.md)
+- [Reproduction instructions](docs/REPRODUCING.md)
+- [Raw live evidence](results/live) · [simulation evidence](results/simulation) · [processed results](results/processed)
+- [Figures](figures) · [external/unexecuted requirements](docs/EXTERNAL_REQUIREMENTS.md)
+
+The measured cloud-side role is co-located on this host. Uplink impairments are application dispatch limits/delays, not TCP packet-loss injection or a paid-cloud WAN experiment. The selected reference has paper/code/version/capture discrepancies; read the audit before citing reproduction success. Its source is fetched separately because no project-level license was verified. Our original implementation remains MIT.
+
+## Quick verification
+
+```text
+python -m venv .venv
+.venv\Scripts\python -m pip install -r requirements.txt
+.venv\Scripts\python -m unittest discover -s tests -v
+.venv\Scripts\python scripts/check_integrity.py --verify
+.venv\Scripts\python scripts/verify_evidence.py
+.venv\Scripts\python scripts/analyze.py
+```
+
+On Linux/macOS, use `.venv/bin/python`. Full rerun commands and preservation of delivered evidence are explained in the reproduction guide. Dependencies for fetching/executing original MQTT functions and generating the PDFs are separate optional files. The predecessor proposal and its references are retained as historical material; `paper/phase2_references.bib` contains this phase's verified reference set.
 
 ## Planned architecture
 Physical asset simulators → edge gateway → MQTT → cloud Digital Twin state service → metrics/results store.
@@ -49,3 +84,9 @@ All experiment parameters, seeds, software versions, scripts, and result-generat
 
 ## License
 MIT for repository code unless the team/instructor later selects a different compatible license.
+
+Upstream reference code is not redistributed or relicensed. AI-assisted work is documented honestly in the contribution log. Overleaf registration/access, mentor/instructor approval and scholarly submission are external and are not asserted as completed.
+
+## Extended validation and Overleaf package
+
+Official-source Docker scenarios and 36 Linux packet-impairment runs are now complete; see [Linux execution](docs/LINUX_EXTENSION.md). The current reports are the [initial reproduction report](paper/INITIAL_REPRODUCTION_REPORT.pdf) and [final report with AWS results](paper/FINAL_RESEARCH_REPORT_WITH_CLOUD.pdf). Earlier PDFs retain their historical scope. [Instructor requirement coverage](docs/REPORT_REQUIREMENTS.md) and the [initial Overleaf ZIP](paper/initial_overleaf_upload.zip) are included. [Full Overleaf ZIP](paper/overleaf_upload.zip), [LaTeX source](paper/overleaf/main.tex), [upload instructions](docs/OVERLEAF_UPLOAD.md), and [AWS/optional hardware setup](docs/CLOUD_AND_HARDWARE_SETUP.md) are included. Mentor approval is team-reported. All 36 AWS WAN runs completed and were independently audited. The temporary VM, root disk, dedicated SSH key and security group were deleted after evidence transfer. Physical measurements are not claimed and no sensor purchase is required. See [AWS evidence](docs/AWS_WAN_VALIDATION.md).

@@ -1,0 +1,1158 @@
+Direção            |      PPS |      BPS
+------------------------------------------
+[SNIFFER] Monitorando conexões MQTT na porta 18885...
+[SNIFFER] Conectado ao broker MQTT com código 0
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=23.49
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=43.44
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.68
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.48
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.43
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.59
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=47.38
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=23.38
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.91
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.82
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=47.56
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=21.25
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.37
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=5.09
+[SNIFFER][ALERTA] Sensor de temperatura desligado!
+[SNIFFER] Capturado via MQTT no tópico device/commands: desliga_temp
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=54.43
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.26
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.91
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=0.80
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=41.77
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.97
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.07
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.62
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=45.42
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.12
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.80
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[SNIFFER][ALERTA] Sensor de temperatura ligado!
+[SNIFFER] Capturado via MQTT no tópico device/commands: liga_temp
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=43.80
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=28.28
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.85
+[SNIFFER][ALERTA] Sensor de umidade desligado!
+[SNIFFER] Capturado via MQTT no tópico device/commands: desliga_umid
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.28
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=21.93
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.38
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=5.51
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.89
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=25.38
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.75
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=0.62
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=20.71
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=5.26
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+[SNIFFER][ALERTA] Sensor de umidade ligado!
+[SNIFFER] Capturado via MQTT no tópico device/commands: liga_umid
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=42.05
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.59
+[SNIFFER][ALERTA] Sensor do braço desligado!
+[SNIFFER] Capturado via MQTT no tópico device/commands: desliga_arm
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.98
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=23.77
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.31
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=49.44
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.88
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=25.88
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=57.96
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=22.93
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=41.59
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+[SNIFFER][ALERTA] Sensor do braço ligado!
+[SNIFFER] Capturado via MQTT no tópico device/commands: liga_arm
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.08
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=25.79
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.27
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=57.06
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.25
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.61
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=20.44
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.67
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=53.11
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.35
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=28.69
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=0
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=1
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=2
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=3
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=4
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=5
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=6
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=7
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.47
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=8
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=9
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=10
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=11
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=12
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=13
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=14
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=15
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=16
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=17
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=18
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=19
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=20
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=21
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=22
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=23
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=24
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=25
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=56.73
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=26
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=27
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=28
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=29
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=30
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=31
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=32
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=5.49
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=33
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=34
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=35
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=36
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=37
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=38
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=39
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=40
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=41
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=42
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=43
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=44
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=45
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=46
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=47
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=48
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=49
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=50
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=51
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=52
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=53
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=54
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=55
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=56
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=57
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=58
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=59
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=60
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=61
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=62
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=63
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=64
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=65
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=66
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=67
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=68
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=69
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=70
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=71
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=72
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=73
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=74
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=75
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=24.30
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=76
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=77
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=78
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=79
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=80
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=81
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.59
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=82
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=83
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=84
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=85
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=86
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=87
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=88
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=89
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=90
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=91
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=92
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=93
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=94
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=95
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=96
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=97
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=98
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=99
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=100
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=101
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=102
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=103
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=104
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=105
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=106
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=107
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.96
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=42.93
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=108
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=109
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=110
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=111
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=112
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=113
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=114
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=115
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=116
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=117
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=118
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=119
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=120
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=121
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=122
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=123
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=124
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=125
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=126
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=127
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=128
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=129
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=130
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=131
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=132
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=133
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=134
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=135
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=136
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=137
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=138
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=139
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=0.89
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=140
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=141
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=142
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=143
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=144
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=145
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=146
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=147
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=148
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=149
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=150
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=151
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=152
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=153
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=154
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.44
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=155
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=156
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=157
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=25.88
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=158
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=159
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=160
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=161
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=162
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=163
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=164
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=165
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=166
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=167
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=168
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=169
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=170
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=171
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=172
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=173
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=174
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=175
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=176
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=177
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=178
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=179
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=180
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=181
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=182
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=183
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=184
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=185
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=186
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=187
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=188
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=189
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=44.63
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=190
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=191
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=192
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=193
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=194
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=195
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=196
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=197
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=198
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=199
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.36
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.19
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=20.40
+DireÃ§Ã£o            |      PPS |      BPS
+------------------------------------------
+[SNIFFER] Monitorando conexÃµes MQTT na porta 18885...
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER] Conectado ao broker MQTT com cÃ³digo 0
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=coap;temperature=20.11
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/humidity: protocolo=mqtt;humidity=51.22
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o coletando caixa da esteira;tempo=1.78
+
+******************************************************
+Deviceâ†’Twin        |        3 |      125
+Twinâ†’Device        |        0 |        0
+******************************************************
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o movendo caixa para a pilha;tempo=2.52
+
+******************************************************
+Deviceâ†’Twin        |        1 |       64
+Twinâ†’Device        |        0 |        0
+******************************************************
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o depositando a caixa na pilha;tempo=0.85
+
+******************************************************
+Deviceâ†’Twin        |        1 |       66
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/humidity: protocolo=mqtt;humidity=44.23
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=coap;temperature=28.01
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=5.15
+
+******************************************************
+Deviceâ†’Twin        |        3 |      112
+Twinâ†’Device        |        0 |        0
+******************************************************
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o coletando caixa da esteira;tempo=1.77
+
+******************************************************
+Deviceâ†’Twin        |        1 |       64
+Twinâ†’Device        |        0 |        0
+******************************************************
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o movendo caixa para a pilha;tempo=2.61
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=coap;temperature=20.98
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/humidity: protocolo=mqtt;humidity=46.86
+
+******************************************************
+Deviceâ†’Twin        |        3 |      125
+Twinâ†’Device        |        0 |        0
+******************************************************
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o depositando a caixa na pilha;tempo=1.13
+
+******************************************************
+Deviceâ†’Twin        |        1 |       66
+Twinâ†’Device        |        0 |        0
+******************************************************
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=5.50
+
+******************************************************
+Deviceâ†’Twin        |        1 |       51
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor de temperatura desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico device/commands: desliga_temp
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/humidity: protocolo=mqtt;humidity=45.34
+
+******************************************************
+Deviceâ†’Twin        |        1 |       29
+Twinâ†’Device        |        1 |       12
+******************************************************
+[SNIFFER][ALERTA] Sensor 'temperatura' estÃ¡ desligado!
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'temperatura' estÃ¡ desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o coletando caixa da esteira;tempo=1.70
+
+******************************************************
+Deviceâ†’Twin        |        1 |       64
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'temperatura' estÃ¡ desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o movendo caixa para a pilha;tempo=1.15
+
+******************************************************
+Deviceâ†’Twin        |        1 |       64
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'temperatura' estÃ¡ desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o depositando a caixa na pilha;tempo=1.20
+
+******************************************************
+Deviceâ†’Twin        |        1 |       66
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'temperatura' estÃ¡ desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/humidity: protocolo=mqtt;humidity=51.05
+
+******************************************************
+Deviceâ†’Twin        |        1 |       29
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'temperatura' estÃ¡ desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.05
+
+******************************************************
+Deviceâ†’Twin        |        1 |       51
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'temperatura' estÃ¡ desligado!
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'temperatura' estÃ¡ desligado!
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'temperatura' estÃ¡ desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o coletando caixa da esteira;tempo=1.40
+
+******************************************************
+Deviceâ†’Twin        |        1 |       64
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'temperatura' estÃ¡ desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/humidity: protocolo=mqtt;humidity=59.08
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o movendo caixa para a pilha;tempo=1.71
+
+******************************************************
+Deviceâ†’Twin        |        2 |       93
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'temperatura' estÃ¡ desligado!
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'temperatura' estÃ¡ desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o depositando a caixa na pilha;tempo=0.62
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=3.73
+
+******************************************************
+Deviceâ†’Twin        |        2 |      117
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'temperatura' estÃ¡ desligado!
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'temperatura' estÃ¡ desligado!
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'temperatura' estÃ¡ desligado!
+[SNIFFER][ALERTA] Sensor de temperatura ligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico device/commands: liga_temp
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/humidity: protocolo=mqtt;humidity=59.99
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=coap;temperature=25.35
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o coletando caixa da esteira;tempo=1.55
+
+******************************************************
+Deviceâ†’Twin        |        3 |      125
+Twinâ†’Device        |        1 |        9
+******************************************************
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor de umidade desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico device/commands: desliga_umid
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o movendo caixa para a pilha;tempo=1.11
+
+******************************************************
+Deviceâ†’Twin        |        1 |       64
+Twinâ†’Device        |        1 |       12
+******************************************************
+[SNIFFER][ALERTA] Sensor 'umidade' estÃ¡ desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o depositando a caixa na pilha;tempo=0.64
+
+******************************************************
+Deviceâ†’Twin        |        1 |       66
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'umidade' estÃ¡ desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=3.30
+
+******************************************************
+Deviceâ†’Twin        |        1 |       51
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'umidade' estÃ¡ desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=coap;temperature=21.31
+
+******************************************************
+Deviceâ†’Twin        |        1 |       32
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'umidade' estÃ¡ desligado!
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'umidade' estÃ¡ desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o coletando caixa da esteira;tempo=1.15
+
+******************************************************
+Deviceâ†’Twin        |        1 |       64
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'umidade' estÃ¡ desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o movendo caixa para a pilha;tempo=2.68
+
+******************************************************
+Deviceâ†’Twin        |        1 |       64
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'umidade' estÃ¡ desligado!
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'umidade' estÃ¡ desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=coap;temperature=21.41
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o depositando a caixa na pilha;tempo=1.48
+
+******************************************************
+Deviceâ†’Twin        |        2 |       98
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'umidade' estÃ¡ desligado!
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'umidade' estÃ¡ desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=5.31
+
+******************************************************
+Deviceâ†’Twin        |        1 |       51
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'umidade' estÃ¡ desligado!
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'umidade' estÃ¡ desligado!
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'umidade' estÃ¡ desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=coap;temperature=20.82
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o coletando caixa da esteira;tempo=1.98
+
+******************************************************
+Deviceâ†’Twin        |        2 |       96
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'umidade' estÃ¡ desligado!
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'umidade' estÃ¡ desligado!
+[SNIFFER][ALERTA] Sensor de umidade ligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico device/commands: liga_umid
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/humidity: protocolo=mqtt;humidity=45.26
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o movendo caixa para a pilha;tempo=2.49
+
+******************************************************
+Deviceâ†’Twin        |        2 |       93
+Twinâ†’Device        |        1 |        9
+******************************************************
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor do braÃ§o desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico device/commands: desliga_arm
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o depositando a caixa na pilha;tempo=1.23
+
+******************************************************
+Deviceâ†’Twin        |        1 |       66
+Twinâ†’Device        |        1 |       11
+******************************************************
+[SNIFFER][ALERTA] Sensor 'braco' estÃ¡ desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=coap;temperature=21.37
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=5.71
+
+******************************************************
+Deviceâ†’Twin        |        2 |       83
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'braco' estÃ¡ desligado!
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'braco' estÃ¡ desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/humidity: protocolo=mqtt;humidity=57.28
+
+******************************************************
+Deviceâ†’Twin        |        1 |       29
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'braco' estÃ¡ desligado!
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'braco' estÃ¡ desligado!
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'braco' estÃ¡ desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=coap;temperature=21.59
+
+******************************************************
+Deviceâ†’Twin        |        1 |       32
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'braco' estÃ¡ desligado!
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'braco' estÃ¡ desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/humidity: protocolo=mqtt;humidity=55.84
+
+******************************************************
+Deviceâ†’Twin        |        1 |       29
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'braco' estÃ¡ desligado!
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'braco' estÃ¡ desligado!
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'braco' estÃ¡ desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=coap;temperature=20.64
+
+******************************************************
+Deviceâ†’Twin        |        1 |       32
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'braco' estÃ¡ desligado!
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'braco' estÃ¡ desligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/humidity: protocolo=mqtt;humidity=47.23
+
+******************************************************
+Deviceâ†’Twin        |        1 |       29
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] Sensor 'braco' estÃ¡ desligado!
+[SNIFFER][ALERTA] Sensor do braÃ§o ligado!
+[SNIFFER] Capturado via MQTT no tÃ³pico device/commands: liga_arm
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o coletando caixa da esteira;tempo=1.71
+
+******************************************************
+Deviceâ†’Twin        |        1 |       64
+Twinâ†’Device        |        1 |        8
+******************************************************
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=coap;temperature=22.94
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o movendo caixa para a pilha;tempo=1.35
+
+******************************************************
+Deviceâ†’Twin        |        2 |       96
+Twinâ†’Device        |        0 |        0
+******************************************************
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o depositando a caixa na pilha;tempo=1.31
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/humidity: protocolo=mqtt;humidity=44.74
+
+******************************************************
+Deviceâ†’Twin        |        2 |       95
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.37
+
+******************************************************
+Deviceâ†’Twin        |        1 |       51
+Twinâ†’Device        |        0 |        0
+******************************************************
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=coap;temperature=29.23
+
+******************************************************
+Deviceâ†’Twin        |        1 |       32
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o coletando caixa da esteira;tempo=1.74
+
+******************************************************
+Deviceâ†’Twin        |        1 |       64
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/humidity: protocolo=mqtt;humidity=46.54
+
+******************************************************
+Deviceâ†’Twin        |        1 |       29
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o movendo caixa para a pilha;tempo=2.40
+
+******************************************************
+Deviceâ†’Twin        |        1 |       64
+Twinâ†’Device        |        0 |        0
+******************************************************
+
+******************************************************
+Deviceâ†’Twin        |        0 |        0
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=coap;temperature=23.76
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o depositando a caixa na pilha;tempo=1.03
+[SNIFFER] Teste inicial finalizado. Alertas dinÃ¢micos ativados!
+[SNIFFER] Capturado via MQTT no tÃ³pico device/commands: fim_teste_inicial
+
+******************************************************
+Deviceâ†’Twin        |        2 |       98
+Twinâ†’Device        |        1 |       17
+******************************************************
+[SNIFFER][ALERTA] BPS de twin_to_device (17) excedeu o mÃ¡ximo de 12 definido no teste inicial.
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=5.17
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=0
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=1
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=2
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=3
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=4
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=5
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=6
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=7
+
+******************************************************
+Deviceâ†’Twin        |        9 |      371
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] PPS de device_to_twin (9) excedeu o mÃ¡ximo de 3 definido no teste inicial.
+[SNIFFER][ALERTA] BPS de device_to_twin (371) excedeu o mÃ¡ximo de 125 definido no teste inicial.
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=8
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/humidity: protocolo=mqtt;humidity=46.07
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=9
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=10
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=11
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=12
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=13
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=14
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=15
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=16
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=17
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=18
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=19
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=20
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=21
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=22
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=23
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=24
+
+******************************************************
+Deviceâ†’Twin        |       18 |      724
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] PPS de device_to_twin (18) excedeu o mÃ¡ximo de 3 definido no teste inicial.
+[SNIFFER][ALERTA] BPS de device_to_twin (724) excedeu o mÃ¡ximo de 125 definido no teste inicial.
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=25
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=26
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=27
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=28
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=29
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=30
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=31
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=32
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=33
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=34
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=35
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=36
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=37
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=38
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=39
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=40
+
+******************************************************
+Deviceâ†’Twin        |       16 |      656
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] PPS de device_to_twin (16) excedeu o mÃ¡ximo de 3 definido no teste inicial.
+[SNIFFER][ALERTA] BPS de device_to_twin (656) excedeu o mÃ¡ximo de 125 definido no teste inicial.
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=41
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=42
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=43
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=44
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=45
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=46
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=47
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=48
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o coletando caixa da esteira;tempo=1.64
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=49
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=50
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=51
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=52
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=53
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=54
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=55
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=56
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=57
+
+******************************************************
+Deviceâ†’Twin        |       18 |      761
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] PPS de device_to_twin (18) excedeu o mÃ¡ximo de 3 definido no teste inicial.
+[SNIFFER][ALERTA] BPS de device_to_twin (761) excedeu o mÃ¡ximo de 125 definido no teste inicial.
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=coap;temperature=22.93
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=58
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=59
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=60
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=61
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=62
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=63
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=64
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=65
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=66
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=67
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=68
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=69
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=70
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=71
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=72
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=73
+
+******************************************************
+Deviceâ†’Twin        |       17 |      688
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] PPS de device_to_twin (17) excedeu o mÃ¡ximo de 3 definido no teste inicial.
+[SNIFFER][ALERTA] BPS de device_to_twin (688) excedeu o mÃ¡ximo de 125 definido no teste inicial.
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=74
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o movendo caixa para a pilha;tempo=1.12
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=75
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=76
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=77
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=78
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=79
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=80
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=81
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=82
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=83
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=84
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=85
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=86
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=87
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=88
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=89
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=90
+
+******************************************************
+Deviceâ†’Twin        |       18 |      761
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] PPS de device_to_twin (18) excedeu o mÃ¡ximo de 3 definido no teste inicial.
+[SNIFFER][ALERTA] BPS de device_to_twin (761) excedeu o mÃ¡ximo de 125 definido no teste inicial.
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/humidity: protocolo=mqtt;humidity=46.31
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=91
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=92
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=93
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o depositando a caixa na pilha;tempo=0.84
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=94
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=95
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=96
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=97
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=98
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=99
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=100
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=101
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=102
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=103
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=104
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=105
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=106
+
+******************************************************
+Deviceâ†’Twin        |       18 |      758
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] PPS de device_to_twin (18) excedeu o mÃ¡ximo de 3 definido no teste inicial.
+[SNIFFER][ALERTA] BPS de device_to_twin (758) excedeu o mÃ¡ximo de 125 definido no teste inicial.
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=107
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=3.59
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=108
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=109
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=110
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=111
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=112
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=113
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=114
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=115
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=116
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=117
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=118
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=119
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=120
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=121
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=122
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=123
+
+******************************************************
+Deviceâ†’Twin        |       18 |      765
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] PPS de device_to_twin (18) excedeu o mÃ¡ximo de 3 definido no teste inicial.
+[SNIFFER][ALERTA] BPS de device_to_twin (765) excedeu o mÃ¡ximo de 125 definido no teste inicial.
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=124
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=125
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=126
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=127
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=128
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=129
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=130
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=131
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=132
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=133
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=134
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=135
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=136
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=137
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=138
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=139
+
+******************************************************
+Deviceâ†’Twin        |       16 |      672
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] PPS de device_to_twin (16) excedeu o mÃ¡ximo de 3 definido no teste inicial.
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=coap;temperature=23.13
+[SNIFFER][ALERTA] BPS de device_to_twin (672) excedeu o mÃ¡ximo de 125 definido no teste inicial.
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=140
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=141
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=142
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=143
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=144
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=145
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=146
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=147
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=148
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=149
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=150
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=151
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=152
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=153
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=154
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=155
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=156
+
+******************************************************
+Deviceâ†’Twin        |       18 |      746
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] PPS de device_to_twin (18) excedeu o mÃ¡ximo de 3 definido no teste inicial.
+[SNIFFER][ALERTA] BPS de device_to_twin (746) excedeu o mÃ¡ximo de 125 definido no teste inicial.
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o coletando caixa da esteira;tempo=1.79
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=157
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=158
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=159
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=160
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=161
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=162
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=163
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=164
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=165
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=166
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=167
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=168
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=169
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=170
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=171
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=172
+
+******************************************************
+Deviceâ†’Twin        |       17 |      736
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] PPS de device_to_twin (17) excedeu o mÃ¡ximo de 3 definido no teste inicial.
+[SNIFFER][ALERTA] BPS de device_to_twin (736) excedeu o mÃ¡ximo de 125 definido no teste inicial.
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=173
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=174
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=175
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=176
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=177
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=178
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=179
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=180
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=181
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=182
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=183
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=184
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=185
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o movendo caixa para a pilha;tempo=1.83
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=186
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=187
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=188
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=189
+
+******************************************************
+Deviceâ†’Twin        |       19 |      807
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] PPS de device_to_twin (19) excedeu o mÃ¡ximo de 3 definido no teste inicial.
+[SNIFFER][ALERTA] BPS de device_to_twin (807) excedeu o mÃ¡ximo de 125 definido no teste inicial.
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=190
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=191
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=192
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=193
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=194
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=195
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=196
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=197
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=198
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=199
+
+******************************************************
+Deviceâ†’Twin        |       10 |      420
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER][ALERTA] PPS de device_to_twin (10) excedeu o mÃ¡ximo de 3 definido no teste inicial.
+[SNIFFER][ALERTA] BPS de device_to_twin (420) excedeu o mÃ¡ximo de 125 definido no teste inicial.
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=BraÃ§o depositando a caixa na pilha;tempo=1.08
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/temperature: protocolo=coap;temperature=22.01
+
+******************************************************
+Deviceâ†’Twin        |        2 |       98
+Twinâ†’Device        |        0 |        0
+******************************************************
+[SNIFFER] Capturado via MQTT no tÃ³pico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.70
+
+******************************************************
+Deviceâ†’Twin        |        1 |       51
+Twinâ†’Device        |        0 |        0
+******************************************************

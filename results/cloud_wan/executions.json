@@ -1,0 +1,2396 @@
+[
+  {
+    "run": "wan-tunnel_break-latest-q2-s2",
+    "seed": 2,
+    "qos": 2,
+    "policy": "latest",
+    "scenario": "tunnel_break",
+    "clock_before": [
+      {
+        "local_send_utc": 1791389115.593129,
+        "cloud_utc": 1791389117.6161811,
+        "local_receive_utc": 1791389117.5398154,
+        "rtt_seconds": 1.9466865062713623,
+        "cloud_minus_edge_lower": 0.07636570930480957,
+        "cloud_minus_edge_upper": 2.023052215576172
+      },
+      {
+        "local_send_utc": 1791389117.5398154,
+        "cloud_utc": 1791389119.7345982,
+        "local_receive_utc": 1791389119.6679213,
+        "rtt_seconds": 2.128105878829956,
+        "cloud_minus_edge_lower": 0.06667685508728027,
+        "cloud_minus_edge_upper": 2.1947827339172363
+      },
+      {
+        "local_send_utc": 1791389119.6679213,
+        "cloud_utc": 1791389121.7387338,
+        "local_receive_utc": 1791389121.6636026,
+        "rtt_seconds": 1.9956812858581543,
+        "cloud_minus_edge_lower": 0.07513117790222168,
+        "cloud_minus_edge_upper": 2.070812463760376
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791389150.7866697,
+        "cloud_utc": 1791389152.9127269,
+        "local_receive_utc": 1791389152.8442135,
+        "rtt_seconds": 2.0575437545776367,
+        "cloud_minus_edge_lower": 0.06851339340209961,
+        "cloud_minus_edge_upper": 2.1260571479797363
+      },
+      {
+        "local_send_utc": 1791389152.8442135,
+        "cloud_utc": 1791389155.254976,
+        "local_receive_utc": 1791389155.1900969,
+        "rtt_seconds": 2.345883369445801,
+        "cloud_minus_edge_lower": 0.06487917900085449,
+        "cloud_minus_edge_upper": 2.4107625484466553
+      },
+      {
+        "local_send_utc": 1791389155.1900969,
+        "cloud_utc": 1791389157.3394146,
+        "local_receive_utc": 1791389157.2720675,
+        "rtt_seconds": 2.081970691680908,
+        "cloud_minus_edge_lower": 0.06734704971313477,
+        "cloud_minus_edge_upper": 2.149317741394043
+      }
+    ],
+    "tunnel_events": [
+      {
+        "event": "tunnel_closed",
+        "utc": 1791389136.2358055,
+        "relative_to_edge_start": 8.00553822517395
+      },
+      {
+        "event": "tunnel_restored",
+        "utc": 1791389141.7679744,
+        "relative_to_edge_start": 12.002029418945312
+      }
+    ],
+    "returncode": 0
+  },
+  {
+    "run": "wan-tunnel_break-latest-q1-s1",
+    "seed": 1,
+    "qos": 1,
+    "policy": "latest",
+    "scenario": "tunnel_break",
+    "clock_before": [
+      {
+        "local_send_utc": 1791389171.0861104,
+        "cloud_utc": 1791389173.2170403,
+        "local_receive_utc": 1791389173.1493583,
+        "rtt_seconds": 2.0632479190826416,
+        "cloud_minus_edge_lower": 0.06768202781677246,
+        "cloud_minus_edge_upper": 2.130929946899414
+      },
+      {
+        "local_send_utc": 1791389173.1493583,
+        "cloud_utc": 1791389175.1934667,
+        "local_receive_utc": 1791389175.115739,
+        "rtt_seconds": 1.9663808345794678,
+        "cloud_minus_edge_lower": 0.0777275562286377,
+        "cloud_minus_edge_upper": 2.0441083908081055
+      },
+      {
+        "local_send_utc": 1791389175.115739,
+        "cloud_utc": 1791389177.140529,
+        "local_receive_utc": 1791389177.062133,
+        "rtt_seconds": 1.9463939666748047,
+        "cloud_minus_edge_lower": 0.07839584350585938,
+        "cloud_minus_edge_upper": 2.024789810180664
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791389205.4307833,
+        "cloud_utc": 1791389207.6282334,
+        "local_receive_utc": 1791389207.5638237,
+        "rtt_seconds": 2.133040428161621,
+        "cloud_minus_edge_lower": 0.06440973281860352,
+        "cloud_minus_edge_upper": 2.1974501609802246
+      },
+      {
+        "local_send_utc": 1791389207.5638237,
+        "cloud_utc": 1791389209.6991937,
+        "local_receive_utc": 1791389209.63022,
+        "rtt_seconds": 2.0663962364196777,
+        "cloud_minus_edge_lower": 0.06897377967834473,
+        "cloud_minus_edge_upper": 2.1353700160980225
+      },
+      {
+        "local_send_utc": 1791389209.63022,
+        "cloud_utc": 1791389211.7571442,
+        "local_receive_utc": 1791389211.6890194,
+        "rtt_seconds": 2.0587995052337646,
+        "cloud_minus_edge_lower": 0.06812477111816406,
+        "cloud_minus_edge_upper": 2.1269242763519287
+      }
+    ],
+    "tunnel_events": [
+      {
+        "event": "tunnel_closed",
+        "utc": 1791389191.3686557,
+        "relative_to_edge_start": 8.000946283340454
+      },
+      {
+        "event": "tunnel_restored",
+        "utc": 1791389196.929243,
+        "relative_to_edge_start": 12.027427911758423
+      }
+    ],
+    "returncode": 0
+  },
+  {
+    "run": "wan-healthy-latest-q1-s2",
+    "seed": 2,
+    "qos": 1,
+    "policy": "latest",
+    "scenario": "healthy",
+    "clock_before": [
+      {
+        "local_send_utc": 1791389225.8703463,
+        "cloud_utc": 1791389227.8869555,
+        "local_receive_utc": 1791389227.8083928,
+        "rtt_seconds": 1.9380464553833008,
+        "cloud_minus_edge_lower": 0.07856273651123047,
+        "cloud_minus_edge_upper": 2.0166091918945312
+      },
+      {
+        "local_send_utc": 1791389227.8083928,
+        "cloud_utc": 1791389229.8480167,
+        "local_receive_utc": 1791389229.7704291,
+        "rtt_seconds": 1.962036371231079,
+        "cloud_minus_edge_lower": 0.07758760452270508,
+        "cloud_minus_edge_upper": 2.039623975753784
+      },
+      {
+        "local_send_utc": 1791389229.7704291,
+        "cloud_utc": 1791389231.8345966,
+        "local_receive_utc": 1791389231.7573485,
+        "rtt_seconds": 1.9869194030761719,
+        "cloud_minus_edge_lower": 0.07724809646606445,
+        "cloud_minus_edge_upper": 2.0641674995422363
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791389260.288333,
+        "cloud_utc": 1791389262.3105772,
+        "local_receive_utc": 1791389262.231724,
+        "rtt_seconds": 1.9433910846710205,
+        "cloud_minus_edge_lower": 0.07885313034057617,
+        "cloud_minus_edge_upper": 2.0222442150115967
+      },
+      {
+        "local_send_utc": 1791389262.231724,
+        "cloud_utc": 1791389264.3708076,
+        "local_receive_utc": 1791389264.3027802,
+        "rtt_seconds": 2.0710561275482178,
+        "cloud_minus_edge_lower": 0.06802749633789062,
+        "cloud_minus_edge_upper": 2.1390836238861084
+      },
+      {
+        "local_send_utc": 1791389264.3027802,
+        "cloud_utc": 1791389266.3426268,
+        "local_receive_utc": 1791389266.265304,
+        "rtt_seconds": 1.9625239372253418,
+        "cloud_minus_edge_lower": 0.07732272148132324,
+        "cloud_minus_edge_upper": 2.039846658706665
+      }
+    ],
+    "tunnel_events": [],
+    "returncode": 0
+  },
+  {
+    "run": "wan-healthy-latest-q2-s0",
+    "seed": 0,
+    "qos": 2,
+    "policy": "latest",
+    "scenario": "healthy",
+    "clock_before": [
+      {
+        "local_send_utc": 1791389279.9834244,
+        "cloud_utc": 1791389282.0585368,
+        "local_receive_utc": 1791389281.9840615,
+        "rtt_seconds": 2.0006370544433594,
+        "cloud_minus_edge_lower": 0.07447528839111328,
+        "cloud_minus_edge_upper": 2.0751123428344727
+      },
+      {
+        "local_send_utc": 1791389281.9840615,
+        "cloud_utc": 1791389284.1228278,
+        "local_receive_utc": 1791389284.0551488,
+        "rtt_seconds": 2.07108736038208,
+        "cloud_minus_edge_lower": 0.06767892837524414,
+        "cloud_minus_edge_upper": 2.138766288757324
+      },
+      {
+        "local_send_utc": 1791389284.0551488,
+        "cloud_utc": 1791389286.194453,
+        "local_receive_utc": 1791389286.126874,
+        "rtt_seconds": 2.0717251300811768,
+        "cloud_minus_edge_lower": 0.06757903099060059,
+        "cloud_minus_edge_upper": 2.1393041610717773
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791389315.0120263,
+        "cloud_utc": 1791389317.0755124,
+        "local_receive_utc": 1791389316.995879,
+        "rtt_seconds": 1.9838526248931885,
+        "cloud_minus_edge_lower": 0.07963347434997559,
+        "cloud_minus_edge_upper": 2.063486099243164
+      },
+      {
+        "local_send_utc": 1791389316.995879,
+        "cloud_utc": 1791389319.025884,
+        "local_receive_utc": 1791389318.9465768,
+        "rtt_seconds": 1.950697898864746,
+        "cloud_minus_edge_lower": 0.07930707931518555,
+        "cloud_minus_edge_upper": 2.0300049781799316
+      },
+      {
+        "local_send_utc": 1791389318.9465768,
+        "cloud_utc": 1791389320.9899356,
+        "local_receive_utc": 1791389320.9120893,
+        "rtt_seconds": 1.9655125141143799,
+        "cloud_minus_edge_lower": 0.07784628868103027,
+        "cloud_minus_edge_upper": 2.04335880279541
+      }
+    ],
+    "tunnel_events": [],
+    "returncode": 0
+  },
+  {
+    "run": "wan-healthy-latest-q0-s0",
+    "seed": 0,
+    "qos": 0,
+    "policy": "latest",
+    "scenario": "healthy",
+    "clock_before": [
+      {
+        "local_send_utc": 1791389334.443367,
+        "cloud_utc": 1791389336.5065515,
+        "local_receive_utc": 1791389336.4311836,
+        "rtt_seconds": 1.987816572189331,
+        "cloud_minus_edge_lower": 0.07536792755126953,
+        "cloud_minus_edge_upper": 2.0631844997406006
+      },
+      {
+        "local_send_utc": 1791389336.4311836,
+        "cloud_utc": 1791389338.5000682,
+        "local_receive_utc": 1791389338.421458,
+        "rtt_seconds": 1.990274429321289,
+        "cloud_minus_edge_lower": 0.07861018180847168,
+        "cloud_minus_edge_upper": 2.0688846111297607
+      },
+      {
+        "local_send_utc": 1791389338.421458,
+        "cloud_utc": 1791389340.7553365,
+        "local_receive_utc": 1791389340.6795838,
+        "rtt_seconds": 2.2581257820129395,
+        "cloud_minus_edge_lower": 0.07575273513793945,
+        "cloud_minus_edge_upper": 2.333878517150879
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791389369.3814707,
+        "cloud_utc": 1791389371.52283,
+        "local_receive_utc": 1791389371.454683,
+        "rtt_seconds": 2.0732123851776123,
+        "cloud_minus_edge_lower": 0.06814694404602051,
+        "cloud_minus_edge_upper": 2.141359329223633
+      },
+      {
+        "local_send_utc": 1791389371.454683,
+        "cloud_utc": 1791389373.5315125,
+        "local_receive_utc": 1791389373.4540322,
+        "rtt_seconds": 1.9993491172790527,
+        "cloud_minus_edge_lower": 0.07748031616210938,
+        "cloud_minus_edge_upper": 2.076829433441162
+      },
+      {
+        "local_send_utc": 1791389373.4540322,
+        "cloud_utc": 1791389375.4890194,
+        "local_receive_utc": 1791389375.4101424,
+        "rtt_seconds": 1.9561102390289307,
+        "cloud_minus_edge_lower": 0.07887697219848633,
+        "cloud_minus_edge_upper": 2.034987211227417
+      }
+    ],
+    "tunnel_events": [],
+    "returncode": 0
+  },
+  {
+    "run": "wan-tunnel_break-fifo-q1-s2",
+    "seed": 2,
+    "qos": 1,
+    "policy": "fifo",
+    "scenario": "tunnel_break",
+    "clock_before": [
+      {
+        "local_send_utc": 1791389389.3268864,
+        "cloud_utc": 1791389391.359895,
+        "local_receive_utc": 1791389391.2816477,
+        "rtt_seconds": 1.954761266708374,
+        "cloud_minus_edge_lower": 0.0782473087310791,
+        "cloud_minus_edge_upper": 2.033008575439453
+      },
+      {
+        "local_send_utc": 1791389391.2816477,
+        "cloud_utc": 1791389393.3127067,
+        "local_receive_utc": 1791389393.2347453,
+        "rtt_seconds": 1.9530975818634033,
+        "cloud_minus_edge_lower": 0.07796144485473633,
+        "cloud_minus_edge_upper": 2.0310590267181396
+      },
+      {
+        "local_send_utc": 1791389393.2347453,
+        "cloud_utc": 1791389395.2609472,
+        "local_receive_utc": 1791389395.18153,
+        "rtt_seconds": 1.9467847347259521,
+        "cloud_minus_edge_lower": 0.07941722869873047,
+        "cloud_minus_edge_upper": 2.0262019634246826
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791389423.7665563,
+        "cloud_utc": 1791389425.8077283,
+        "local_receive_utc": 1791389425.7298636,
+        "rtt_seconds": 1.9633073806762695,
+        "cloud_minus_edge_lower": 0.0778646469116211,
+        "cloud_minus_edge_upper": 2.0411720275878906
+      },
+      {
+        "local_send_utc": 1791389425.7298636,
+        "cloud_utc": 1791389427.756858,
+        "local_receive_utc": 1791389427.6784515,
+        "rtt_seconds": 1.9485878944396973,
+        "cloud_minus_edge_lower": 0.07840657234191895,
+        "cloud_minus_edge_upper": 2.026994466781616
+      },
+      {
+        "local_send_utc": 1791389427.6784515,
+        "cloud_utc": 1791389429.709198,
+        "local_receive_utc": 1791389429.6306918,
+        "rtt_seconds": 1.952240228652954,
+        "cloud_minus_edge_lower": 0.0785062313079834,
+        "cloud_minus_edge_upper": 2.0307464599609375
+      }
+    ],
+    "tunnel_events": [
+      {
+        "event": "tunnel_closed",
+        "utc": 1791389409.7079086,
+        "relative_to_edge_start": 8.006360054016113
+      },
+      {
+        "event": "tunnel_restored",
+        "utc": 1791389415.238027,
+        "relative_to_edge_start": 12.002483367919922
+      }
+    ],
+    "returncode": 0
+  },
+  {
+    "run": "wan-healthy-fifo-q2-s1",
+    "seed": 1,
+    "qos": 2,
+    "policy": "fifo",
+    "scenario": "healthy",
+    "clock_before": [
+      {
+        "local_send_utc": 1791389443.2136188,
+        "cloud_utc": 1791389445.2826538,
+        "local_receive_utc": 1791389445.2072423,
+        "rtt_seconds": 1.9936234951019287,
+        "cloud_minus_edge_lower": 0.07541155815124512,
+        "cloud_minus_edge_upper": 2.069035053253174
+      },
+      {
+        "local_send_utc": 1791389445.2072423,
+        "cloud_utc": 1791389447.3332126,
+        "local_receive_utc": 1791389447.2657351,
+        "rtt_seconds": 2.05849289894104,
+        "cloud_minus_edge_lower": 0.06747746467590332,
+        "cloud_minus_edge_upper": 2.1259703636169434
+      },
+      {
+        "local_send_utc": 1791389447.2657351,
+        "cloud_utc": 1791389449.430187,
+        "local_receive_utc": 1791389449.3622217,
+        "rtt_seconds": 2.0964865684509277,
+        "cloud_minus_edge_lower": 0.06796526908874512,
+        "cloud_minus_edge_upper": 2.164451837539673
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791389477.7720015,
+        "cloud_utc": 1791389480.0780835,
+        "local_receive_utc": 1791389479.9992378,
+        "rtt_seconds": 2.227236270904541,
+        "cloud_minus_edge_lower": 0.07884573936462402,
+        "cloud_minus_edge_upper": 2.306082010269165
+      },
+      {
+        "local_send_utc": 1791389479.9992378,
+        "cloud_utc": 1791389482.076259,
+        "local_receive_utc": 1791389481.997491,
+        "rtt_seconds": 1.9982531070709229,
+        "cloud_minus_edge_lower": 0.07876801490783691,
+        "cloud_minus_edge_upper": 2.0770211219787598
+      },
+      {
+        "local_send_utc": 1791389481.997491,
+        "cloud_utc": 1791389484.0551229,
+        "local_receive_utc": 1791389483.9791617,
+        "rtt_seconds": 1.98167085647583,
+        "cloud_minus_edge_lower": 0.07596111297607422,
+        "cloud_minus_edge_upper": 2.0576319694519043
+      }
+    ],
+    "tunnel_events": [],
+    "returncode": 0
+  },
+  {
+    "run": "wan-healthy-fifo-q0-s1",
+    "seed": 1,
+    "qos": 0,
+    "policy": "fifo",
+    "scenario": "healthy",
+    "clock_before": [
+      {
+        "local_send_utc": 1791389497.6460385,
+        "cloud_utc": 1791389499.698958,
+        "local_receive_utc": 1791389499.622738,
+        "rtt_seconds": 1.9766993522644043,
+        "cloud_minus_edge_lower": 0.07622003555297852,
+        "cloud_minus_edge_upper": 2.052919387817383
+      },
+      {
+        "local_send_utc": 1791389499.622738,
+        "cloud_utc": 1791389501.7674587,
+        "local_receive_utc": 1791389501.69949,
+        "rtt_seconds": 2.076752185821533,
+        "cloud_minus_edge_lower": 0.06796860694885254,
+        "cloud_minus_edge_upper": 2.1447207927703857
+      },
+      {
+        "local_send_utc": 1791389501.69949,
+        "cloud_utc": 1791389503.7219265,
+        "local_receive_utc": 1791389503.6429093,
+        "rtt_seconds": 1.9434192180633545,
+        "cloud_minus_edge_lower": 0.07901716232299805,
+        "cloud_minus_edge_upper": 2.0224363803863525
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791389532.1709113,
+        "cloud_utc": 1791389534.2440298,
+        "local_receive_utc": 1791389534.1703663,
+        "rtt_seconds": 1.9994549751281738,
+        "cloud_minus_edge_lower": 0.07366347312927246,
+        "cloud_minus_edge_upper": 2.0731184482574463
+      },
+      {
+        "local_send_utc": 1791389534.1703663,
+        "cloud_utc": 1791389536.1968534,
+        "local_receive_utc": 1791389536.1185997,
+        "rtt_seconds": 1.9482333660125732,
+        "cloud_minus_edge_lower": 0.07825374603271484,
+        "cloud_minus_edge_upper": 2.026487112045288
+      },
+      {
+        "local_send_utc": 1791389536.1185997,
+        "cloud_utc": 1791389538.151659,
+        "local_receive_utc": 1791389538.0722845,
+        "rtt_seconds": 1.9536848068237305,
+        "cloud_minus_edge_lower": 0.07937455177307129,
+        "cloud_minus_edge_upper": 2.0330593585968018
+      }
+    ],
+    "tunnel_events": [],
+    "returncode": 0
+  },
+  {
+    "run": "wan-tunnel_break-latest-q1-s0",
+    "seed": 0,
+    "qos": 1,
+    "policy": "latest",
+    "scenario": "tunnel_break",
+    "clock_before": [
+      {
+        "local_send_utc": 1791389552.3538358,
+        "cloud_utc": 1791389554.4099436,
+        "local_receive_utc": 1791389554.3323755,
+        "rtt_seconds": 1.9785397052764893,
+        "cloud_minus_edge_lower": 0.07756805419921875,
+        "cloud_minus_edge_upper": 2.056107759475708
+      },
+      {
+        "local_send_utc": 1791389554.3323755,
+        "cloud_utc": 1791389556.3712008,
+        "local_receive_utc": 1791389556.2919066,
+        "rtt_seconds": 1.9595310688018799,
+        "cloud_minus_edge_lower": 0.07929420471191406,
+        "cloud_minus_edge_upper": 2.038825273513794
+      },
+      {
+        "local_send_utc": 1791389556.2919066,
+        "cloud_utc": 1791389558.4065075,
+        "local_receive_utc": 1791389558.3370245,
+        "rtt_seconds": 2.0451178550720215,
+        "cloud_minus_edge_lower": 0.06948304176330566,
+        "cloud_minus_edge_upper": 2.114600896835327
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791389587.0489445,
+        "cloud_utc": 1791389589.109547,
+        "local_receive_utc": 1791389589.0331123,
+        "rtt_seconds": 1.9841678142547607,
+        "cloud_minus_edge_lower": 0.07643461227416992,
+        "cloud_minus_edge_upper": 2.0606024265289307
+      },
+      {
+        "local_send_utc": 1791389589.0331123,
+        "cloud_utc": 1791389591.0796137,
+        "local_receive_utc": 1791389591.001222,
+        "rtt_seconds": 1.9681096076965332,
+        "cloud_minus_edge_lower": 0.07839179039001465,
+        "cloud_minus_edge_upper": 2.046501398086548
+      },
+      {
+        "local_send_utc": 1791389591.001222,
+        "cloud_utc": 1791389593.1524644,
+        "local_receive_utc": 1791389593.0839655,
+        "rtt_seconds": 2.0827436447143555,
+        "cloud_minus_edge_lower": 0.06849884986877441,
+        "cloud_minus_edge_upper": 2.15124249458313
+      }
+    ],
+    "tunnel_events": [
+      {
+        "event": "tunnel_closed",
+        "utc": 1791389572.9225225,
+        "relative_to_edge_start": 8.026838064193726
+      },
+      {
+        "event": "tunnel_restored",
+        "utc": 1791389578.4558418,
+        "relative_to_edge_start": 12.023529529571533
+      }
+    ],
+    "returncode": 0
+  },
+  {
+    "run": "wan-tunnel_break-fifo-q2-s0",
+    "seed": 0,
+    "qos": 2,
+    "policy": "fifo",
+    "scenario": "tunnel_break",
+    "clock_before": [
+      {
+        "local_send_utc": 1791389607.5999308,
+        "cloud_utc": 1791389609.74704,
+        "local_receive_utc": 1791389609.6796968,
+        "rtt_seconds": 2.079766035079956,
+        "cloud_minus_edge_lower": 0.06734323501586914,
+        "cloud_minus_edge_upper": 2.147109270095825
+      },
+      {
+        "local_send_utc": 1791389609.6796968,
+        "cloud_utc": 1791389611.7848833,
+        "local_receive_utc": 1791389611.708673,
+        "rtt_seconds": 2.0289762020111084,
+        "cloud_minus_edge_lower": 0.07621026039123535,
+        "cloud_minus_edge_upper": 2.1051864624023438
+      },
+      {
+        "local_send_utc": 1791389611.708673,
+        "cloud_utc": 1791389613.7440598,
+        "local_receive_utc": 1791389613.6656349,
+        "rtt_seconds": 1.9569618701934814,
+        "cloud_minus_edge_lower": 0.07842493057250977,
+        "cloud_minus_edge_upper": 2.035386800765991
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791389642.547027,
+        "cloud_utc": 1791389644.687982,
+        "local_receive_utc": 1791389644.6197393,
+        "rtt_seconds": 2.0727121829986572,
+        "cloud_minus_edge_lower": 0.06824278831481934,
+        "cloud_minus_edge_upper": 2.1409549713134766
+      },
+      {
+        "local_send_utc": 1791389644.6197393,
+        "cloud_utc": 1791389646.8046768,
+        "local_receive_utc": 1791389646.739104,
+        "rtt_seconds": 2.1193647384643555,
+        "cloud_minus_edge_lower": 0.06557273864746094,
+        "cloud_minus_edge_upper": 2.1849374771118164
+      },
+      {
+        "local_send_utc": 1791389646.739104,
+        "cloud_utc": 1791389648.8184283,
+        "local_receive_utc": 1791389648.7417147,
+        "rtt_seconds": 2.002610683441162,
+        "cloud_minus_edge_lower": 0.07671356201171875,
+        "cloud_minus_edge_upper": 2.079324245452881
+      }
+    ],
+    "tunnel_events": [
+      {
+        "event": "tunnel_closed",
+        "utc": 1791389628.2361636,
+        "relative_to_edge_start": 8.026562690734863
+      },
+      {
+        "event": "tunnel_restored",
+        "utc": 1791389633.7680578,
+        "relative_to_edge_start": 12.024791955947876
+      }
+    ],
+    "returncode": 0
+  },
+  {
+    "run": "wan-tunnel_break-fifo-q0-s1",
+    "seed": 1,
+    "qos": 0,
+    "policy": "fifo",
+    "scenario": "tunnel_break",
+    "clock_before": [
+      {
+        "local_send_utc": 1791389662.162064,
+        "cloud_utc": 1791389664.5404894,
+        "local_receive_utc": 1791389664.472811,
+        "rtt_seconds": 2.310746908187866,
+        "cloud_minus_edge_lower": 0.06767845153808594,
+        "cloud_minus_edge_upper": 2.378425359725952
+      },
+      {
+        "local_send_utc": 1791389664.472811,
+        "cloud_utc": 1791389666.4840932,
+        "local_receive_utc": 1791389666.4043174,
+        "rtt_seconds": 1.9315063953399658,
+        "cloud_minus_edge_lower": 0.07977581024169922,
+        "cloud_minus_edge_upper": 2.011282205581665
+      },
+      {
+        "local_send_utc": 1791389666.4043174,
+        "cloud_utc": 1791389668.4411268,
+        "local_receive_utc": 1791389668.3622134,
+        "rtt_seconds": 1.9578959941864014,
+        "cloud_minus_edge_lower": 0.07891345024108887,
+        "cloud_minus_edge_upper": 2.0368094444274902
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791389696.8348558,
+        "cloud_utc": 1791389698.995039,
+        "local_receive_utc": 1791389698.9286394,
+        "rtt_seconds": 2.0937836170196533,
+        "cloud_minus_edge_lower": 0.06639957427978516,
+        "cloud_minus_edge_upper": 2.1601831912994385
+      },
+      {
+        "local_send_utc": 1791389698.9286394,
+        "cloud_utc": 1791389700.9862478,
+        "local_receive_utc": 1791389700.9053984,
+        "rtt_seconds": 1.9767589569091797,
+        "cloud_minus_edge_lower": 0.08084940910339355,
+        "cloud_minus_edge_upper": 2.0576083660125732
+      },
+      {
+        "local_send_utc": 1791389700.9053984,
+        "cloud_utc": 1791389702.9675906,
+        "local_receive_utc": 1791389702.8912454,
+        "rtt_seconds": 1.985846996307373,
+        "cloud_minus_edge_lower": 0.07634520530700684,
+        "cloud_minus_edge_upper": 2.06219220161438
+      }
+    ],
+    "tunnel_events": [
+      {
+        "event": "tunnel_closed",
+        "utc": 1791389682.7978501,
+        "relative_to_edge_start": 8.019978046417236
+      },
+      {
+        "event": "tunnel_restored",
+        "utc": 1791389688.3326182,
+        "relative_to_edge_start": 12.020809173583984
+      }
+    ],
+    "returncode": 0
+  },
+  {
+    "run": "wan-healthy-fifo-q2-s2",
+    "seed": 2,
+    "qos": 2,
+    "policy": "fifo",
+    "scenario": "healthy",
+    "clock_before": [
+      {
+        "local_send_utc": 1791389716.904799,
+        "cloud_utc": 1791389719.07844,
+        "local_receive_utc": 1791389719.011839,
+        "rtt_seconds": 2.1070399284362793,
+        "cloud_minus_edge_lower": 0.06660103797912598,
+        "cloud_minus_edge_upper": 2.1736409664154053
+      },
+      {
+        "local_send_utc": 1791389719.011839,
+        "cloud_utc": 1791389721.0549154,
+        "local_receive_utc": 1791389720.9765646,
+        "rtt_seconds": 1.9647257328033447,
+        "cloud_minus_edge_lower": 0.07835078239440918,
+        "cloud_minus_edge_upper": 2.043076515197754
+      },
+      {
+        "local_send_utc": 1791389720.9765646,
+        "cloud_utc": 1791389723.0398452,
+        "local_receive_utc": 1791389722.9614513,
+        "rtt_seconds": 1.984886646270752,
+        "cloud_minus_edge_lower": 0.07839393615722656,
+        "cloud_minus_edge_upper": 2.0632805824279785
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791389751.9533603,
+        "cloud_utc": 1791389754.029768,
+        "local_receive_utc": 1791389753.9500384,
+        "rtt_seconds": 1.996678113937378,
+        "cloud_minus_edge_lower": 0.07972955703735352,
+        "cloud_minus_edge_upper": 2.0764076709747314
+      },
+      {
+        "local_send_utc": 1791389753.9500384,
+        "cloud_utc": 1791389756.0121233,
+        "local_receive_utc": 1791389755.9312983,
+        "rtt_seconds": 1.981259822845459,
+        "cloud_minus_edge_lower": 0.0808250904083252,
+        "cloud_minus_edge_upper": 2.062084913253784
+      },
+      {
+        "local_send_utc": 1791389755.9312983,
+        "cloud_utc": 1791389757.993533,
+        "local_receive_utc": 1791389757.917061,
+        "rtt_seconds": 1.9857628345489502,
+        "cloud_minus_edge_lower": 0.07647180557250977,
+        "cloud_minus_edge_upper": 2.06223464012146
+      }
+    ],
+    "tunnel_events": [],
+    "returncode": 0
+  },
+  {
+    "run": "wan-tunnel_break-latest-q2-s0",
+    "seed": 0,
+    "qos": 2,
+    "policy": "latest",
+    "scenario": "tunnel_break",
+    "clock_before": [
+      {
+        "local_send_utc": 1791389771.474141,
+        "cloud_utc": 1791389773.550955,
+        "local_receive_utc": 1791389773.4716034,
+        "rtt_seconds": 1.997462511062622,
+        "cloud_minus_edge_lower": 0.07935166358947754,
+        "cloud_minus_edge_upper": 2.0768141746520996
+      },
+      {
+        "local_send_utc": 1791389773.4716034,
+        "cloud_utc": 1791389775.6002865,
+        "local_receive_utc": 1791389775.5314708,
+        "rtt_seconds": 2.0598673820495605,
+        "cloud_minus_edge_lower": 0.06881570816040039,
+        "cloud_minus_edge_upper": 2.128683090209961
+      },
+      {
+        "local_send_utc": 1791389775.5314708,
+        "cloud_utc": 1791389777.5956213,
+        "local_receive_utc": 1791389777.5190623,
+        "rtt_seconds": 1.9875915050506592,
+        "cloud_minus_edge_lower": 0.07655906677246094,
+        "cloud_minus_edge_upper": 2.06415057182312
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791389806.2201362,
+        "cloud_utc": 1791389808.2976754,
+        "local_receive_utc": 1791389808.2183022,
+        "rtt_seconds": 1.9981660842895508,
+        "cloud_minus_edge_lower": 0.07937312126159668,
+        "cloud_minus_edge_upper": 2.0775392055511475
+      },
+      {
+        "local_send_utc": 1791389808.2183022,
+        "cloud_utc": 1791389810.4620912,
+        "local_receive_utc": 1791389810.392839,
+        "rtt_seconds": 2.17453670501709,
+        "cloud_minus_edge_lower": 0.06925225257873535,
+        "cloud_minus_edge_upper": 2.243788957595825
+      },
+      {
+        "local_send_utc": 1791389810.392839,
+        "cloud_utc": 1791389812.631566,
+        "local_receive_utc": 1791389812.5610933,
+        "rtt_seconds": 2.1682543754577637,
+        "cloud_minus_edge_lower": 0.07047271728515625,
+        "cloud_minus_edge_upper": 2.23872709274292
+      }
+    ],
+    "tunnel_events": [
+      {
+        "event": "tunnel_closed",
+        "utc": 1791389791.9596798,
+        "relative_to_edge_start": 8.012678623199463
+      },
+      {
+        "event": "tunnel_restored",
+        "utc": 1791389797.4908113,
+        "relative_to_edge_start": 12.012944221496582
+      }
+    ],
+    "returncode": 0
+  },
+  {
+    "run": "wan-tunnel_break-fifo-q2-s1",
+    "seed": 1,
+    "qos": 2,
+    "policy": "fifo",
+    "scenario": "tunnel_break",
+    "clock_before": [
+      {
+        "local_send_utc": 1791389826.3270628,
+        "cloud_utc": 1791389828.3591127,
+        "local_receive_utc": 1791389828.2795322,
+        "rtt_seconds": 1.9524693489074707,
+        "cloud_minus_edge_lower": 0.07958054542541504,
+        "cloud_minus_edge_upper": 2.0320498943328857
+      },
+      {
+        "local_send_utc": 1791389828.2795322,
+        "cloud_utc": 1791389830.3793287,
+        "local_receive_utc": 1791389830.302467,
+        "rtt_seconds": 2.022934913635254,
+        "cloud_minus_edge_lower": 0.07686161994934082,
+        "cloud_minus_edge_upper": 2.0997965335845947
+      },
+      {
+        "local_send_utc": 1791389830.302467,
+        "cloud_utc": 1791389832.4431818,
+        "local_receive_utc": 1791389832.3740444,
+        "rtt_seconds": 2.071577310562134,
+        "cloud_minus_edge_lower": 0.0691373348236084,
+        "cloud_minus_edge_upper": 2.140714645385742
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791389861.31095,
+        "cloud_utc": 1791389863.6011906,
+        "local_receive_utc": 1791389863.5200655,
+        "rtt_seconds": 2.209115505218506,
+        "cloud_minus_edge_lower": 0.08112502098083496,
+        "cloud_minus_edge_upper": 2.290240526199341
+      },
+      {
+        "local_send_utc": 1791389863.5200655,
+        "cloud_utc": 1791389865.687696,
+        "local_receive_utc": 1791389865.617968,
+        "rtt_seconds": 2.097902536392212,
+        "cloud_minus_edge_lower": 0.06972789764404297,
+        "cloud_minus_edge_upper": 2.167630434036255
+      },
+      {
+        "local_send_utc": 1791389865.617968,
+        "cloud_utc": 1791389867.693348,
+        "local_receive_utc": 1791389867.6155684,
+        "rtt_seconds": 1.9976003170013428,
+        "cloud_minus_edge_lower": 0.07777953147888184,
+        "cloud_minus_edge_upper": 2.0753798484802246
+      }
+    ],
+    "tunnel_events": [
+      {
+        "event": "tunnel_closed",
+        "utc": 1791389846.906438,
+        "relative_to_edge_start": 8.017171144485474
+      },
+      {
+        "event": "tunnel_restored",
+        "utc": 1791389852.4396324,
+        "relative_to_edge_start": 12.017139196395874
+      }
+    ],
+    "returncode": 0
+  },
+  {
+    "run": "wan-tunnel_break-fifo-q0-s0",
+    "seed": 0,
+    "qos": 0,
+    "policy": "fifo",
+    "scenario": "tunnel_break",
+    "clock_before": [
+      {
+        "local_send_utc": 1791389881.0807786,
+        "cloud_utc": 1791389883.2658367,
+        "local_receive_utc": 1791389883.195167,
+        "rtt_seconds": 2.1143884658813477,
+        "cloud_minus_edge_lower": 0.07066965103149414,
+        "cloud_minus_edge_upper": 2.185058116912842
+      },
+      {
+        "local_send_utc": 1791389883.195167,
+        "cloud_utc": 1791389885.3421805,
+        "local_receive_utc": 1791389885.2720053,
+        "rtt_seconds": 2.076838254928589,
+        "cloud_minus_edge_lower": 0.0701751708984375,
+        "cloud_minus_edge_upper": 2.1470134258270264
+      },
+      {
+        "local_send_utc": 1791389885.2720053,
+        "cloud_utc": 1791389887.3363445,
+        "local_receive_utc": 1791389887.2566917,
+        "rtt_seconds": 1.9846863746643066,
+        "cloud_minus_edge_lower": 0.07965278625488281,
+        "cloud_minus_edge_upper": 2.0643391609191895
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791389915.6965258,
+        "cloud_utc": 1791389917.749282,
+        "local_receive_utc": 1791389917.6695364,
+        "rtt_seconds": 1.973010540008545,
+        "cloud_minus_edge_lower": 0.07974553108215332,
+        "cloud_minus_edge_upper": 2.0527560710906982
+      },
+      {
+        "local_send_utc": 1791389917.6695364,
+        "cloud_utc": 1791389919.6815767,
+        "local_receive_utc": 1791389919.6002996,
+        "rtt_seconds": 1.9307632446289062,
+        "cloud_minus_edge_lower": 0.08127713203430176,
+        "cloud_minus_edge_upper": 2.012040376663208
+      },
+      {
+        "local_send_utc": 1791389919.6002996,
+        "cloud_utc": 1791389921.6704023,
+        "local_receive_utc": 1791389921.590882,
+        "rtt_seconds": 1.9905824661254883,
+        "cloud_minus_edge_lower": 0.07952022552490234,
+        "cloud_minus_edge_upper": 2.0701026916503906
+      }
+    ],
+    "tunnel_events": [
+      {
+        "event": "tunnel_closed",
+        "utc": 1791389901.667277,
+        "relative_to_edge_start": 8.0170578956604
+      },
+      {
+        "event": "tunnel_restored",
+        "utc": 1791389907.2021115,
+        "relative_to_edge_start": 12.023595094680786
+      }
+    ],
+    "returncode": 0
+  },
+  {
+    "run": "wan-healthy-fifo-q1-s2",
+    "seed": 2,
+    "qos": 1,
+    "policy": "fifo",
+    "scenario": "healthy",
+    "clock_before": [
+      {
+        "local_send_utc": 1791389936.230143,
+        "cloud_utc": 1791389938.3943856,
+        "local_receive_utc": 1791389938.3249958,
+        "rtt_seconds": 2.0948526859283447,
+        "cloud_minus_edge_lower": 0.06938982009887695,
+        "cloud_minus_edge_upper": 2.1642425060272217
+      },
+      {
+        "local_send_utc": 1791389938.3249958,
+        "cloud_utc": 1791389940.3812027,
+        "local_receive_utc": 1791389940.3012946,
+        "rtt_seconds": 1.9762988090515137,
+        "cloud_minus_edge_lower": 0.07990813255310059,
+        "cloud_minus_edge_upper": 2.0562069416046143
+      },
+      {
+        "local_send_utc": 1791389940.3012946,
+        "cloud_utc": 1791389942.4485168,
+        "local_receive_utc": 1791389942.378012,
+        "rtt_seconds": 2.0767173767089844,
+        "cloud_minus_edge_lower": 0.07050490379333496,
+        "cloud_minus_edge_upper": 2.1472222805023193
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791389971.1991482,
+        "cloud_utc": 1791389973.242452,
+        "local_receive_utc": 1791389973.162969,
+        "rtt_seconds": 1.9638209342956543,
+        "cloud_minus_edge_lower": 0.0794827938079834,
+        "cloud_minus_edge_upper": 2.0433037281036377
+      },
+      {
+        "local_send_utc": 1791389973.162969,
+        "cloud_utc": 1791389975.2412062,
+        "local_receive_utc": 1791389975.1640801,
+        "rtt_seconds": 2.0011110305786133,
+        "cloud_minus_edge_lower": 0.07712602615356445,
+        "cloud_minus_edge_upper": 2.0782370567321777
+      },
+      {
+        "local_send_utc": 1791389975.1640801,
+        "cloud_utc": 1791389977.2519057,
+        "local_receive_utc": 1791389977.1738074,
+        "rtt_seconds": 2.0097272396087646,
+        "cloud_minus_edge_lower": 0.07809829711914062,
+        "cloud_minus_edge_upper": 2.0878255367279053
+      }
+    ],
+    "tunnel_events": [],
+    "returncode": 0
+  },
+  {
+    "run": "wan-tunnel_break-fifo-q1-s0",
+    "seed": 0,
+    "qos": 1,
+    "policy": "fifo",
+    "scenario": "tunnel_break",
+    "clock_before": [
+      {
+        "local_send_utc": 1791389990.8804104,
+        "cloud_utc": 1791389992.9943423,
+        "local_receive_utc": 1791389992.9167688,
+        "rtt_seconds": 2.03635835647583,
+        "cloud_minus_edge_lower": 0.07757353782653809,
+        "cloud_minus_edge_upper": 2.113931894302368
+      },
+      {
+        "local_send_utc": 1791389992.9167688,
+        "cloud_utc": 1791389994.9670715,
+        "local_receive_utc": 1791389994.8866558,
+        "rtt_seconds": 1.9698870182037354,
+        "cloud_minus_edge_lower": 0.08041572570800781,
+        "cloud_minus_edge_upper": 2.050302743911743
+      },
+      {
+        "local_send_utc": 1791389994.8866558,
+        "cloud_utc": 1791389996.9182644,
+        "local_receive_utc": 1791389996.8371387,
+        "rtt_seconds": 1.9504828453063965,
+        "cloud_minus_edge_lower": 0.08112573623657227,
+        "cloud_minus_edge_upper": 2.0316085815429688
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791390025.2867045,
+        "cloud_utc": 1791390027.3317535,
+        "local_receive_utc": 1791390027.251484,
+        "rtt_seconds": 1.9647793769836426,
+        "cloud_minus_edge_lower": 0.08026957511901855,
+        "cloud_minus_edge_upper": 2.045048952102661
+      },
+      {
+        "local_send_utc": 1791390027.251484,
+        "cloud_utc": 1791390029.3908038,
+        "local_receive_utc": 1791390029.320016,
+        "rtt_seconds": 2.0685319900512695,
+        "cloud_minus_edge_lower": 0.07078790664672852,
+        "cloud_minus_edge_upper": 2.139319896697998
+      },
+      {
+        "local_send_utc": 1791390029.320016,
+        "cloud_utc": 1791390031.4921243,
+        "local_receive_utc": 1791390031.4203362,
+        "rtt_seconds": 2.100320339202881,
+        "cloud_minus_edge_lower": 0.07178807258605957,
+        "cloud_minus_edge_upper": 2.1721084117889404
+      }
+    ],
+    "tunnel_events": [
+      {
+        "event": "tunnel_closed",
+        "utc": 1791390011.24648,
+        "relative_to_edge_start": 8.025076150894165
+      },
+      {
+        "event": "tunnel_restored",
+        "utc": 1791390016.7811902,
+        "relative_to_edge_start": 12.024951934814453
+      }
+    ],
+    "returncode": 0
+  },
+  {
+    "run": "wan-tunnel_break-fifo-q0-s2",
+    "seed": 2,
+    "qos": 0,
+    "policy": "fifo",
+    "scenario": "tunnel_break",
+    "clock_before": [
+      {
+        "local_send_utc": 1791390045.3110113,
+        "cloud_utc": 1791390047.620333,
+        "local_receive_utc": 1791390047.539453,
+        "rtt_seconds": 2.2284417152404785,
+        "cloud_minus_edge_lower": 0.08087992668151855,
+        "cloud_minus_edge_upper": 2.309321641921997
+      },
+      {
+        "local_send_utc": 1791390047.539453,
+        "cloud_utc": 1791390049.6863778,
+        "local_receive_utc": 1791390049.6162999,
+        "rtt_seconds": 2.0768468379974365,
+        "cloud_minus_edge_lower": 0.07007789611816406,
+        "cloud_minus_edge_upper": 2.1469247341156006
+      },
+      {
+        "local_send_utc": 1791390049.6162999,
+        "cloud_utc": 1791390051.6760864,
+        "local_receive_utc": 1791390051.5977445,
+        "rtt_seconds": 1.9814445972442627,
+        "cloud_minus_edge_lower": 0.07834196090698242,
+        "cloud_minus_edge_upper": 2.059786558151245
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791390080.1672332,
+        "cloud_utc": 1791390082.19656,
+        "local_receive_utc": 1791390082.114553,
+        "rtt_seconds": 1.947319746017456,
+        "cloud_minus_edge_lower": 0.08200693130493164,
+        "cloud_minus_edge_upper": 2.0293266773223877
+      },
+      {
+        "local_send_utc": 1791390082.114553,
+        "cloud_utc": 1791390084.19884,
+        "local_receive_utc": 1791390084.1208708,
+        "rtt_seconds": 2.0063178539276123,
+        "cloud_minus_edge_lower": 0.07796907424926758,
+        "cloud_minus_edge_upper": 2.08428692817688
+      },
+      {
+        "local_send_utc": 1791390084.1208708,
+        "cloud_utc": 1791390086.2635522,
+        "local_receive_utc": 1791390086.1920903,
+        "rtt_seconds": 2.0712194442749023,
+        "cloud_minus_edge_lower": 0.07146191596984863,
+        "cloud_minus_edge_upper": 2.142681360244751
+      }
+    ],
+    "tunnel_events": [
+      {
+        "event": "tunnel_closed",
+        "utc": 1791390066.144354,
+        "relative_to_edge_start": 8.02101993560791
+      },
+      {
+        "event": "tunnel_restored",
+        "utc": 1791390071.6776607,
+        "relative_to_edge_start": 12.020060777664185
+      }
+    ],
+    "returncode": 0
+  },
+  {
+    "run": "wan-healthy-latest-q2-s2",
+    "seed": 2,
+    "qos": 2,
+    "policy": "latest",
+    "scenario": "healthy",
+    "clock_before": [
+      {
+        "local_send_utc": 1791390099.8954957,
+        "cloud_utc": 1791390101.9466574,
+        "local_receive_utc": 1791390101.8658001,
+        "rtt_seconds": 1.9703044891357422,
+        "cloud_minus_edge_lower": 0.0808572769165039,
+        "cloud_minus_edge_upper": 2.051161766052246
+      },
+      {
+        "local_send_utc": 1791390101.8658001,
+        "cloud_utc": 1791390103.9196844,
+        "local_receive_utc": 1791390103.8388233,
+        "rtt_seconds": 1.9730231761932373,
+        "cloud_minus_edge_lower": 0.08086109161376953,
+        "cloud_minus_edge_upper": 2.053884267807007
+      },
+      {
+        "local_send_utc": 1791390103.8388233,
+        "cloud_utc": 1791390105.9896889,
+        "local_receive_utc": 1791390105.9213517,
+        "rtt_seconds": 2.0825283527374268,
+        "cloud_minus_edge_lower": 0.06833720207214355,
+        "cloud_minus_edge_upper": 2.1508655548095703
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791390134.916774,
+        "cloud_utc": 1791390136.9428556,
+        "local_receive_utc": 1791390136.8602853,
+        "rtt_seconds": 1.9435112476348877,
+        "cloud_minus_edge_lower": 0.08257031440734863,
+        "cloud_minus_edge_upper": 2.0260815620422363
+      },
+      {
+        "local_send_utc": 1791390136.8602853,
+        "cloud_utc": 1791390138.9326236,
+        "local_receive_utc": 1791390138.8507862,
+        "rtt_seconds": 1.9905009269714355,
+        "cloud_minus_edge_lower": 0.08183741569519043,
+        "cloud_minus_edge_upper": 2.072338342666626
+      },
+      {
+        "local_send_utc": 1791390138.8507862,
+        "cloud_utc": 1791390140.9150753,
+        "local_receive_utc": 1791390140.8348258,
+        "rtt_seconds": 1.984039545059204,
+        "cloud_minus_edge_lower": 0.08024954795837402,
+        "cloud_minus_edge_upper": 2.064289093017578
+      }
+    ],
+    "tunnel_events": [],
+    "returncode": 0
+  },
+  {
+    "run": "wan-tunnel_break-latest-q1-s2",
+    "seed": 2,
+    "qos": 1,
+    "policy": "latest",
+    "scenario": "tunnel_break",
+    "clock_before": [
+      {
+        "local_send_utc": 1791390154.5485492,
+        "cloud_utc": 1791390156.6222231,
+        "local_receive_utc": 1791390156.543123,
+        "rtt_seconds": 1.9945738315582275,
+        "cloud_minus_edge_lower": 0.07910013198852539,
+        "cloud_minus_edge_upper": 2.073673963546753
+      },
+      {
+        "local_send_utc": 1791390156.543123,
+        "cloud_utc": 1791390158.680166,
+        "local_receive_utc": 1791390158.6092856,
+        "rtt_seconds": 2.066162586212158,
+        "cloud_minus_edge_lower": 0.07088041305541992,
+        "cloud_minus_edge_upper": 2.137042999267578
+      },
+      {
+        "local_send_utc": 1791390158.6092856,
+        "cloud_utc": 1791390160.7933764,
+        "local_receive_utc": 1791390160.7225482,
+        "rtt_seconds": 2.11326265335083,
+        "cloud_minus_edge_lower": 0.07082819938659668,
+        "cloud_minus_edge_upper": 2.1840908527374268
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791390189.7305756,
+        "cloud_utc": 1791390191.772966,
+        "local_receive_utc": 1791390191.69154,
+        "rtt_seconds": 1.9609644412994385,
+        "cloud_minus_edge_lower": 0.08142590522766113,
+        "cloud_minus_edge_upper": 2.0423903465270996
+      },
+      {
+        "local_send_utc": 1791390191.69154,
+        "cloud_utc": 1791390193.8630314,
+        "local_receive_utc": 1791390193.7912862,
+        "rtt_seconds": 2.0997462272644043,
+        "cloud_minus_edge_lower": 0.07174515724182129,
+        "cloud_minus_edge_upper": 2.1714913845062256
+      },
+      {
+        "local_send_utc": 1791390193.7912862,
+        "cloud_utc": 1791390195.9704394,
+        "local_receive_utc": 1791390195.8988404,
+        "rtt_seconds": 2.1075541973114014,
+        "cloud_minus_edge_lower": 0.07159900665283203,
+        "cloud_minus_edge_upper": 2.1791532039642334
+      }
+    ],
+    "tunnel_events": [
+      {
+        "event": "tunnel_closed",
+        "utc": 1791390175.6935925,
+        "relative_to_edge_start": 8.012999296188354
+      },
+      {
+        "event": "tunnel_restored",
+        "utc": 1791390181.2362452,
+        "relative_to_edge_start": 12.02074933052063
+      }
+    ],
+    "returncode": 0
+  },
+  {
+    "run": "wan-healthy-fifo-q0-s0",
+    "seed": 0,
+    "qos": 0,
+    "policy": "fifo",
+    "scenario": "healthy",
+    "clock_before": [
+      {
+        "local_send_utc": 1791390209.491034,
+        "cloud_utc": 1791390211.5385768,
+        "local_receive_utc": 1791390211.4556913,
+        "rtt_seconds": 1.9646573066711426,
+        "cloud_minus_edge_lower": 0.0828855037689209,
+        "cloud_minus_edge_upper": 2.0475428104400635
+      },
+      {
+        "local_send_utc": 1791390211.4556913,
+        "cloud_utc": 1791390213.523982,
+        "local_receive_utc": 1791390213.4445965,
+        "rtt_seconds": 1.9889051914215088,
+        "cloud_minus_edge_lower": 0.07938551902770996,
+        "cloud_minus_edge_upper": 2.0682907104492188
+      },
+      {
+        "local_send_utc": 1791390213.4445965,
+        "cloud_utc": 1791390215.4765344,
+        "local_receive_utc": 1791390215.3948674,
+        "rtt_seconds": 1.9502708911895752,
+        "cloud_minus_edge_lower": 0.08166694641113281,
+        "cloud_minus_edge_upper": 2.031937837600708
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791390243.878637,
+        "cloud_utc": 1791390246.1824095,
+        "local_receive_utc": 1791390246.100542,
+        "rtt_seconds": 2.221904993057251,
+        "cloud_minus_edge_lower": 0.08186745643615723,
+        "cloud_minus_edge_upper": 2.303772449493408
+      },
+      {
+        "local_send_utc": 1791390246.100542,
+        "cloud_utc": 1791390248.1854396,
+        "local_receive_utc": 1791390248.1036088,
+        "rtt_seconds": 2.0030667781829834,
+        "cloud_minus_edge_lower": 0.08183073997497559,
+        "cloud_minus_edge_upper": 2.084897518157959
+      },
+      {
+        "local_send_utc": 1791390248.1036088,
+        "cloud_utc": 1791390250.1291656,
+        "local_receive_utc": 1791390250.0465796,
+        "rtt_seconds": 1.9429707527160645,
+        "cloud_minus_edge_lower": 0.08258605003356934,
+        "cloud_minus_edge_upper": 2.025556802749634
+      }
+    ],
+    "tunnel_events": [],
+    "returncode": 0
+  },
+  {
+    "run": "wan-tunnel_break-latest-q0-s1",
+    "seed": 1,
+    "qos": 0,
+    "policy": "latest",
+    "scenario": "tunnel_break",
+    "clock_before": [
+      {
+        "local_send_utc": 1791390263.7469063,
+        "cloud_utc": 1791390265.8335717,
+        "local_receive_utc": 1791390265.7545002,
+        "rtt_seconds": 2.007593870162964,
+        "cloud_minus_edge_lower": 0.0790715217590332,
+        "cloud_minus_edge_upper": 2.086665391921997
+      },
+      {
+        "local_send_utc": 1791390265.7545002,
+        "cloud_utc": 1791390267.9353168,
+        "local_receive_utc": 1791390267.8659935,
+        "rtt_seconds": 2.1114933490753174,
+        "cloud_minus_edge_lower": 0.06932330131530762,
+        "cloud_minus_edge_upper": 2.180816650390625
+      },
+      {
+        "local_send_utc": 1791390267.8659935,
+        "cloud_utc": 1791390269.955905,
+        "local_receive_utc": 1791390269.8763263,
+        "rtt_seconds": 2.0103328227996826,
+        "cloud_minus_edge_lower": 0.07957863807678223,
+        "cloud_minus_edge_upper": 2.089911460876465
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791390298.2482991,
+        "cloud_utc": 1791390300.2942955,
+        "local_receive_utc": 1791390300.2121377,
+        "rtt_seconds": 1.9638385772705078,
+        "cloud_minus_edge_lower": 0.08215785026550293,
+        "cloud_minus_edge_upper": 2.0459964275360107
+      },
+      {
+        "local_send_utc": 1791390300.2121377,
+        "cloud_utc": 1791390302.2961593,
+        "local_receive_utc": 1791390302.213747,
+        "rtt_seconds": 2.0016093254089355,
+        "cloud_minus_edge_lower": 0.0824122428894043,
+        "cloud_minus_edge_upper": 2.08402156829834
+      },
+      {
+        "local_send_utc": 1791390302.213747,
+        "cloud_utc": 1791390304.4217646,
+        "local_receive_utc": 1791390304.3528268,
+        "rtt_seconds": 2.1390798091888428,
+        "cloud_minus_edge_lower": 0.06893777847290039,
+        "cloud_minus_edge_upper": 2.208017587661743
+      }
+    ],
+    "tunnel_events": [
+      {
+        "event": "tunnel_closed",
+        "utc": 1791390284.2373614,
+        "relative_to_edge_start": 8.0270836353302
+      },
+      {
+        "event": "tunnel_restored",
+        "utc": 1791390289.7597632,
+        "relative_to_edge_start": 12.010456085205078
+      }
+    ],
+    "returncode": 0
+  },
+  {
+    "run": "wan-tunnel_break-latest-q2-s1",
+    "seed": 1,
+    "qos": 2,
+    "policy": "latest",
+    "scenario": "tunnel_break",
+    "clock_before": [
+      {
+        "local_send_utc": 1791390318.4393103,
+        "cloud_utc": 1791390320.48407,
+        "local_receive_utc": 1791390320.400701,
+        "rtt_seconds": 1.961390733718872,
+        "cloud_minus_edge_lower": 0.08336901664733887,
+        "cloud_minus_edge_upper": 2.044759750366211
+      },
+      {
+        "local_send_utc": 1791390320.400701,
+        "cloud_utc": 1791390322.5923507,
+        "local_receive_utc": 1791390322.5218868,
+        "rtt_seconds": 2.121185779571533,
+        "cloud_minus_edge_lower": 0.07046389579772949,
+        "cloud_minus_edge_upper": 2.1916496753692627
+      },
+      {
+        "local_send_utc": 1791390322.5218868,
+        "cloud_utc": 1791390324.572365,
+        "local_receive_utc": 1791390324.4906967,
+        "rtt_seconds": 1.9688098430633545,
+        "cloud_minus_edge_lower": 0.08166837692260742,
+        "cloud_minus_edge_upper": 2.050478219985962
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791390352.897126,
+        "cloud_utc": 1791390354.9560227,
+        "local_receive_utc": 1791390354.873187,
+        "rtt_seconds": 1.9760611057281494,
+        "cloud_minus_edge_lower": 0.08283567428588867,
+        "cloud_minus_edge_upper": 2.058896780014038
+      },
+      {
+        "local_send_utc": 1791390354.873187,
+        "cloud_utc": 1791390357.005144,
+        "local_receive_utc": 1791390356.9315937,
+        "rtt_seconds": 2.0584065914154053,
+        "cloud_minus_edge_lower": 0.07355022430419922,
+        "cloud_minus_edge_upper": 2.1319568157196045
+      },
+      {
+        "local_send_utc": 1791390356.9315937,
+        "cloud_utc": 1791390358.994203,
+        "local_receive_utc": 1791390358.911267,
+        "rtt_seconds": 1.9796733856201172,
+        "cloud_minus_edge_lower": 0.08293604850769043,
+        "cloud_minus_edge_upper": 2.0626094341278076
+      }
+    ],
+    "tunnel_events": [
+      {
+        "event": "tunnel_closed",
+        "utc": 1791390338.8174276,
+        "relative_to_edge_start": 8.023916006088257
+      },
+      {
+        "event": "tunnel_restored",
+        "utc": 1791390344.3508914,
+        "relative_to_edge_start": 12.02060866355896
+      }
+    ],
+    "returncode": 0
+  },
+  {
+    "run": "wan-tunnel_break-latest-q0-s0",
+    "seed": 0,
+    "qos": 0,
+    "policy": "latest",
+    "scenario": "tunnel_break",
+    "clock_before": [
+      {
+        "local_send_utc": 1791390372.8388875,
+        "cloud_utc": 1791390374.8878617,
+        "local_receive_utc": 1791390374.8052475,
+        "rtt_seconds": 1.966360092163086,
+        "cloud_minus_edge_lower": 0.08261418342590332,
+        "cloud_minus_edge_upper": 2.0489742755889893
+      },
+      {
+        "local_send_utc": 1791390374.8052475,
+        "cloud_utc": 1791390376.8539987,
+        "local_receive_utc": 1791390376.7719288,
+        "rtt_seconds": 1.9666812419891357,
+        "cloud_minus_edge_lower": 0.08206987380981445,
+        "cloud_minus_edge_upper": 2.04875111579895
+      },
+      {
+        "local_send_utc": 1791390376.7719288,
+        "cloud_utc": 1791390378.8585997,
+        "local_receive_utc": 1791390378.7770188,
+        "rtt_seconds": 2.0050899982452393,
+        "cloud_minus_edge_lower": 0.08158087730407715,
+        "cloud_minus_edge_upper": 2.0866708755493164
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791390407.1439915,
+        "cloud_utc": 1791390409.1859314,
+        "local_receive_utc": 1791390409.1034133,
+        "rtt_seconds": 1.9594218730926514,
+        "cloud_minus_edge_lower": 0.08251810073852539,
+        "cloud_minus_edge_upper": 2.0419399738311768
+      },
+      {
+        "local_send_utc": 1791390409.1034133,
+        "cloud_utc": 1791390411.2609255,
+        "local_receive_utc": 1791390411.1880825,
+        "rtt_seconds": 2.0846691131591797,
+        "cloud_minus_edge_lower": 0.07284307479858398,
+        "cloud_minus_edge_upper": 2.1575121879577637
+      },
+      {
+        "local_send_utc": 1791390411.1880825,
+        "cloud_utc": 1791390413.3711095,
+        "local_receive_utc": 1791390413.2990875,
+        "rtt_seconds": 2.1110050678253174,
+        "cloud_minus_edge_lower": 0.0720219612121582,
+        "cloud_minus_edge_upper": 2.1830270290374756
+      }
+    ],
+    "tunnel_events": [
+      {
+        "event": "tunnel_closed",
+        "utc": 1791390393.1084504,
+        "relative_to_edge_start": 8.020552396774292
+      },
+      {
+        "event": "tunnel_restored",
+        "utc": 1791390398.6426082,
+        "relative_to_edge_start": 12.018311738967896
+      }
+    ],
+    "returncode": 0
+  },
+  {
+    "run": "wan-healthy-fifo-q0-s2",
+    "seed": 2,
+    "qos": 0,
+    "policy": "fifo",
+    "scenario": "healthy",
+    "clock_before": [
+      {
+        "local_send_utc": 1791390427.4096212,
+        "cloud_utc": 1791390429.6848083,
+        "local_receive_utc": 1791390429.6017368,
+        "rtt_seconds": 2.192115545272827,
+        "cloud_minus_edge_lower": 0.08307147026062012,
+        "cloud_minus_edge_upper": 2.2751870155334473
+      },
+      {
+        "local_send_utc": 1791390429.6017368,
+        "cloud_utc": 1791390431.6365745,
+        "local_receive_utc": 1791390431.552812,
+        "rtt_seconds": 1.9510753154754639,
+        "cloud_minus_edge_lower": 0.08376240730285645,
+        "cloud_minus_edge_upper": 2.0348377227783203
+      },
+      {
+        "local_send_utc": 1791390431.552812,
+        "cloud_utc": 1791390433.589163,
+        "local_receive_utc": 1791390433.5050733,
+        "rtt_seconds": 1.952261209487915,
+        "cloud_minus_edge_lower": 0.08408975601196289,
+        "cloud_minus_edge_upper": 2.036350965499878
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791390461.8578107,
+        "cloud_utc": 1791390463.9900103,
+        "local_receive_utc": 1791390463.9168348,
+        "rtt_seconds": 2.0590240955352783,
+        "cloud_minus_edge_lower": 0.07317543029785156,
+        "cloud_minus_edge_upper": 2.13219952583313
+      },
+      {
+        "local_send_utc": 1791390463.9168348,
+        "cloud_utc": 1791390466.0522928,
+        "local_receive_utc": 1791390465.9780717,
+        "rtt_seconds": 2.06123685836792,
+        "cloud_minus_edge_lower": 0.07422113418579102,
+        "cloud_minus_edge_upper": 2.135457992553711
+      },
+      {
+        "local_send_utc": 1791390465.9780717,
+        "cloud_utc": 1791390468.0276616,
+        "local_receive_utc": 1791390467.9437726,
+        "rtt_seconds": 1.9657008647918701,
+        "cloud_minus_edge_lower": 0.08388900756835938,
+        "cloud_minus_edge_upper": 2.0495898723602295
+      }
+    ],
+    "tunnel_events": [],
+    "returncode": 0
+  },
+  {
+    "run": "wan-tunnel_break-fifo-q1-s1",
+    "seed": 1,
+    "qos": 1,
+    "policy": "fifo",
+    "scenario": "tunnel_break",
+    "clock_before": [
+      {
+        "local_send_utc": 1791390482.1102703,
+        "cloud_utc": 1791390484.1772923,
+        "local_receive_utc": 1791390484.0972733,
+        "rtt_seconds": 1.9870030879974365,
+        "cloud_minus_edge_lower": 0.08001899719238281,
+        "cloud_minus_edge_upper": 2.0670220851898193
+      },
+      {
+        "local_send_utc": 1791390484.0972733,
+        "cloud_utc": 1791390486.2423792,
+        "local_receive_utc": 1791390486.1701589,
+        "rtt_seconds": 2.072885513305664,
+        "cloud_minus_edge_lower": 0.0722203254699707,
+        "cloud_minus_edge_upper": 2.1451058387756348
+      },
+      {
+        "local_send_utc": 1791390486.1701589,
+        "cloud_utc": 1791390488.2287493,
+        "local_receive_utc": 1791390488.147931,
+        "rtt_seconds": 1.9777722358703613,
+        "cloud_minus_edge_lower": 0.08081817626953125,
+        "cloud_minus_edge_upper": 2.0585904121398926
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791390516.89003,
+        "cloud_utc": 1791390518.9329126,
+        "local_receive_utc": 1791390518.8489387,
+        "rtt_seconds": 1.9589087963104248,
+        "cloud_minus_edge_lower": 0.08397388458251953,
+        "cloud_minus_edge_upper": 2.0428826808929443
+      },
+      {
+        "local_send_utc": 1791390518.8489387,
+        "cloud_utc": 1791390520.8841496,
+        "local_receive_utc": 1791390520.800104,
+        "rtt_seconds": 1.9511651992797852,
+        "cloud_minus_edge_lower": 0.0840456485748291,
+        "cloud_minus_edge_upper": 2.0352108478546143
+      },
+      {
+        "local_send_utc": 1791390520.800104,
+        "cloud_utc": 1791390523.008542,
+        "local_receive_utc": 1791390522.9377074,
+        "rtt_seconds": 2.137603521347046,
+        "cloud_minus_edge_lower": 0.07083463668823242,
+        "cloud_minus_edge_upper": 2.2084381580352783
+      }
+    ],
+    "tunnel_events": [
+      {
+        "event": "tunnel_closed",
+        "utc": 1791390502.8502836,
+        "relative_to_edge_start": 8.01919960975647
+      },
+      {
+        "event": "tunnel_restored",
+        "utc": 1791390508.3827994,
+        "relative_to_edge_start": 12.015704154968262
+      }
+    ],
+    "returncode": 0
+  },
+  {
+    "run": "wan-healthy-fifo-q1-s1",
+    "seed": 1,
+    "qos": 1,
+    "policy": "fifo",
+    "scenario": "healthy",
+    "clock_before": [
+      {
+        "local_send_utc": 1791390536.8590639,
+        "cloud_utc": 1791390538.9997334,
+        "local_receive_utc": 1791390538.9265199,
+        "rtt_seconds": 2.067456007003784,
+        "cloud_minus_edge_lower": 0.07321357727050781,
+        "cloud_minus_edge_upper": 2.140669584274292
+      },
+      {
+        "local_send_utc": 1791390538.9265199,
+        "cloud_utc": 1791390540.977014,
+        "local_receive_utc": 1791390540.8935382,
+        "rtt_seconds": 1.9670183658599854,
+        "cloud_minus_edge_lower": 0.08347582817077637,
+        "cloud_minus_edge_upper": 2.0504941940307617
+      },
+      {
+        "local_send_utc": 1791390540.8935382,
+        "cloud_utc": 1791390543.028254,
+        "local_receive_utc": 1791390542.9546645,
+        "rtt_seconds": 2.061126232147217,
+        "cloud_minus_edge_lower": 0.07358956336975098,
+        "cloud_minus_edge_upper": 2.1347157955169678
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791390571.560508,
+        "cloud_utc": 1791390573.8517265,
+        "local_receive_utc": 1791390573.7674944,
+        "rtt_seconds": 2.206986427307129,
+        "cloud_minus_edge_lower": 0.08423209190368652,
+        "cloud_minus_edge_upper": 2.2912185192108154
+      },
+      {
+        "local_send_utc": 1791390573.7674944,
+        "cloud_utc": 1791390575.9055583,
+        "local_receive_utc": 1791390575.8303845,
+        "rtt_seconds": 2.06289005279541,
+        "cloud_minus_edge_lower": 0.07517385482788086,
+        "cloud_minus_edge_upper": 2.138063907623291
+      },
+      {
+        "local_send_utc": 1791390575.8303845,
+        "cloud_utc": 1791390577.9022398,
+        "local_receive_utc": 1791390577.82079,
+        "rtt_seconds": 1.990405559539795,
+        "cloud_minus_edge_lower": 0.08144974708557129,
+        "cloud_minus_edge_upper": 2.071855306625366
+      }
+    ],
+    "tunnel_events": [],
+    "returncode": 0
+  },
+  {
+    "run": "wan-tunnel_break-fifo-q2-s2",
+    "seed": 2,
+    "qos": 2,
+    "policy": "fifo",
+    "scenario": "tunnel_break",
+    "clock_before": [
+      {
+        "local_send_utc": 1791390591.7543879,
+        "cloud_utc": 1791390593.9018035,
+        "local_receive_utc": 1791390593.8273208,
+        "rtt_seconds": 2.0729329586029053,
+        "cloud_minus_edge_lower": 0.07448267936706543,
+        "cloud_minus_edge_upper": 2.1474156379699707
+      },
+      {
+        "local_send_utc": 1791390593.8273208,
+        "cloud_utc": 1791390595.8788915,
+        "local_receive_utc": 1791390595.7984684,
+        "rtt_seconds": 1.9711475372314453,
+        "cloud_minus_edge_lower": 0.08042311668395996,
+        "cloud_minus_edge_upper": 2.0515706539154053
+      },
+      {
+        "local_send_utc": 1791390595.7984684,
+        "cloud_utc": 1791390597.8821568,
+        "local_receive_utc": 1791390597.798532,
+        "rtt_seconds": 2.00006365776062,
+        "cloud_minus_edge_lower": 0.08362483978271484,
+        "cloud_minus_edge_upper": 2.083688497543335
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791390626.8212845,
+        "cloud_utc": 1791390629.0156538,
+        "local_receive_utc": 1791390628.9416397,
+        "rtt_seconds": 2.1203551292419434,
+        "cloud_minus_edge_lower": 0.07401418685913086,
+        "cloud_minus_edge_upper": 2.194369316101074
+      },
+      {
+        "local_send_utc": 1791390628.9416397,
+        "cloud_utc": 1791390631.1301668,
+        "local_receive_utc": 1791390631.0565023,
+        "rtt_seconds": 2.1148626804351807,
+        "cloud_minus_edge_lower": 0.07366442680358887,
+        "cloud_minus_edge_upper": 2.1885271072387695
+      },
+      {
+        "local_send_utc": 1791390631.0565023,
+        "cloud_utc": 1791390633.1510472,
+        "local_receive_utc": 1791390633.0694547,
+        "rtt_seconds": 2.0129523277282715,
+        "cloud_minus_edge_lower": 0.08159255981445312,
+        "cloud_minus_edge_upper": 2.0945448875427246
+      }
+    ],
+    "tunnel_events": [
+      {
+        "event": "tunnel_closed",
+        "utc": 1791390612.7033904,
+        "relative_to_edge_start": 8.007716417312622
+      },
+      {
+        "event": "tunnel_restored",
+        "utc": 1791390618.2347362,
+        "relative_to_edge_start": 12.004313468933105
+      }
+    ],
+    "returncode": 0
+  },
+  {
+    "run": "wan-healthy-latest-q0-s2",
+    "seed": 2,
+    "qos": 0,
+    "policy": "latest",
+    "scenario": "healthy",
+    "clock_before": [
+      {
+        "local_send_utc": 1791390646.9152334,
+        "cloud_utc": 1791390648.9526138,
+        "local_receive_utc": 1791390648.8676248,
+        "rtt_seconds": 1.9523913860321045,
+        "cloud_minus_edge_lower": 0.08498907089233398,
+        "cloud_minus_edge_upper": 2.0373804569244385
+      },
+      {
+        "local_send_utc": 1791390648.8676248,
+        "cloud_utc": 1791390650.9196134,
+        "local_receive_utc": 1791390650.8349435,
+        "rtt_seconds": 1.9673187732696533,
+        "cloud_minus_edge_lower": 0.08466982841491699,
+        "cloud_minus_edge_upper": 2.0519886016845703
+      },
+      {
+        "local_send_utc": 1791390650.8349435,
+        "cloud_utc": 1791390652.8850548,
+        "local_receive_utc": 1791390652.802964,
+        "rtt_seconds": 1.9680204391479492,
+        "cloud_minus_edge_lower": 0.08209085464477539,
+        "cloud_minus_edge_upper": 2.0501112937927246
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791390681.2229908,
+        "cloud_utc": 1791390683.407698,
+        "local_receive_utc": 1791390683.3334396,
+        "rtt_seconds": 2.1104488372802734,
+        "cloud_minus_edge_lower": 0.07425832748413086,
+        "cloud_minus_edge_upper": 2.1847071647644043
+      },
+      {
+        "local_send_utc": 1791390683.3334396,
+        "cloud_utc": 1791390685.5180295,
+        "local_receive_utc": 1791390685.4441886,
+        "rtt_seconds": 2.1107490062713623,
+        "cloud_minus_edge_lower": 0.07384085655212402,
+        "cloud_minus_edge_upper": 2.1845898628234863
+      },
+      {
+        "local_send_utc": 1791390685.4441886,
+        "cloud_utc": 1791390687.5010626,
+        "local_receive_utc": 1791390687.4188578,
+        "rtt_seconds": 1.9746692180633545,
+        "cloud_minus_edge_lower": 0.08220481872558594,
+        "cloud_minus_edge_upper": 2.0568740367889404
+      }
+    ],
+    "tunnel_events": [],
+    "returncode": 0
+  },
+  {
+    "run": "wan-tunnel_break-latest-q0-s2",
+    "seed": 2,
+    "qos": 0,
+    "policy": "latest",
+    "scenario": "tunnel_break",
+    "clock_before": [
+      {
+        "local_send_utc": 1791390701.4704978,
+        "cloud_utc": 1791390703.519827,
+        "local_receive_utc": 1791390703.43555,
+        "rtt_seconds": 1.9650521278381348,
+        "cloud_minus_edge_lower": 0.08427691459655762,
+        "cloud_minus_edge_upper": 2.0493290424346924
+      },
+      {
+        "local_send_utc": 1791390703.43555,
+        "cloud_utc": 1791390705.4908297,
+        "local_receive_utc": 1791390705.4058886,
+        "rtt_seconds": 1.9703385829925537,
+        "cloud_minus_edge_lower": 0.08494114875793457,
+        "cloud_minus_edge_upper": 2.0552797317504883
+      },
+      {
+        "local_send_utc": 1791390705.4058886,
+        "cloud_utc": 1791390707.559263,
+        "local_receive_utc": 1791390707.4844987,
+        "rtt_seconds": 2.0786101818084717,
+        "cloud_minus_edge_lower": 0.07476425170898438,
+        "cloud_minus_edge_upper": 2.153374433517456
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791390735.865611,
+        "cloud_utc": 1791390737.9179811,
+        "local_receive_utc": 1791390737.8322155,
+        "rtt_seconds": 1.966604471206665,
+        "cloud_minus_edge_lower": 0.08576560020446777,
+        "cloud_minus_edge_upper": 2.052370071411133
+      },
+      {
+        "local_send_utc": 1791390737.8322155,
+        "cloud_utc": 1791390739.9022017,
+        "local_receive_utc": 1791390739.8194246,
+        "rtt_seconds": 1.9872090816497803,
+        "cloud_minus_edge_lower": 0.08277702331542969,
+        "cloud_minus_edge_upper": 2.06998610496521
+      },
+      {
+        "local_send_utc": 1791390739.8194246,
+        "cloud_utc": 1791390741.84984,
+        "local_receive_utc": 1791390741.765768,
+        "rtt_seconds": 1.9463434219360352,
+        "cloud_minus_edge_lower": 0.08407187461853027,
+        "cloud_minus_edge_upper": 2.0304152965545654
+      }
+    ],
+    "tunnel_events": [
+      {
+        "event": "tunnel_closed",
+        "utc": 1791390721.831798,
+        "relative_to_edge_start": 8.01984429359436
+      },
+      {
+        "event": "tunnel_restored",
+        "utc": 1791390727.3646433,
+        "relative_to_edge_start": 12.019033670425415
+      }
+    ],
+    "returncode": 0
+  },
+  {
+    "run": "wan-healthy-fifo-q2-s0",
+    "seed": 0,
+    "qos": 2,
+    "policy": "fifo",
+    "scenario": "healthy",
+    "clock_before": [
+      {
+        "local_send_utc": 1791390755.474772,
+        "cloud_utc": 1791390757.8696647,
+        "local_receive_utc": 1791390757.797356,
+        "rtt_seconds": 2.3225839138031006,
+        "cloud_minus_edge_lower": 0.07230877876281738,
+        "cloud_minus_edge_upper": 2.394892692565918
+      },
+      {
+        "local_send_utc": 1791390757.797356,
+        "cloud_utc": 1791390759.9583468,
+        "local_receive_utc": 1791390759.8837833,
+        "rtt_seconds": 2.0864274501800537,
+        "cloud_minus_edge_lower": 0.07456350326538086,
+        "cloud_minus_edge_upper": 2.1609909534454346
+      },
+      {
+        "local_send_utc": 1791390759.8837833,
+        "cloud_utc": 1791390762.0322347,
+        "local_receive_utc": 1791390761.9562707,
+        "rtt_seconds": 2.0724873542785645,
+        "cloud_minus_edge_lower": 0.07596397399902344,
+        "cloud_minus_edge_upper": 2.148451328277588
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791390790.7762566,
+        "cloud_utc": 1791390792.85808,
+        "local_receive_utc": 1791390792.7716117,
+        "rtt_seconds": 1.9953551292419434,
+        "cloud_minus_edge_lower": 0.08646821975708008,
+        "cloud_minus_edge_upper": 2.0818233489990234
+      },
+      {
+        "local_send_utc": 1791390792.7716117,
+        "cloud_utc": 1791390794.9483361,
+        "local_receive_utc": 1791390794.8727763,
+        "rtt_seconds": 2.1011645793914795,
+        "cloud_minus_edge_lower": 0.07555985450744629,
+        "cloud_minus_edge_upper": 2.176724433898926
+      },
+      {
+        "local_send_utc": 1791390794.8727763,
+        "cloud_utc": 1791390797.0305924,
+        "local_receive_utc": 1791390796.9578836,
+        "rtt_seconds": 2.0851073265075684,
+        "cloud_minus_edge_lower": 0.0727088451385498,
+        "cloud_minus_edge_upper": 2.157816171646118
+      }
+    ],
+    "tunnel_events": [],
+    "returncode": 0
+  },
+  {
+    "run": "wan-healthy-latest-q1-s0",
+    "seed": 0,
+    "qos": 1,
+    "policy": "latest",
+    "scenario": "healthy",
+    "clock_before": [
+      {
+        "local_send_utc": 1791390810.544429,
+        "cloud_utc": 1791390812.6134367,
+        "local_receive_utc": 1791390812.5306456,
+        "rtt_seconds": 1.9862165451049805,
+        "cloud_minus_edge_lower": 0.08279109001159668,
+        "cloud_minus_edge_upper": 2.069007635116577
+      },
+      {
+        "local_send_utc": 1791390812.5306456,
+        "cloud_utc": 1791390814.57872,
+        "local_receive_utc": 1791390814.493876,
+        "rtt_seconds": 1.9632303714752197,
+        "cloud_minus_edge_lower": 0.08484411239624023,
+        "cloud_minus_edge_upper": 2.04807448387146
+      },
+      {
+        "local_send_utc": 1791390814.493876,
+        "cloud_utc": 1791390816.5667622,
+        "local_receive_utc": 1791390816.482223,
+        "rtt_seconds": 1.988347053527832,
+        "cloud_minus_edge_lower": 0.08453917503356934,
+        "cloud_minus_edge_upper": 2.0728862285614014
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791390845.1029215,
+        "cloud_utc": 1791390847.183854,
+        "local_receive_utc": 1791390847.1000752,
+        "rtt_seconds": 1.9971537590026855,
+        "cloud_minus_edge_lower": 0.08377885818481445,
+        "cloud_minus_edge_upper": 2.0809326171875
+      },
+      {
+        "local_send_utc": 1791390847.1000752,
+        "cloud_utc": 1791390849.1496859,
+        "local_receive_utc": 1791390849.0642025,
+        "rtt_seconds": 1.9641273021697998,
+        "cloud_minus_edge_lower": 0.08548331260681152,
+        "cloud_minus_edge_upper": 2.0496106147766113
+      },
+      {
+        "local_send_utc": 1791390849.0642025,
+        "cloud_utc": 1791390851.0825074,
+        "local_receive_utc": 1791390850.9953,
+        "rtt_seconds": 1.9310975074768066,
+        "cloud_minus_edge_lower": 0.08720731735229492,
+        "cloud_minus_edge_upper": 2.0183048248291016
+      }
+    ],
+    "tunnel_events": [],
+    "returncode": 0
+  },
+  {
+    "run": "wan-healthy-latest-q1-s1",
+    "seed": 1,
+    "qos": 1,
+    "policy": "latest",
+    "scenario": "healthy",
+    "clock_before": [
+      {
+        "local_send_utc": 1791390865.0309803,
+        "cloud_utc": 1791390867.2086272,
+        "local_receive_utc": 1791390867.1326702,
+        "rtt_seconds": 2.1016898155212402,
+        "cloud_minus_edge_lower": 0.07595705986022949,
+        "cloud_minus_edge_upper": 2.1776468753814697
+      },
+      {
+        "local_send_utc": 1791390867.1326702,
+        "cloud_utc": 1791390869.228487,
+        "local_receive_utc": 1791390869.1432786,
+        "rtt_seconds": 2.010608434677124,
+        "cloud_minus_edge_lower": 0.08520841598510742,
+        "cloud_minus_edge_upper": 2.0958168506622314
+      },
+      {
+        "local_send_utc": 1791390869.1432786,
+        "cloud_utc": 1791390871.2031329,
+        "local_receive_utc": 1791390871.120047,
+        "rtt_seconds": 1.9767684936523438,
+        "cloud_minus_edge_lower": 0.08308577537536621,
+        "cloud_minus_edge_upper": 2.05985426902771
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791390899.9385266,
+        "cloud_utc": 1791390902.5685697,
+        "local_receive_utc": 1791390902.4813702,
+        "rtt_seconds": 2.5428435802459717,
+        "cloud_minus_edge_lower": 0.08719944953918457,
+        "cloud_minus_edge_upper": 2.6300430297851562
+      },
+      {
+        "local_send_utc": 1791390902.4813702,
+        "cloud_utc": 1791390904.570283,
+        "local_receive_utc": 1791390904.483955,
+        "rtt_seconds": 2.00258469581604,
+        "cloud_minus_edge_lower": 0.08632802963256836,
+        "cloud_minus_edge_upper": 2.0889127254486084
+      },
+      {
+        "local_send_utc": 1791390904.483955,
+        "cloud_utc": 1791390906.5292578,
+        "local_receive_utc": 1791390906.4436526,
+        "rtt_seconds": 1.9596977233886719,
+        "cloud_minus_edge_lower": 0.08560514450073242,
+        "cloud_minus_edge_upper": 2.0453028678894043
+      }
+    ],
+    "tunnel_events": [],
+    "returncode": 0
+  },
+  {
+    "run": "wan-healthy-fifo-q1-s0",
+    "seed": 0,
+    "qos": 1,
+    "policy": "fifo",
+    "scenario": "healthy",
+    "clock_before": [
+      {
+        "local_send_utc": 1791390920.9591632,
+        "cloud_utc": 1791390923.090432,
+        "local_receive_utc": 1791390923.0068464,
+        "rtt_seconds": 2.0476832389831543,
+        "cloud_minus_edge_lower": 0.08358550071716309,
+        "cloud_minus_edge_upper": 2.1312687397003174
+      },
+      {
+        "local_send_utc": 1791390923.0068464,
+        "cloud_utc": 1791390925.1622224,
+        "local_receive_utc": 1791390925.0863347,
+        "rtt_seconds": 2.0794882774353027,
+        "cloud_minus_edge_lower": 0.07588768005371094,
+        "cloud_minus_edge_upper": 2.1553759574890137
+      },
+      {
+        "local_send_utc": 1791390925.0863347,
+        "cloud_utc": 1791390927.2032814,
+        "local_receive_utc": 1791390927.1185849,
+        "rtt_seconds": 2.032250165939331,
+        "cloud_minus_edge_lower": 0.08469653129577637,
+        "cloud_minus_edge_upper": 2.1169466972351074
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791390955.8073204,
+        "cloud_utc": 1791390957.9097207,
+        "local_receive_utc": 1791390957.8254714,
+        "rtt_seconds": 2.018151044845581,
+        "cloud_minus_edge_lower": 0.08424925804138184,
+        "cloud_minus_edge_upper": 2.102400302886963
+      },
+      {
+        "local_send_utc": 1791390957.8254714,
+        "cloud_utc": 1791390959.9043827,
+        "local_receive_utc": 1791390959.8175206,
+        "rtt_seconds": 1.992049217224121,
+        "cloud_minus_edge_lower": 0.08686208724975586,
+        "cloud_minus_edge_upper": 2.078911304473877
+      },
+      {
+        "local_send_utc": 1791390959.8175206,
+        "cloud_utc": 1791390961.952223,
+        "local_receive_utc": 1791390961.8720615,
+        "rtt_seconds": 2.0545408725738525,
+        "cloud_minus_edge_lower": 0.08016157150268555,
+        "cloud_minus_edge_upper": 2.134702444076538
+      }
+    ],
+    "tunnel_events": [],
+    "returncode": 0
+  },
+  {
+    "run": "wan-healthy-latest-q2-s1",
+    "seed": 1,
+    "qos": 2,
+    "policy": "latest",
+    "scenario": "healthy",
+    "clock_before": [
+      {
+        "local_send_utc": 1791390976.1173427,
+        "cloud_utc": 1791390978.2592769,
+        "local_receive_utc": 1791390978.1785617,
+        "rtt_seconds": 2.0612189769744873,
+        "cloud_minus_edge_lower": 0.08071517944335938,
+        "cloud_minus_edge_upper": 2.1419341564178467
+      },
+      {
+        "local_send_utc": 1791390978.1785617,
+        "cloud_utc": 1791390980.232928,
+        "local_receive_utc": 1791390980.1448033,
+        "rtt_seconds": 1.9662415981292725,
+        "cloud_minus_edge_lower": 0.08812475204467773,
+        "cloud_minus_edge_upper": 2.05436635017395
+      },
+      {
+        "local_send_utc": 1791390980.1448033,
+        "cloud_utc": 1791390982.318755,
+        "local_receive_utc": 1791390982.2457361,
+        "rtt_seconds": 2.1009328365325928,
+        "cloud_minus_edge_lower": 0.07301878929138184,
+        "cloud_minus_edge_upper": 2.1739516258239746
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791391011.4551306,
+        "cloud_utc": 1791391013.6577144,
+        "local_receive_utc": 1791391013.5839643,
+        "rtt_seconds": 2.128833770751953,
+        "cloud_minus_edge_lower": 0.07375001907348633,
+        "cloud_minus_edge_upper": 2.2025837898254395
+      },
+      {
+        "local_send_utc": 1791391013.5839643,
+        "cloud_utc": 1791391015.6562188,
+        "local_receive_utc": 1791391015.569152,
+        "rtt_seconds": 1.9851877689361572,
+        "cloud_minus_edge_lower": 0.087066650390625,
+        "cloud_minus_edge_upper": 2.0722544193267822
+      },
+      {
+        "local_send_utc": 1791391015.569152,
+        "cloud_utc": 1791391017.620264,
+        "local_receive_utc": 1791391017.533394,
+        "rtt_seconds": 1.9642419815063477,
+        "cloud_minus_edge_lower": 0.08686995506286621,
+        "cloud_minus_edge_upper": 2.051111936569214
+      }
+    ],
+    "tunnel_events": [],
+    "returncode": 0
+  },
+  {
+    "run": "wan-healthy-latest-q0-s1",
+    "seed": 1,
+    "qos": 0,
+    "policy": "latest",
+    "scenario": "healthy",
+    "clock_before": [
+      {
+        "local_send_utc": 1791391031.1958866,
+        "cloud_utc": 1791391033.2552438,
+        "local_receive_utc": 1791391033.1673884,
+        "rtt_seconds": 1.9715018272399902,
+        "cloud_minus_edge_lower": 0.08785533905029297,
+        "cloud_minus_edge_upper": 2.059357166290283
+      },
+      {
+        "local_send_utc": 1791391033.1673884,
+        "cloud_utc": 1791391035.3609548,
+        "local_receive_utc": 1791391035.2842004,
+        "rtt_seconds": 2.116811990737915,
+        "cloud_minus_edge_lower": 0.07675433158874512,
+        "cloud_minus_edge_upper": 2.19356632232666
+      },
+      {
+        "local_send_utc": 1791391035.2842004,
+        "cloud_utc": 1791391037.336033,
+        "local_receive_utc": 1791391037.2479126,
+        "rtt_seconds": 1.963712215423584,
+        "cloud_minus_edge_lower": 0.0881204605102539,
+        "cloud_minus_edge_upper": 2.051832675933838
+      }
+    ],
+    "clock_after": [
+      {
+        "local_send_utc": 1791391065.7344713,
+        "cloud_utc": 1791391067.8187752,
+        "local_receive_utc": 1791391067.7340276,
+        "rtt_seconds": 1.999556303024292,
+        "cloud_minus_edge_lower": 0.0847475528717041,
+        "cloud_minus_edge_upper": 2.084303855895996
+      },
+      {
+        "local_send_utc": 1791391067.7340276,
+        "cloud_utc": 1791391069.9255636,
+        "local_receive_utc": 1791391069.8494787,
+        "rtt_seconds": 2.1154510974884033,
+        "cloud_minus_edge_lower": 0.07608485221862793,
+        "cloud_minus_edge_upper": 2.1915359497070312
+      },
+      {
+        "local_send_utc": 1791391069.8494787,
+        "cloud_utc": 1791391072.0111852,
+        "local_receive_utc": 1791391071.9342463,
+        "rtt_seconds": 2.0847675800323486,
+        "cloud_minus_edge_lower": 0.07693886756896973,
+        "cloud_minus_edge_upper": 2.1617064476013184
+      }
+    ],
+    "tunnel_events": [],
+    "returncode": 0
+  }
+]

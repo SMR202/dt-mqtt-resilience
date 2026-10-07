@@ -1,0 +1,1206 @@
+Direção            |      PPS |      BPS
+------------------------------------------
+[SNIFFER] Monitorando conexões MQTT na porta 18885...
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Conectado ao broker MQTT com código 0
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[TWIN] Servidor MQTT escutando na porta 18885...
+[TWIN] Conectado ao broker MQTT com código 0
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=23.49
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=23.49
+[DEVICE][SIM] Início do teste: Todos os sensores ligados para calibração (15s).
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=43.44
+[TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=43.44
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.68
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.68
+
+******************************************************
+Device→Twin        |        3 |      125
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+Original core elapsed 1
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.48
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.48
+
+******************************************************
+Device→Twin        |        1 |       64
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.43
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.43
+
+******************************************************
+Device→Twin        |        1 |       66
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.59
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.59
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=47.38
+[TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=47.38
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=23.38
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=23.38
+
+******************************************************
+Device→Twin        |        3 |      112
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.91
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.91
+
+******************************************************
+Device→Twin        |        1 |       64
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.82
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.82
+
+******************************************************
+Device→Twin        |        1 |       64
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=47.56
+[TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=47.56
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=21.25
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=21.25
+
+******************************************************
+Device→Twin        |        2 |       61
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.37
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.37
+
+******************************************************
+Device→Twin        |        1 |       66
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=5.09
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=5.09
+
+******************************************************
+Device→Twin        |        1 |       51
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[DEVICE][SIM] Teste: Desligando sensor 'temp' para medição (15s).
+[SNIFFER][ALERTA] Sensor de temperatura desligado!
+[TWIN] Dados recebidos via MQTT no tópico device/commands: desliga_temp
+[DEVICE] Comando recebido do Twin: desliga_temp
+[DEVICE] Sensor de temperatura desligado!
+[SNIFFER] Capturado via MQTT no tópico device/commands: desliga_temp
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=54.43
+[TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=54.43
+
+******************************************************
+Device→Twin        |        1 |       29
+Twin→Device        |        1 |       12
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.26
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.26
+Original core elapsed 16
+
+******************************************************
+Device→Twin        |        1 |       64
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.91
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.91
+
+******************************************************
+Device→Twin        |        1 |       64
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=0.80
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=0.80
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=41.77
+[TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=41.77
+
+******************************************************
+Device→Twin        |        2 |       95
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.97
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.97
+
+******************************************************
+Device→Twin        |        1 |       51
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.07
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.07
+
+******************************************************
+Device→Twin        |        1 |       64
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.62
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.62
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=45.42
+[TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=45.42
+
+******************************************************
+Device→Twin        |        2 |       93
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.12
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.12
+
+******************************************************
+Device→Twin        |        1 |       66
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.80
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.80
+
+******************************************************
+Device→Twin        |        1 |       51
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'temperatura' está desligado!
+[DEVICE][SIM] Teste: Religando sensor 'temp'.
+[SNIFFER][ALERTA] Sensor de temperatura ligado!
+[TWIN] Dados recebidos via MQTT no tópico device/commands: liga_temp
+[DEVICE] Comando recebido do Twin: liga_temp
+[DEVICE] Sensor de temperatura ligado!
+[SNIFFER] Capturado via MQTT no tópico device/commands: liga_temp
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=43.80
+[TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=43.80
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=28.28
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=28.28
+
+******************************************************
+Device→Twin        |        2 |       61
+Twin→Device        |        1 |        9
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+Original core elapsed 31
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.85
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.85
+
+******************************************************
+Device→Twin        |        1 |       64
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[DEVICE][SIM] Teste: Desligando sensor 'umid' para medição (15s).
+[SNIFFER][ALERTA] Sensor de umidade desligado!
+[TWIN] Dados recebidos via MQTT no tópico device/commands: desliga_umid
+[DEVICE] Comando recebido do Twin: desliga_umid
+[DEVICE] Sensor de umidade desligado!
+[SNIFFER] Capturado via MQTT no tópico device/commands: desliga_umid
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        1 |       12
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.28
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.28
+
+******************************************************
+Device→Twin        |        1 |       64
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=21.93
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=21.93
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.38
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.38
+
+******************************************************
+Device→Twin        |        2 |       98
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=5.51
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=5.51
+
+******************************************************
+Device→Twin        |        1 |       51
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.89
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.89
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=25.38
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=25.38
+
+******************************************************
+Device→Twin        |        2 |       96
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.75
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.75
+
+******************************************************
+Device→Twin        |        1 |       64
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=0.62
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=0.62
+
+******************************************************
+Device→Twin        |        1 |       66
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=20.71
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=20.71
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=5.26
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=5.26
+
+******************************************************
+Device→Twin        |        2 |       83
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+Original core elapsed 46
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'umidade' está desligado!
+[DEVICE][SIM] Teste: Religando sensor 'umid'.
+[SNIFFER][ALERTA] Sensor de umidade ligado!
+[TWIN] Dados recebidos via MQTT no tópico device/commands: liga_umid
+[DEVICE] Comando recebido do Twin: liga_umid
+[DEVICE] Sensor de umidade ligado!
+[SNIFFER] Capturado via MQTT no tópico device/commands: liga_umid
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=42.05
+[TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=42.05
+
+******************************************************
+Device→Twin        |        1 |       29
+Twin→Device        |        1 |        9
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.59
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.59
+
+******************************************************
+Device→Twin        |        1 |       64
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[DEVICE][SIM] Teste: Desligando sensor 'arm' para medição (15s).
+[TWIN] Dados recebidos via MQTT no tópico device/commands: desliga_arm
+[SNIFFER][ALERTA] Sensor do braço desligado!
+[DEVICE] Comando recebido do Twin: desliga_arm
+[DEVICE] Sensor do braço desligado!
+[SNIFFER] Capturado via MQTT no tópico device/commands: desliga_arm
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        1 |       11
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.98
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.98
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=23.77
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=23.77
+
+******************************************************
+Device→Twin        |        2 |       96
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.31
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.31
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=49.44
+[TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=49.44
+
+******************************************************
+Device→Twin        |        2 |       95
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.88
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.88
+
+******************************************************
+Device→Twin        |        1 |       51
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=25.88
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=25.88
+
+******************************************************
+Device→Twin        |        1 |       32
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=57.96
+[TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=57.96
+
+******************************************************
+Device→Twin        |        1 |       29
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=22.93
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=22.93
+
+******************************************************
+Device→Twin        |        1 |       32
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+Original core elapsed 61
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=41.59
+[TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=41.59
+
+******************************************************
+Device→Twin        |        1 |       29
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER][ALERTA] Sensor 'braco' está desligado!
+[DEVICE][SIM] Teste: Religando sensor 'arm'.
+[SNIFFER][ALERTA] Sensor do braço ligado!
+[TWIN] Dados recebidos via MQTT no tópico device/commands: liga_arm
+[DEVICE] Comando recebido do Twin: liga_arm
+[DEVICE] Sensor do braço ligado!
+[SNIFFER] Capturado via MQTT no tópico device/commands: liga_arm
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        1 |        8
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.08
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.08
+
+******************************************************
+Device→Twin        |        1 |       64
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=25.79
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=25.79
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.27
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.27
+[DEVICE][SIM] Fim do teste de calibração. Enviando sinal para o sniffer.
+
+******************************************************
+Device→Twin        |        2 |       96
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=57.06
+[TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=57.06
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.25
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.25
+
+******************************************************
+Device→Twin        |        2 |       95
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.61
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.61
+
+******************************************************
+Device→Twin        |        1 |       51
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=20.44
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=20.44
+
+******************************************************
+Device→Twin        |        1 |       32
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.67
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.67
+
+******************************************************
+Device→Twin        |        1 |       64
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=53.11
+[TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=53.11
+
+******************************************************
+Device→Twin        |        1 |       29
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.35
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.35
+
+******************************************************
+Device→Twin        |        1 |       64
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=28.69
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=28.69
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=0
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=0
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=1
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=1
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=2
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=2
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=3
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=3
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=4
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=4
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=5
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=5
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=6
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=6
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=7
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=7
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.47
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.47
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=8
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=8
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=9
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=9
+
+******************************************************
+Device→Twin        |       12 |      498
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=10
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=10
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=11
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=11
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=12
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=12
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=13
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=13
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=14
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=14
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=15
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=15
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=16
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=16
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=17
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=17
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=18
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=18
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=19
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=19
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=20
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=20
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=21
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=21
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=22
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=22
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=23
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=23
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=24
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=24
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=25
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=25
+
+******************************************************
+Device→Twin        |       16 |      656
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=56.73
+[TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=56.73
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=26
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=26
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=27
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=27
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=28
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=28
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=29
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=29
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=30
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=30
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=31
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=31
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=32
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=32
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=5.49
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=5.49
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=33
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=33
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=34
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=34
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=35
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=35
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=36
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=36
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=37
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=37
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=38
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=38
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=39
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=39
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=40
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=40
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=41
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=41
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=42
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=42
+
+******************************************************
+Device→Twin        |       19 |      777
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=43
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=43
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=44
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=44
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=45
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=45
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=46
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=46
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=47
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=47
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=48
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=48
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=49
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=49
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=50
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=50
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=51
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=51
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=52
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=52
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=53
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=53
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=54
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=54
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=55
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=55
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=56
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=56
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=57
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=57
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=58
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=58
+
+******************************************************
+Device→Twin        |       16 |      656
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=59
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=59
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=60
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=60
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=61
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=61
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=62
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=62
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=63
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=63
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=64
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=64
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=65
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=65
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=66
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=66
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=67
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=67
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=68
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=68
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=69
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=69
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=70
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=70
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=71
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=71
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=72
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=72
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=73
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=73
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=74
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=74
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=75
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=75
+
+******************************************************
+Device→Twin        |       17 |      697
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=24.30
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=24.30
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=76
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=76
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=77
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=77
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=78
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=78
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=79
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=79
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=80
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=80
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=81
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=81
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.59
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.59
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=82
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=82
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=83
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=83
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=84
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=84
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=85
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=85
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=86
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=86
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=87
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=87
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=88
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=88
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=89
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=89
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=90
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=90
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=91
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=91
+
+******************************************************
+Device→Twin        |       18 |      752
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=92
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=92
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=93
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=93
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=94
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=94
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=95
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=95
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=96
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=96
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=97
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=97
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=98
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=98
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=99
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=99
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=100
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=100
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=101
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=101
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=102
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=102
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=103
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=103
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=104
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=104
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=105
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=105
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=106
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=106
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=107
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=107
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.96
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.96
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=42.93
+[TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=42.93
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=108
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=108
+
+******************************************************
+Device→Twin        |       19 |      799
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=109
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=109
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=110
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=110
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=111
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=111
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=112
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=112
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=113
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=113
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=114
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=114
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=115
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=115
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=116
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=116
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=117
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=117
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=118
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=118
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=119
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=119
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=120
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=120
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=121
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=121
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=122
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=122
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=123
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=123
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=124
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=124
+
+******************************************************
+Device→Twin        |       16 |      672
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=125
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=125
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=126
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=126
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=127
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=127
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=128
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=128
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=129
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=129
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=130
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=130
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=131
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=131
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=132
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=132
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=133
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=133
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=134
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=134
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=135
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=135
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=136
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=136
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=137
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=137
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=138
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=138
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=139
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=139
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=0.89
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=0.89
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=140
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=140
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=141
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=141
+
+******************************************************
+Device→Twin        |       18 |      780
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=142
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=142
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=143
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=143
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=144
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=144
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=145
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=145
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=146
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=146
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=147
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=147
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=148
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=148
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=149
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=149
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=150
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=150
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=151
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=151
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=152
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=152
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=153
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=153
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=154
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=154
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.44
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=ciclo_completo;tempo_total=4.44
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=155
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=155
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=156
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=156
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=157
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=157
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=25.88
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=25.88
+
+******************************************************
+Device→Twin        |       18 |      755
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=158
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=158
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=159
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=159
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=160
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=160
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=161
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=161
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=162
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=162
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=163
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=163
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=164
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=164
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=165
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=165
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=166
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=166
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=167
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=167
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=168
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=168
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=169
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=169
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=170
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=170
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=171
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=171
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=172
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=172
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=173
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=173
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=174
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=174
+
+******************************************************
+Device→Twin        |       17 |      714
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=175
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=175
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=176
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=176
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=177
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=177
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=178
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=178
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=179
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=179
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=180
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=180
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=181
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=181
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=182
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=182
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=183
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=183
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=184
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=184
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=185
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=185
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=186
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=186
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=187
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=187
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=188
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=188
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=189
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=189
+[SNIFFER] Capturado via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=44.63
+[TWIN] Dados recebidos via MQTT no tópico sensor/humidity: protocolo=mqtt;humidity=44.63
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=190
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=190
+
+******************************************************
+Device→Twin        |       17 |      701
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=191
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=191
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=192
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=192
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=193
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=193
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=194
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=194
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=195
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=195
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=196
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=196
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=197
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=197
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=198
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=198
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=199
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=mqtt;temperature=25.00;burst=199
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.36
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.36
+
+******************************************************
+Device→Twin        |       10 |      442
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+
+******************************************************
+Device→Twin        |        0 |        0
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+[SNIFFER] Capturado via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.19
+[TWIN] Dados recebidos via MQTT no tópico sensor/arm: protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.19
+[SNIFFER] Capturado via MQTT no tópico sensor/temperature: protocolo=coap;temperature=20.40
+[TWIN] Dados recebidos via MQTT no tópico sensor/temperature: protocolo=coap;temperature=20.40
+
+******************************************************
+Device→Twin        |        2 |       96
+Twin→Device        |        0 |        0
+******************************************************
+[SNIFFER] Erro ao escrever no log: 'charmap' codec can't encode character '\u2192' in position 64: character maps to <undefined>
+Calibration flag False
+Traceback (most recent call last):
+  File "C:\Users\PC\Documents\Codex\2026-10-07\referenced-chatgpt-conversation-this-is-an\outputs\dt-mqtt-resilience\scripts\reproduce_core.py", line 111, in <module>
+    main()
+  File "C:\Users\PC\Documents\Codex\2026-10-07\referenced-chatgpt-conversation-this-is-an\outputs\dt-mqtt-resilience\scripts\reproduce_core.py", line 83, in main
+    assert sniffer['teste_inicial_finalizado'], 'Original calibration did not finish'
+AssertionError: Original calibration did not finish

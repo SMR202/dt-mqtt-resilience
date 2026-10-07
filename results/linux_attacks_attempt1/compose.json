@@ -1,0 +1,98 @@
+{
+  "services": {
+    "device": {
+      "build": {
+        "context": "/mnt/c/Users/PC/Documents/Codex/2026-10-07/referenced-chatgpt-conversation-this-is-an/outputs/dt-mqtt-resilience/work/upstream-digital-twin/device",
+        "network": "host"
+      },
+      "networks": [
+        "lab"
+      ],
+      "environment": {
+        "PYTHONUNBUFFERED": "1"
+      },
+      "cpus": 0.5,
+      "mem_limit": "256m"
+    },
+    "digital_twin": {
+      "build": {
+        "context": "/mnt/c/Users/PC/Documents/Codex/2026-10-07/referenced-chatgpt-conversation-this-is-an/outputs/dt-mqtt-resilience/work/upstream-digital-twin/digital_twin",
+        "network": "host"
+      },
+      "networks": [
+        "lab"
+      ],
+      "environment": {
+        "PYTHONUNBUFFERED": "1"
+      },
+      "cpus": 0.5,
+      "mem_limit": "256m"
+    },
+    "sniffer": {
+      "build": {
+        "context": "/mnt/c/Users/PC/Documents/Codex/2026-10-07/referenced-chatgpt-conversation-this-is-an/outputs/dt-mqtt-resilience/work/upstream-digital-twin/sniffer",
+        "network": "host"
+      },
+      "networks": [
+        "lab"
+      ],
+      "environment": {
+        "PYTHONUNBUFFERED": "1"
+      },
+      "cpus": 0.5,
+      "mem_limit": "256m",
+      "volumes": [
+        "/mnt/c/Users/PC/Documents/Codex/2026-10-07/referenced-chatgpt-conversation-this-is-an/outputs/dt-mqtt-resilience/results/linux_attacks_attempt1/sniffer:/logs"
+      ]
+    },
+    "attacker": {
+      "build": {
+        "context": "/mnt/c/Users/PC/Documents/Codex/2026-10-07/referenced-chatgpt-conversation-this-is-an/outputs/dt-mqtt-resilience/work/upstream-digital-twin/attacker",
+        "network": "host"
+      },
+      "networks": [
+        "lab"
+      ],
+      "environment": {
+        "PYTHONUNBUFFERED": "1"
+      },
+      "cpus": 0.5,
+      "mem_limit": "256m",
+      "command": [
+        "python",
+        "-c",
+        "import time; time.sleep(36000)"
+      ]
+    },
+    "mitm_proxy": {
+      "build": {
+        "context": "/mnt/c/Users/PC/Documents/Codex/2026-10-07/referenced-chatgpt-conversation-this-is-an/outputs/dt-mqtt-resilience/work/upstream-digital-twin/mitm_proxy",
+        "network": "host"
+      },
+      "networks": [
+        "lab"
+      ],
+      "environment": {
+        "PYTHONUNBUFFERED": "1"
+      },
+      "cpus": 0.5,
+      "mem_limit": "256m"
+    },
+    "mqtt_broker": {
+      "image": "eclipse-mosquitto:2",
+      "networks": [
+        "lab"
+      ],
+      "volumes": [
+        "/mnt/c/Users/PC/Documents/Codex/2026-10-07/referenced-chatgpt-conversation-this-is-an/outputs/dt-mqtt-resilience/work/upstream-digital-twin/mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro"
+      ],
+      "cpus": 0.5,
+      "mem_limit": "128m"
+    }
+  },
+  "networks": {
+    "lab": {
+      "internal": true
+    }
+  }
+}

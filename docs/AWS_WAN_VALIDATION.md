@@ -1,0 +1,19 @@
+# AWS WAN validation
+
+The user approved one temporary Ubuntu 24.04 t3.micro VM in Stockholm with a US$1 experiment spending allowance. The console's Linux compute price was US$0.0108/hour; public IPv4 and 8GiB gp3 storage are additional. This allowance is not an AWS-enforced budget. Bootstrap schedules a 90-minute stop as a fallback. Final cleanup must terminate the instance, verify root volume deletion/public address release, and remove the dedicated key pair and security group. No sensor is required.
+
+The PC generates synthetic telemetry and connects to an AWS Mosquitto 2.0.18 broker through SSH. MQTT listens only on cloud localhost; the security group allows SSH from the user's current address. SSH server identity was verified against the AWS console boot log. Credentials and connection identifiers remain in ignored local work files.
+
+The planned randomized design is 36 runs: three seeds, QoS 0/1/2, FIFO/latest, and healthy/controlled tunnel interruption. Each run lasts 20 seconds, uses four generators at nominal 5Hz and a common 12 publications/s cap. Generation does not block on MQTT acknowledgement waits. The tunnel is closed around seconds 8–12 and restored; this is a controlled transport interruption, not an ISP outage. No attack traffic is sent over the public network.
+
+`scripts/run_cloud_wan.py` records settings, execution order, actual tunnel event times, before/after clock probes, cloud receipts, edge SQLite audit histories, and process CPU/peak memory. `scripts/analyze_cloud_wan.py` independently checks every unique receipt against its source audit record and integrates held-state age over seconds 3–20. Initial state timestamps are set to run start for this controlled comparison. It reports unique receipt ratios separately from publisher completion, which does not establish remote durability.
+
+Clock bounds use local send/receive times around cloud time probes, tightened by receipt causality. A constant offset within each short run is assumed; no symmetric-network-delay assumption is required. Midpoint age is descriptive and conditional clock envelopes accompany it. These observations are exploratory evidence from one Windows PC/one cloud region, using synthetic inputs and MQTT over SSH. They do not establish physical-device, energy, long-duration production, or exact numerical paper replication claims.
+
+Repeat only on your own authorized VM using the checked-in bootstrap/configuration and a fresh output directory. Verify its SSH identity first, then supply the host, private key path, and known-hosts path to the runner. Copy evidence before termination. Never commit a private key. For exact commands see the runner's CLI and `configs/ec2-user-data.sh`.
+
+## Completion on 7 October 2026
+
+All 36 planned AWS runs completed: 14,256 source-audited generated samples, 3,709 unique cloud receipts, 3,709 publisher completions and seven rejected duplicate/stale callbacks. Every unique receipt matched its edge audit. Across QoS 0/1/2 in the tunnel-interruption condition, descriptive mean age was 7.202/9.363/10.941 seconds for FIFO and 1.480/1.850/3.156 seconds for latest-state coalescing. Conditional clock envelopes and all seed pairs are retained; this is an exploratory short synthetic workload.
+
+Cleanup was verified in the AWS console: instance terminated; root volume absent; dedicated SSH key pair and security group deleted; no running instances, volumes, elastic IPs or snapshots remained in Stockholm. The default VPC/security group was preserved. The dashboard showed account credits but could not load the cost chart, so the final charge was not independently verified. Compute-only cost for roughly 38 minutes at the console rate is about US$0.007 before IPv4/storage and account credits. Previously incurred usage may appear later; deletion prevents continued experiment compute/disk charges. No paid resource remains from this experiment.

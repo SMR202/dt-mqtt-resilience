@@ -1,0 +1,15 @@
+{
+  "duration": 6.0,
+  "warmup": 1.0,
+  "devices": 4,
+  "rate": 20,
+  "seeds": [0,1,2],
+  "qos": [0,1,2],
+  "policies": ["no_buffer","fifo","latest"],
+  "scenarios": {
+    "healthy": {"capacity": 160, "delay": 0.0, "jitter": 0.0, "outage": null},
+    "degraded": {"capacity": 60, "delay": 0.05, "jitter": 0.03, "outage": null},
+    "overloaded": {"capacity": 30, "delay": 0.10, "jitter": 0.08, "outage": null},
+    "outage": {"capacity": 120, "delay": 0.02, "jitter": 0.01, "outage": [1.5,3.5]}
+  }
+}

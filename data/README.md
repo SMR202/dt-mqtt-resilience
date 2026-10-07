@@ -1,0 +1,16 @@
+# Data and workload card
+
+No private, medical, production-factory or third-party personal data are used.
+
+1. **Reference-generated native telemetry:** the pinned official device emits random temperature (20–30), humidity (40–60), and arm-cycle strings. Temperature/humidity nominal intervals are 5 seconds; arm cycles contain random sleeps plus a 3-second interval. Calibration disables each sensor. Its RNG is not seeded upstream; the recorded CSV is the exact trace of our run. A 200-message benign burst is added by the adapter. These are application messages, not packet captures.
+2. **Controlled current-state workloads:** device `d` produces `sin(0.3*t+d)` at a specified nominal sampling time `t`. This unitless analytic signal supplies continuous ground truth and reproducible timestamps/sequence IDs. It is an intentionally synthetic test workload, not a factory dataset or an imported real trace. No model training is performed. Load and jitter sensitivity are controlled by configuration and per-message random seeds.
+3. **Simulation:** 4/16 sensors × 2/5/10 Hz, 60 seconds, 5-second metric warm-up, 10 seeds. Scenarios and all parameters are in `configs/simulation.json`. Sampling phases are staggered by device. Seed-zero event traces cover every experimental condition; every seed has a raw per-run metric record. All repetitions can be regenerated.
+4. **Live MQTT:** 4 sensors × 20 Hz, 6 seconds, 1-second warm-up, three seeds; QoS 0/1/2. Each generation epoch emits all sensors with rotating order, shared across policies. Events for every live repetition and compressed SQLite databases are retained. The six-second duration is exploratory; it does not establish steady-state industrial reliability.
+
+Fields: `device`, `seq`, `generated` (relative monotonic/virtual seconds), `value`. Event CSVs add receive time and whether the monotonic twin accepted the update. Run records include generated/sent/unique-delivered counts, latency/AoI, errors, suppression and resources. A sequence is unique within a device and run. Devices reset between runs. A restart across real deployments would require a persistent boot/session identifier; this is a documented extension requirement.
+
+Network impairment is **application-level uplink service shaping**: bounded message submissions, positive per-message delay/jitter, and intervals with no edge dispatch. It is not TCP packet loss, an actual ISP outage, wireless contention, or a public-cloud WAN. QoS comparisons use real MQTT packets on loopback only.
+
+Preprocessing: exclude configured warm-up from state samples; delivery ratio uses all generated updates and a finite observation horizon. MQTT packets already published may drain after generation stops; unsent edge backlog is never drained for the headline delivery metric. Suppressed/expired updates remain counted in the denominator. The local audit contains every generated payload; it is not a delivered cloud archive. Under the latest policy this archive grows without a production retention cap. SQLite outbox capacity is 10,000 records.
+
+Data licensing: generated experiment data and original analysis are provided under this repository's MIT license. Upstream source licensing is unresolved; download it separately. The repository does not include the authors' committed virtual environment or their unlicensed source files.

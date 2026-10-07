@@ -1,0 +1,284 @@
+time,topic,payload_bytes,payload
+0.8311966000037501,sensor/temperature,32,protocolo=coap;temperature=20.11
+0.8332252999971388,sensor/humidity,29,protocolo=mqtt;humidity=51.22
+0.8352283999993233,sensor/arm,64,protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.78
+2.6160003999975743,sensor/arm,64,protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.52
+5.140396999995573,sensor/arm,66,protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=0.85
+5.8460861000057776,sensor/humidity,29,protocolo=mqtt;humidity=44.23
+5.847140199999558,sensor/temperature,32,protocolo=coap;temperature=28.01
+5.997929500008468,sensor/arm,51,protocolo=opcua;arm=ciclo_completo;tempo_total=5.15
+9.007063700002618,sensor/arm,64,protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.77
+10.780490400007693,sensor/arm,64,protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.61
+10.858462700009113,sensor/temperature,32,protocolo=coap;temperature=20.98
+10.85904510000546,sensor/humidity,29,protocolo=mqtt;humidity=46.86
+13.393803900005878,sensor/arm,66,protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.13
+14.526790400006576,sensor/arm,51,protocolo=opcua;arm=ciclo_completo;tempo_total=5.50
+15.83957840000221,device/commands,12,desliga_temp
+15.87047180000809,sensor/humidity,29,protocolo=mqtt;humidity=45.34
+17.53802030000952,sensor/arm,64,protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.70
+19.248598500009393,sensor/arm,64,protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.15
+20.4081920000026,sensor/arm,66,protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.20
+20.881880500004627,sensor/humidity,29,protocolo=mqtt;humidity=51.05
+21.61693540000124,sensor/arm,51,protocolo=opcua;arm=ciclo_completo;tempo_total=4.05
+24.625625900007435,sensor/arm,64,protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.40
+25.896632000003592,sensor/humidity,29,protocolo=mqtt;humidity=59.08
+26.034473599997,sensor/arm,64,protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.71
+27.74473869999929,sensor/arm,66,protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=0.62
+28.371189700003015,sensor/arm,51,protocolo=opcua;arm=ciclo_completo;tempo_total=3.73
+30.84685719999834,device/commands,9,liga_temp
+30.908224900005735,sensor/humidity,29,protocolo=mqtt;humidity=59.99
+30.999392500001704,sensor/temperature,32,protocolo=coap;temperature=25.35
+31.38245060000918,sensor/arm,64,protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.55
+32.85102950000146,device/commands,12,desliga_umid
+32.942697899998166,sensor/arm,64,protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.11
+34.06001840000681,sensor/arm,66,protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=0.64
+34.70336870000756,sensor/arm,51,protocolo=opcua;arm=ciclo_completo;tempo_total=3.30
+36.00613080000039,sensor/temperature,32,protocolo=coap;temperature=21.31
+37.710711000006995,sensor/arm,64,protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.15
+38.87541930000589,sensor/arm,64,protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.68
+41.00777250000101,sensor/temperature,32,protocolo=coap;temperature=21.41
+41.56127040000865,sensor/arm,66,protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.48
+43.04753300000448,sensor/arm,51,protocolo=opcua;arm=ciclo_completo;tempo_total=5.31
+46.01859190000687,sensor/temperature,32,protocolo=coap;temperature=20.82
+46.04904090000491,sensor/arm,64,protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.98
+47.8590644000069,device/commands,9,liga_umid
+48.043967400008114,sensor/humidity,29,protocolo=mqtt;humidity=45.26
+48.044617400009884,sensor/arm,64,protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.49
+49.866236200003186,device/commands,11,desliga_arm
+50.54136780000408,sensor/arm,66,protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.23
+51.03102960000979,sensor/temperature,32,protocolo=coap;temperature=21.37
+51.781102799999644,sensor/arm,51,protocolo=opcua;arm=ciclo_completo;tempo_total=5.71
+53.04654239999945,sensor/humidity,29,protocolo=mqtt;humidity=57.28
+56.046514300003764,sensor/temperature,32,protocolo=coap;temperature=21.59
+58.048519300005864,sensor/humidity,29,protocolo=mqtt;humidity=55.84
+61.061014999999315,sensor/temperature,32,protocolo=coap;temperature=20.64
+63.06435169999895,sensor/humidity,29,protocolo=mqtt;humidity=47.23
+64.87071119999746,device/commands,8,liga_arm
+64.886273600001,sensor/arm,64,protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.71
+66.06131380000443,sensor/temperature,32,protocolo=coap;temperature=22.94
+66.59605790000933,sensor/arm,64,protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.35
+67.96203130000504,sensor/arm,66,protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.31
+68.06933860000572,sensor/humidity,29,protocolo=mqtt;humidity=44.74
+69.27571820000594,sensor/arm,51,protocolo=opcua;arm=ciclo_completo;tempo_total=4.37
+71.06843060000392,sensor/temperature,32,protocolo=coap;temperature=29.23
+72.28876049999963,sensor/arm,64,protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.74
+73.08234609999636,sensor/humidity,29,protocolo=mqtt;humidity=46.54
+74.03017600000021,sensor/arm,64,protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=2.40
+76.07812869999907,sensor/temperature,32,protocolo=coap;temperature=23.76
+76.4455323000002,sensor/arm,66,protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.03
+76.55571050000435,device/commands,17,fim_teste_inicial
+77.48495430000185,sensor/arm,51,protocolo=opcua;arm=ciclo_completo;tempo_total=5.17
+77.56077949999599,sensor/temperature,40,protocolo=mqtt;temperature=25.00;burst=0
+77.62217879999662,sensor/temperature,40,protocolo=mqtt;temperature=25.00;burst=1
+77.6846879000077,sensor/temperature,40,protocolo=mqtt;temperature=25.00;burst=2
+77.74493230000371,sensor/temperature,40,protocolo=mqtt;temperature=25.00;burst=3
+77.80598069999542,sensor/temperature,40,protocolo=mqtt;temperature=25.00;burst=4
+77.86657610000111,sensor/temperature,40,protocolo=mqtt;temperature=25.00;burst=5
+77.92830519999552,sensor/temperature,40,protocolo=mqtt;temperature=25.00;burst=6
+77.98948329999985,sensor/temperature,40,protocolo=mqtt;temperature=25.00;burst=7
+78.05075969999598,sensor/temperature,40,protocolo=mqtt;temperature=25.00;burst=8
+78.09632650000276,sensor/humidity,29,protocolo=mqtt;humidity=46.07
+78.11167929999647,sensor/temperature,40,protocolo=mqtt;temperature=25.00;burst=9
+78.17291300000215,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=10
+78.23486430000048,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=11
+78.29610680000042,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=12
+78.35612749999564,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=13
+78.41672069999913,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=14
+78.4777710000053,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=15
+78.53854429999774,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=16
+78.60146079999686,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=17
+78.66234890000487,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=18
+78.72291890000633,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=19
+78.78342520000297,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=20
+78.84477569999581,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=21
+78.90558520000195,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=22
+78.96737349999603,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=23
+79.02855390000332,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=24
+79.09097390000534,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=25
+79.15153139999893,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=26
+79.21299200000067,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=27
+79.27337280000211,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=28
+79.335104400001,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=29
+79.39659910000046,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=30
+79.457459199999,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=31
+79.51841859999695,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=32
+79.57961519999662,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=33
+79.64117299999634,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=34
+79.7021306999959,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=35
+79.76348419999704,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=36
+79.82401480000408,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=37
+79.88569520000601,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=38
+79.94880929999636,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=39
+80.00874869999825,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=40
+80.0697966000007,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=41
+80.13114860000496,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=42
+80.1926048000023,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=43
+80.25351100000262,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=44
+80.3139671000099,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=45
+80.37558649999846,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=46
+80.43686170000001,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=47
+80.49758510000538,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=48
+80.4982153000019,sensor/arm,64,protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.64
+80.55780570000934,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=49
+80.61912879999727,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=50
+80.68007240000588,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=51
+80.74113870000292,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=52
+80.80173880000075,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=53
+80.86269550000725,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=54
+80.92500909999944,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=55
+80.985714800001,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=56
+81.04715720000968,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=57
+81.09197950000816,sensor/temperature,32,protocolo=coap;temperature=22.93
+81.10742570000002,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=58
+81.16893400000117,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=59
+81.23022280000441,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=60
+81.29077920000418,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=61
+81.35213909999584,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=62
+81.4132460999972,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=63
+81.47322220000206,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=64
+81.53468179999618,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=65
+81.5956612000009,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=66
+81.65781340000103,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=67
+81.71847730000445,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=68
+81.77997380000306,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=69
+81.84028519999993,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=70
+81.90242410000064,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=71
+81.96223990000726,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=72
+82.02388320000318,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=73
+82.08580729999812,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=74
+82.14623919999576,sensor/arm,64,protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.12
+82.14683050000167,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=75
+82.20713959999557,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=76
+82.26820330000191,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=77
+82.33036859999993,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=78
+82.39134450000711,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=79
+82.4518526000029,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=80
+82.51234889999614,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=81
+82.57398349999858,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=82
+82.63496560000931,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=83
+82.69548979999672,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=84
+82.7561912000092,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=85
+82.81795650000277,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=86
+82.87968280000496,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=87
+82.94033929999568,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=88
+83.00129010000092,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=89
+83.06277459999546,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=90
+83.10840350000944,sensor/humidity,29,protocolo=mqtt;humidity=46.31
+83.12415679999685,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=91
+83.18446140000015,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=92
+83.24575489999552,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=93
+83.27711560000898,sensor/arm,66,protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=0.84
+83.30786139999691,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=94
+83.36936330000754,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=95
+83.43017910000344,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=96
+83.49105890000646,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=97
+83.5525895000028,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=98
+83.61351350000768,sensor/temperature,41,protocolo=mqtt;temperature=25.00;burst=99
+83.67472029999772,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=100
+83.73628579999786,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=101
+83.79797050000343,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=102
+83.85890610000934,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=103
+83.92033809999702,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=104
+83.98081780000939,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=105
+84.04236220000894,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=106
+84.10376510000788,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=107
+84.11900760000572,sensor/arm,51,protocolo=opcua;arm=ciclo_completo;tempo_total=3.59
+84.16585130000021,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=108
+84.23384390000138,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=109
+84.28906350000761,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=110
+84.3510030000034,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=111
+84.4115071999986,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=112
+84.47261920000892,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=113
+84.53324520000024,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=114
+84.59483990000444,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=115
+84.65686899999855,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=116
+84.71778550000454,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=117
+84.778701800009,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=118
+84.8388130999956,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=119
+84.89986820000922,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=120
+84.96036100000492,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=121
+85.0221223999979,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=122
+85.08263669999724,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=123
+85.14374329999555,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=124
+85.20456430000195,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=125
+85.26612400000158,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=126
+85.32789030000276,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=127
+85.38860040000873,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=128
+85.45027070000651,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=129
+85.51113320000877,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=130
+85.57220890000463,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=131
+85.63404060000903,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=132
+85.69509619999735,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=133
+85.75597820000257,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=134
+85.81636320000689,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=135
+85.87873650000256,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=136
+85.93848399999843,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=137
+85.99936929999967,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=138
+86.06260330000077,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=139
+86.10657420000643,sensor/temperature,32,protocolo=coap;temperature=23.13
+86.121556099999,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=140
+86.18345540000882,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=141
+86.24408519999997,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=142
+86.30569860000105,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=143
+86.36570510000456,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=144
+86.42673380000633,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=145
+86.48743880000256,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=146
+86.54893570000422,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=147
+86.6102477999957,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=148
+86.67024110000057,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=149
+86.73197740000614,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=150
+86.79306290000386,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=151
+86.85346800000116,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=152
+86.91437980000046,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=153
+86.97567949999939,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=154
+87.03666340000927,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=155
+87.09756190000917,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=156
+87.12769730000582,sensor/arm,64,protocolo=opcua;arm=Braço coletando caixa da esteira;tempo=1.79
+87.15859069999715,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=157
+87.21928190000472,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=158
+87.28172660000564,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=159
+87.34126850000757,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=160
+87.40244869999879,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=161
+87.4637739000027,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=162
+87.52491269999882,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=163
+87.58692689999589,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=164
+87.64764120000473,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=165
+87.70808789999865,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=166
+87.76914210000541,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=167
+87.83037640000111,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=168
+87.89178050000919,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=169
+87.95367200000328,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=170
+88.01662979999674,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=171
+88.07596830000693,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=172
+88.1216010000062,sensor/humidity,29,protocolo=mqtt;humidity=58.03
+88.13665040000342,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=173
+88.19832170000882,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=174
+88.26000840000052,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=175
+88.32078540000657,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=176
+88.38134459999856,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=177
+88.4425867999962,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=178
+88.50310000000172,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=179
+88.56368170000496,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=180
+88.62516640000104,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=181
+88.68565860000672,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=182
+88.74623010000505,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=183
+88.80785110000579,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=184
+88.86875049999799,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=185
+88.91500510000333,sensor/arm,64,protocolo=opcua;arm=Braço movendo caixa para a pilha;tempo=1.83
+88.93035330000566,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=186
+88.99069930000405,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=187
+89.0515224999981,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=188
+89.112389300004,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=189
+89.17327980000118,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=190
+89.2353648999997,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=191
+89.29897390000406,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=192
+89.35748020000756,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=193
+89.4219948999962,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=194
+89.47994770000514,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=195
+89.54095270000107,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=196
+89.60241249999672,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=197
+89.66435659999843,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=198
+89.72601420000137,sensor/temperature,42,protocolo=mqtt;temperature=25.00;burst=199
+90.74872050000704,sensor/arm,66,protocolo=opcua;arm=Braço depositando a caixa na pilha;tempo=1.08
+91.11683780000021,sensor/temperature,32,protocolo=coap;temperature=22.01
+91.83370410000498,sensor/arm,51,protocolo=opcua;arm=ciclo_completo;tempo_total=4.70

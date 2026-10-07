@@ -1,0 +1,1324 @@
+{
+  "mode": "synthetic real-WAN workload",
+  "physical_capture_age_verified": false,
+  "clock_sync_verified": false,
+  "outage": "edge application withholding; not WAN packet blackout",
+  "args": {
+    "run": "wan-healthy-latest-q0-s2",
+    "policy": "latest",
+    "output": "C:\\Users\\PC\\Documents\\Codex\\2026-10-07\\referenced-chatgpt-conversation-this-is-an\\outputs\\dt-mqtt-resilience\\results\\cloud_wan\\wan-healthy-latest-q0-s2\\edge",
+    "port": 18885,
+    "qos": 0,
+    "duration": 20.0,
+    "serial_port": null,
+    "outage_start": -1.0,
+    "outage_end": -1.0,
+    "dispatch_cap": 12.0,
+    "seed": 2
+  },
+  "started_utc": 1791390659.1602914,
+  "generated": 396,
+  "published": 214,
+  "remaining": 3,
+  "max_queue": 4,
+  "failures": [],
+  "measured_end_utc": 1791390679.1657488,
+  "ended_utc": 1791390679.1657488,
+  "connections": [
+    {
+      "event": "connect",
+      "utc": 1791390659.1602914,
+      "reason": "Success"
+    }
+  ],
+  "published_updates": [
+    {
+      "device": 0,
+      "seq": 1,
+      "submitted_utc": 1791390659.165035,
+      "publication_complete_utc": 1791390659.1728294
+    },
+    {
+      "device": 1,
+      "seq": 1,
+      "submitted_utc": 1791390659.2490208,
+      "publication_complete_utc": 1791390659.2650046
+    },
+    {
+      "device": 2,
+      "seq": 1,
+      "submitted_utc": 1791390659.3411622,
+      "publication_complete_utc": 1791390659.3586526
+    },
+    {
+      "device": 3,
+      "seq": 2,
+      "submitted_utc": 1791390659.43361,
+      "publication_complete_utc": 1791390659.4495618
+    },
+    {
+      "device": 0,
+      "seq": 2,
+      "submitted_utc": 1791390659.541365,
+      "publication_complete_utc": 1791390659.557344
+    },
+    {
+      "device": 1,
+      "seq": 3,
+      "submitted_utc": 1791390659.6330504,
+      "publication_complete_utc": 1791390659.6485875
+    },
+    {
+      "device": 2,
+      "seq": 3,
+      "submitted_utc": 1791390659.7248604,
+      "publication_complete_utc": 1791390659.7405615
+    },
+    {
+      "device": 3,
+      "seq": 4,
+      "submitted_utc": 1791390659.8160036,
+      "publication_complete_utc": 1791390659.8319695
+    },
+    {
+      "device": 0,
+      "seq": 4,
+      "submitted_utc": 1791390659.9084706,
+      "publication_complete_utc": 1791390659.9238148
+    },
+    {
+      "device": 1,
+      "seq": 5,
+      "submitted_utc": 1791390660.0017936,
+      "publication_complete_utc": 1791390660.0178227
+    },
+    {
+      "device": 2,
+      "seq": 5,
+      "submitted_utc": 1791390660.09403,
+      "publication_complete_utc": 1791390660.1096394
+    },
+    {
+      "device": 3,
+      "seq": 6,
+      "submitted_utc": 1791390660.1861184,
+      "publication_complete_utc": 1791390660.2009234
+    },
+    {
+      "device": 0,
+      "seq": 6,
+      "submitted_utc": 1791390660.2772298,
+      "publication_complete_utc": 1791390660.2934427
+    },
+    {
+      "device": 1,
+      "seq": 7,
+      "submitted_utc": 1791390660.3868656,
+      "publication_complete_utc": 1791390660.4009042
+    },
+    {
+      "device": 2,
+      "seq": 7,
+      "submitted_utc": 1791390660.4769378,
+      "publication_complete_utc": 1791390660.4924674
+    },
+    {
+      "device": 3,
+      "seq": 7,
+      "submitted_utc": 1791390660.5689,
+      "publication_complete_utc": 1791390660.5864825
+    },
+    {
+      "device": 0,
+      "seq": 8,
+      "submitted_utc": 1791390660.6612372,
+      "publication_complete_utc": 1791390660.6774566
+    },
+    {
+      "device": 1,
+      "seq": 8,
+      "submitted_utc": 1791390660.75423,
+      "publication_complete_utc": 1791390660.7702794
+    },
+    {
+      "device": 2,
+      "seq": 9,
+      "submitted_utc": 1791390660.8470533,
+      "publication_complete_utc": 1791390660.8630044
+    },
+    {
+      "device": 3,
+      "seq": 9,
+      "submitted_utc": 1791390660.9391248,
+      "publication_complete_utc": 1791390660.955195
+    },
+    {
+      "device": 0,
+      "seq": 10,
+      "submitted_utc": 1791390661.0317483,
+      "publication_complete_utc": 1791390661.0472844
+    },
+    {
+      "device": 1,
+      "seq": 10,
+      "submitted_utc": 1791390661.1237817,
+      "publication_complete_utc": 1791390661.1397696
+    },
+    {
+      "device": 2,
+      "seq": 11,
+      "submitted_utc": 1791390661.2157073,
+      "publication_complete_utc": 1791390661.231649
+    },
+    {
+      "device": 3,
+      "seq": 11,
+      "submitted_utc": 1791390661.3228235,
+      "publication_complete_utc": 1791390661.3387685
+    },
+    {
+      "device": 0,
+      "seq": 12,
+      "submitted_utc": 1791390661.4153724,
+      "publication_complete_utc": 1791390661.430849
+    },
+    {
+      "device": 1,
+      "seq": 12,
+      "submitted_utc": 1791390661.506298,
+      "publication_complete_utc": 1791390661.5224783
+    },
+    {
+      "device": 2,
+      "seq": 13,
+      "submitted_utc": 1791390661.6009424,
+      "publication_complete_utc": 1791390661.6145098
+    },
+    {
+      "device": 3,
+      "seq": 13,
+      "submitted_utc": 1791390661.691056,
+      "publication_complete_utc": 1791390661.7068715
+    },
+    {
+      "device": 0,
+      "seq": 13,
+      "submitted_utc": 1791390661.7825353,
+      "publication_complete_utc": 1791390661.800172
+    },
+    {
+      "device": 1,
+      "seq": 14,
+      "submitted_utc": 1791390661.8753371,
+      "publication_complete_utc": 1791390661.8913636
+    },
+    {
+      "device": 2,
+      "seq": 14,
+      "submitted_utc": 1791390661.9675941,
+      "publication_complete_utc": 1791390661.9837685
+    },
+    {
+      "device": 3,
+      "seq": 15,
+      "submitted_utc": 1791390662.0604641,
+      "publication_complete_utc": 1791390662.0760577
+    },
+    {
+      "device": 0,
+      "seq": 15,
+      "submitted_utc": 1791390662.1526487,
+      "publication_complete_utc": 1791390662.1687157
+    },
+    {
+      "device": 1,
+      "seq": 16,
+      "submitted_utc": 1791390662.2605908,
+      "publication_complete_utc": 1791390662.2765553
+    },
+    {
+      "device": 2,
+      "seq": 16,
+      "submitted_utc": 1791390662.3531976,
+      "publication_complete_utc": 1791390662.3689337
+    },
+    {
+      "device": 3,
+      "seq": 17,
+      "submitted_utc": 1791390662.4449537,
+      "publication_complete_utc": 1791390662.4604268
+    },
+    {
+      "device": 0,
+      "seq": 17,
+      "submitted_utc": 1791390662.5369182,
+      "publication_complete_utc": 1791390662.5529451
+    },
+    {
+      "device": 1,
+      "seq": 18,
+      "submitted_utc": 1791390662.628654,
+      "publication_complete_utc": 1791390662.6446369
+    },
+    {
+      "device": 2,
+      "seq": 18,
+      "submitted_utc": 1791390662.7211177,
+      "publication_complete_utc": 1791390662.7370512
+    },
+    {
+      "device": 3,
+      "seq": 19,
+      "submitted_utc": 1791390662.8150454,
+      "publication_complete_utc": 1791390662.8288817
+    },
+    {
+      "device": 0,
+      "seq": 19,
+      "submitted_utc": 1791390662.9053972,
+      "publication_complete_utc": 1791390662.9214528
+    },
+    {
+      "device": 1,
+      "seq": 19,
+      "submitted_utc": 1791390662.9984796,
+      "publication_complete_utc": 1791390663.014991
+    },
+    {
+      "device": 2,
+      "seq": 20,
+      "submitted_utc": 1791390663.0899875,
+      "publication_complete_utc": 1791390663.1059222
+    },
+    {
+      "device": 3,
+      "seq": 20,
+      "submitted_utc": 1791390663.1981792,
+      "publication_complete_utc": 1791390663.214159
+    },
+    {
+      "device": 0,
+      "seq": 21,
+      "submitted_utc": 1791390663.290564,
+      "publication_complete_utc": 1791390663.3066008
+    },
+    {
+      "device": 1,
+      "seq": 21,
+      "submitted_utc": 1791390663.383011,
+      "publication_complete_utc": 1791390663.3990355
+    },
+    {
+      "device": 2,
+      "seq": 22,
+      "submitted_utc": 1791390663.4749134,
+      "publication_complete_utc": 1791390663.4908838
+    },
+    {
+      "device": 3,
+      "seq": 22,
+      "submitted_utc": 1791390663.567567,
+      "publication_complete_utc": 1791390663.583395
+    },
+    {
+      "device": 0,
+      "seq": 23,
+      "submitted_utc": 1791390663.658691,
+      "publication_complete_utc": 1791390663.6746273
+    },
+    {
+      "device": 1,
+      "seq": 23,
+      "submitted_utc": 1791390663.7511566,
+      "publication_complete_utc": 1791390663.7672079
+    },
+    {
+      "device": 2,
+      "seq": 24,
+      "submitted_utc": 1791390663.84346,
+      "publication_complete_utc": 1791390663.8589325
+    },
+    {
+      "device": 3,
+      "seq": 24,
+      "submitted_utc": 1791390663.9353862,
+      "publication_complete_utc": 1791390663.9513948
+    },
+    {
+      "device": 0,
+      "seq": 25,
+      "submitted_utc": 1791390664.0302136,
+      "publication_complete_utc": 1791390664.0441425
+    },
+    {
+      "device": 1,
+      "seq": 25,
+      "submitted_utc": 1791390664.1209114,
+      "publication_complete_utc": 1791390664.1363225
+    },
+    {
+      "device": 2,
+      "seq": 25,
+      "submitted_utc": 1791390664.228628,
+      "publication_complete_utc": 1791390664.2462323
+    },
+    {
+      "device": 3,
+      "seq": 26,
+      "submitted_utc": 1791390664.321158,
+      "publication_complete_utc": 1791390664.3371327
+    },
+    {
+      "device": 0,
+      "seq": 26,
+      "submitted_utc": 1791390664.412544,
+      "publication_complete_utc": 1791390664.4285197
+    },
+    {
+      "device": 1,
+      "seq": 27,
+      "submitted_utc": 1791390664.5049884,
+      "publication_complete_utc": 1791390664.5209231
+    },
+    {
+      "device": 2,
+      "seq": 27,
+      "submitted_utc": 1791390664.5975697,
+      "publication_complete_utc": 1791390664.6135328
+    },
+    {
+      "device": 3,
+      "seq": 28,
+      "submitted_utc": 1791390664.689006,
+      "publication_complete_utc": 1791390664.7044537
+    },
+    {
+      "device": 0,
+      "seq": 28,
+      "submitted_utc": 1791390664.7809632,
+      "publication_complete_utc": 1791390664.7970088
+    },
+    {
+      "device": 1,
+      "seq": 29,
+      "submitted_utc": 1791390664.873413,
+      "publication_complete_utc": 1791390664.8894248
+    },
+    {
+      "device": 2,
+      "seq": 29,
+      "submitted_utc": 1791390664.9650571,
+      "publication_complete_utc": 1791390664.980789
+    },
+    {
+      "device": 3,
+      "seq": 30,
+      "submitted_utc": 1791390665.071686,
+      "publication_complete_utc": 1791390665.0876667
+    },
+    {
+      "device": 0,
+      "seq": 30,
+      "submitted_utc": 1791390665.1648543,
+      "publication_complete_utc": 1791390665.1803386
+    },
+    {
+      "device": 1,
+      "seq": 31,
+      "submitted_utc": 1791390665.258859,
+      "publication_complete_utc": 1791390665.2722063
+    },
+    {
+      "device": 2,
+      "seq": 31,
+      "submitted_utc": 1791390665.3486962,
+      "publication_complete_utc": 1791390665.364832
+    },
+    {
+      "device": 3,
+      "seq": 31,
+      "submitted_utc": 1791390665.4411874,
+      "publication_complete_utc": 1791390665.4584703
+    },
+    {
+      "device": 0,
+      "seq": 32,
+      "submitted_utc": 1791390665.533423,
+      "publication_complete_utc": 1791390665.5494213
+    },
+    {
+      "device": 1,
+      "seq": 32,
+      "submitted_utc": 1791390665.6262197,
+      "publication_complete_utc": 1791390665.6421719
+    },
+    {
+      "device": 2,
+      "seq": 33,
+      "submitted_utc": 1791390665.7181878,
+      "publication_complete_utc": 1791390665.733663
+    },
+    {
+      "device": 3,
+      "seq": 33,
+      "submitted_utc": 1791390665.809982,
+      "publication_complete_utc": 1791390665.825939
+    },
+    {
+      "device": 0,
+      "seq": 34,
+      "submitted_utc": 1791390665.9024527,
+      "publication_complete_utc": 1791390665.9184272
+    },
+    {
+      "device": 1,
+      "seq": 34,
+      "submitted_utc": 1791390665.9953935,
+      "publication_complete_utc": 1791390666.0113688
+    },
+    {
+      "device": 2,
+      "seq": 35,
+      "submitted_utc": 1791390666.1029606,
+      "publication_complete_utc": 1791390666.1189868
+    },
+    {
+      "device": 3,
+      "seq": 35,
+      "submitted_utc": 1791390666.194751,
+      "publication_complete_utc": 1791390666.2107344
+    },
+    {
+      "device": 0,
+      "seq": 36,
+      "submitted_utc": 1791390666.2871451,
+      "publication_complete_utc": 1791390666.3030994
+    },
+    {
+      "device": 1,
+      "seq": 36,
+      "submitted_utc": 1791390666.3793242,
+      "publication_complete_utc": 1791390666.395355
+    },
+    {
+      "device": 2,
+      "seq": 37,
+      "submitted_utc": 1791390666.473459,
+      "publication_complete_utc": 1791390666.4871109
+    },
+    {
+      "device": 3,
+      "seq": 37,
+      "submitted_utc": 1791390666.564858,
+      "publication_complete_utc": 1791390666.5815551
+    },
+    {
+      "device": 0,
+      "seq": 37,
+      "submitted_utc": 1791390666.658349,
+      "publication_complete_utc": 1791390666.6754057
+    },
+    {
+      "device": 1,
+      "seq": 38,
+      "submitted_utc": 1791390666.749718,
+      "publication_complete_utc": 1791390666.7659037
+    },
+    {
+      "device": 2,
+      "seq": 38,
+      "submitted_utc": 1791390666.8425207,
+      "publication_complete_utc": 1791390666.8585293
+    },
+    {
+      "device": 3,
+      "seq": 39,
+      "submitted_utc": 1791390666.934934,
+      "publication_complete_utc": 1791390666.950943
+    },
+    {
+      "device": 0,
+      "seq": 39,
+      "submitted_utc": 1791390667.0276306,
+      "publication_complete_utc": 1791390667.0435305
+    },
+    {
+      "device": 1,
+      "seq": 40,
+      "submitted_utc": 1791390667.1354198,
+      "publication_complete_utc": 1791390667.1513667
+    },
+    {
+      "device": 2,
+      "seq": 40,
+      "submitted_utc": 1791390667.2281563,
+      "publication_complete_utc": 1791390667.244072
+    },
+    {
+      "device": 3,
+      "seq": 41,
+      "submitted_utc": 1791390667.3205073,
+      "publication_complete_utc": 1791390667.3364694
+    },
+    {
+      "device": 0,
+      "seq": 41,
+      "submitted_utc": 1791390667.4128137,
+      "publication_complete_utc": 1791390667.4288259
+    },
+    {
+      "device": 1,
+      "seq": 42,
+      "submitted_utc": 1791390667.5043108,
+      "publication_complete_utc": 1791390667.520305
+    },
+    {
+      "device": 2,
+      "seq": 42,
+      "submitted_utc": 1791390667.5967133,
+      "publication_complete_utc": 1791390667.612699
+    },
+    {
+      "device": 3,
+      "seq": 43,
+      "submitted_utc": 1791390667.6913447,
+      "publication_complete_utc": 1791390667.7052338
+    },
+    {
+      "device": 0,
+      "seq": 43,
+      "submitted_utc": 1791390667.7807772,
+      "publication_complete_utc": 1791390667.7962582
+    },
+    {
+      "device": 1,
+      "seq": 43,
+      "submitted_utc": 1791390667.872225,
+      "publication_complete_utc": 1791390667.8897347
+    },
+    {
+      "device": 2,
+      "seq": 44,
+      "submitted_utc": 1791390667.9648466,
+      "publication_complete_utc": 1791390667.9805465
+    },
+    {
+      "device": 3,
+      "seq": 44,
+      "submitted_utc": 1791390668.0724936,
+      "publication_complete_utc": 1791390668.0884788
+    },
+    {
+      "device": 0,
+      "seq": 45,
+      "submitted_utc": 1791390668.165073,
+      "publication_complete_utc": 1791390668.1808164
+    },
+    {
+      "device": 1,
+      "seq": 45,
+      "submitted_utc": 1791390668.256931,
+      "publication_complete_utc": 1791390668.2724276
+    },
+    {
+      "device": 2,
+      "seq": 46,
+      "submitted_utc": 1791390668.3490486,
+      "publication_complete_utc": 1791390668.3649225
+    },
+    {
+      "device": 3,
+      "seq": 46,
+      "submitted_utc": 1791390668.44161,
+      "publication_complete_utc": 1791390668.457566
+    },
+    {
+      "device": 0,
+      "seq": 47,
+      "submitted_utc": 1791390668.5340512,
+      "publication_complete_utc": 1791390668.549483
+    },
+    {
+      "device": 1,
+      "seq": 47,
+      "submitted_utc": 1791390668.6254685,
+      "publication_complete_utc": 1791390668.6409516
+    },
+    {
+      "device": 2,
+      "seq": 48,
+      "submitted_utc": 1791390668.7174282,
+      "publication_complete_utc": 1791390668.7334049
+    },
+    {
+      "device": 3,
+      "seq": 48,
+      "submitted_utc": 1791390668.8102462,
+      "publication_complete_utc": 1791390668.826226
+    },
+    {
+      "device": 0,
+      "seq": 49,
+      "submitted_utc": 1791390668.9047565,
+      "publication_complete_utc": 1791390668.918618
+    },
+    {
+      "device": 1,
+      "seq": 49,
+      "submitted_utc": 1791390669.0094283,
+      "publication_complete_utc": 1791390669.0254052
+    },
+    {
+      "device": 2,
+      "seq": 49,
+      "submitted_utc": 1791390669.1017807,
+      "publication_complete_utc": 1791390669.1188495
+    },
+    {
+      "device": 3,
+      "seq": 50,
+      "submitted_utc": 1791390669.1943219,
+      "publication_complete_utc": 1791390669.2103145
+    },
+    {
+      "device": 0,
+      "seq": 50,
+      "submitted_utc": 1791390669.2862263,
+      "publication_complete_utc": 1791390669.302188
+    },
+    {
+      "device": 1,
+      "seq": 51,
+      "submitted_utc": 1791390669.378406,
+      "publication_complete_utc": 1791390669.3943708
+    },
+    {
+      "device": 2,
+      "seq": 51,
+      "submitted_utc": 1791390669.471192,
+      "publication_complete_utc": 1791390669.4871964
+    },
+    {
+      "device": 3,
+      "seq": 52,
+      "submitted_utc": 1791390669.5643973,
+      "publication_complete_utc": 1791390669.5794659
+    },
+    {
+      "device": 0,
+      "seq": 52,
+      "submitted_utc": 1791390669.655378,
+      "publication_complete_utc": 1791390669.6713378
+    },
+    {
+      "device": 1,
+      "seq": 53,
+      "submitted_utc": 1791390669.7478697,
+      "publication_complete_utc": 1791390669.7636585
+    },
+    {
+      "device": 2,
+      "seq": 53,
+      "submitted_utc": 1791390669.8399153,
+      "publication_complete_utc": 1791390669.8558733
+    },
+    {
+      "device": 3,
+      "seq": 54,
+      "submitted_utc": 1791390669.9477432,
+      "publication_complete_utc": 1791390669.9637628
+    },
+    {
+      "device": 0,
+      "seq": 54,
+      "submitted_utc": 1791390670.0400593,
+      "publication_complete_utc": 1791390670.0560343
+    },
+    {
+      "device": 1,
+      "seq": 55,
+      "submitted_utc": 1791390670.1344101,
+      "publication_complete_utc": 1791390670.148301
+    },
+    {
+      "device": 2,
+      "seq": 55,
+      "submitted_utc": 1791390670.2252538,
+      "publication_complete_utc": 1791390670.2401469
+    },
+    {
+      "device": 3,
+      "seq": 55,
+      "submitted_utc": 1791390670.31621,
+      "publication_complete_utc": 1791390670.333785
+    },
+    {
+      "device": 0,
+      "seq": 56,
+      "submitted_utc": 1791390670.4084284,
+      "publication_complete_utc": 1791390670.4244165
+    },
+    {
+      "device": 1,
+      "seq": 56,
+      "submitted_utc": 1791390670.5005152,
+      "publication_complete_utc": 1791390670.516578
+    },
+    {
+      "device": 2,
+      "seq": 57,
+      "submitted_utc": 1791390670.5928986,
+      "publication_complete_utc": 1791390670.6089735
+    },
+    {
+      "device": 3,
+      "seq": 57,
+      "submitted_utc": 1791390670.684438,
+      "publication_complete_utc": 1791390670.7004118
+    },
+    {
+      "device": 0,
+      "seq": 58,
+      "submitted_utc": 1791390670.776633,
+      "publication_complete_utc": 1791390670.7926943
+    },
+    {
+      "device": 1,
+      "seq": 58,
+      "submitted_utc": 1791390670.8841424,
+      "publication_complete_utc": 1791390670.900098
+    },
+    {
+      "device": 2,
+      "seq": 59,
+      "submitted_utc": 1791390670.9763145,
+      "publication_complete_utc": 1791390670.992311
+    },
+    {
+      "device": 3,
+      "seq": 59,
+      "submitted_utc": 1791390671.0689013,
+      "publication_complete_utc": 1791390671.084874
+    },
+    {
+      "device": 0,
+      "seq": 60,
+      "submitted_utc": 1791390671.162003,
+      "publication_complete_utc": 1791390671.178028
+    },
+    {
+      "device": 1,
+      "seq": 60,
+      "submitted_utc": 1791390671.2551386,
+      "publication_complete_utc": 1791390671.270797
+    },
+    {
+      "device": 2,
+      "seq": 61,
+      "submitted_utc": 1791390671.350279,
+      "publication_complete_utc": 1791390671.3645182
+    },
+    {
+      "device": 3,
+      "seq": 61,
+      "submitted_utc": 1791390671.4407215,
+      "publication_complete_utc": 1791390671.456275
+    },
+    {
+      "device": 0,
+      "seq": 61,
+      "submitted_utc": 1791390671.5322437,
+      "publication_complete_utc": 1791390671.5487254
+    },
+    {
+      "device": 1,
+      "seq": 62,
+      "submitted_utc": 1791390671.624214,
+      "publication_complete_utc": 1791390671.6402292
+    },
+    {
+      "device": 2,
+      "seq": 62,
+      "submitted_utc": 1791390671.716764,
+      "publication_complete_utc": 1791390671.7323434
+    },
+    {
+      "device": 3,
+      "seq": 63,
+      "submitted_utc": 1791390671.80913,
+      "publication_complete_utc": 1791390671.8250885
+    },
+    {
+      "device": 0,
+      "seq": 63,
+      "submitted_utc": 1791390671.9169335,
+      "publication_complete_utc": 1791390671.9329221
+    },
+    {
+      "device": 1,
+      "seq": 64,
+      "submitted_utc": 1791390672.0092494,
+      "publication_complete_utc": 1791390672.0252726
+    },
+    {
+      "device": 2,
+      "seq": 64,
+      "submitted_utc": 1791390672.101708,
+      "publication_complete_utc": 1791390672.1171947
+    },
+    {
+      "device": 3,
+      "seq": 65,
+      "submitted_utc": 1791390672.193659,
+      "publication_complete_utc": 1791390672.2092073
+    },
+    {
+      "device": 0,
+      "seq": 65,
+      "submitted_utc": 1791390672.2856586,
+      "publication_complete_utc": 1791390672.301084
+    },
+    {
+      "device": 1,
+      "seq": 66,
+      "submitted_utc": 1791390672.377053,
+      "publication_complete_utc": 1791390672.39302
+    },
+    {
+      "device": 2,
+      "seq": 66,
+      "submitted_utc": 1791390672.4695349,
+      "publication_complete_utc": 1791390672.4855418
+    },
+    {
+      "device": 3,
+      "seq": 67,
+      "submitted_utc": 1791390672.5645957,
+      "publication_complete_utc": 1791390672.5770369
+    },
+    {
+      "device": 0,
+      "seq": 67,
+      "submitted_utc": 1791390672.65351,
+      "publication_complete_utc": 1791390672.6695063
+    },
+    {
+      "device": 1,
+      "seq": 67,
+      "submitted_utc": 1791390672.7455297,
+      "publication_complete_utc": 1791390672.761481
+    },
+    {
+      "device": 2,
+      "seq": 68,
+      "submitted_utc": 1791390672.852624,
+      "publication_complete_utc": 1791390672.8724525
+    },
+    {
+      "device": 3,
+      "seq": 68,
+      "submitted_utc": 1791390672.9456592,
+      "publication_complete_utc": 1791390672.9612048
+    },
+    {
+      "device": 0,
+      "seq": 69,
+      "submitted_utc": 1791390673.0361948,
+      "publication_complete_utc": 1791390673.0526567
+    },
+    {
+      "device": 1,
+      "seq": 69,
+      "submitted_utc": 1791390673.1280591,
+      "publication_complete_utc": 1791390673.1440318
+    },
+    {
+      "device": 2,
+      "seq": 70,
+      "submitted_utc": 1791390673.220892,
+      "publication_complete_utc": 1791390673.236899
+    },
+    {
+      "device": 3,
+      "seq": 70,
+      "submitted_utc": 1791390673.3133793,
+      "publication_complete_utc": 1791390673.329204
+    },
+    {
+      "device": 0,
+      "seq": 71,
+      "submitted_utc": 1791390673.4063022,
+      "publication_complete_utc": 1791390673.422277
+    },
+    {
+      "device": 1,
+      "seq": 71,
+      "submitted_utc": 1791390673.4988842,
+      "publication_complete_utc": 1791390673.5148559
+    },
+    {
+      "device": 2,
+      "seq": 72,
+      "submitted_utc": 1791390673.5909557,
+      "publication_complete_utc": 1791390673.6069162
+    },
+    {
+      "device": 3,
+      "seq": 72,
+      "submitted_utc": 1791390673.6834457,
+      "publication_complete_utc": 1791390673.699434
+    },
+    {
+      "device": 0,
+      "seq": 73,
+      "submitted_utc": 1791390673.793288,
+      "publication_complete_utc": 1791390673.8071823
+    },
+    {
+      "device": 1,
+      "seq": 73,
+      "submitted_utc": 1791390673.8837125,
+      "publication_complete_utc": 1791390673.8997083
+    },
+    {
+      "device": 2,
+      "seq": 73,
+      "submitted_utc": 1791390673.974964,
+      "publication_complete_utc": 1791390673.9924643
+    },
+    {
+      "device": 3,
+      "seq": 74,
+      "submitted_utc": 1791390674.0670462,
+      "publication_complete_utc": 1791390674.0828636
+    },
+    {
+      "device": 0,
+      "seq": 74,
+      "submitted_utc": 1791390674.160768,
+      "publication_complete_utc": 1791390674.1770473
+    },
+    {
+      "device": 1,
+      "seq": 75,
+      "submitted_utc": 1791390674.2552545,
+      "publication_complete_utc": 1791390674.2710717
+    },
+    {
+      "device": 2,
+      "seq": 75,
+      "submitted_utc": 1791390674.3470156,
+      "publication_complete_utc": 1791390674.3629863
+    },
+    {
+      "device": 3,
+      "seq": 76,
+      "submitted_utc": 1791390674.4394755,
+      "publication_complete_utc": 1791390674.4555473
+    },
+    {
+      "device": 0,
+      "seq": 76,
+      "submitted_utc": 1791390674.5322127,
+      "publication_complete_utc": 1791390674.5476913
+    },
+    {
+      "device": 1,
+      "seq": 77,
+      "submitted_utc": 1791390674.6232102,
+      "publication_complete_utc": 1791390674.63916
+    },
+    {
+      "device": 2,
+      "seq": 77,
+      "submitted_utc": 1791390674.7156682,
+      "publication_complete_utc": 1791390674.7315958
+    },
+    {
+      "device": 3,
+      "seq": 78,
+      "submitted_utc": 1791390674.808457,
+      "publication_complete_utc": 1791390674.82443
+    },
+    {
+      "device": 0,
+      "seq": 78,
+      "submitted_utc": 1791390674.916426,
+      "publication_complete_utc": 1791390674.9324555
+    },
+    {
+      "device": 1,
+      "seq": 79,
+      "submitted_utc": 1791390675.0117605,
+      "publication_complete_utc": 1791390675.0252929
+    },
+    {
+      "device": 2,
+      "seq": 79,
+      "submitted_utc": 1791390675.1009483,
+      "publication_complete_utc": 1791390675.1169567
+    },
+    {
+      "device": 3,
+      "seq": 79,
+      "submitted_utc": 1791390675.1934137,
+      "publication_complete_utc": 1791390675.209913
+    },
+    {
+      "device": 0,
+      "seq": 80,
+      "submitted_utc": 1791390675.284817,
+      "publication_complete_utc": 1791390675.3007767
+    },
+    {
+      "device": 1,
+      "seq": 80,
+      "submitted_utc": 1791390675.3770652,
+      "publication_complete_utc": 1791390675.3931062
+    },
+    {
+      "device": 2,
+      "seq": 81,
+      "submitted_utc": 1791390675.469633,
+      "publication_complete_utc": 1791390675.4857042
+    },
+    {
+      "device": 3,
+      "seq": 81,
+      "submitted_utc": 1791390675.5628223,
+      "publication_complete_utc": 1791390675.5780118
+    },
+    {
+      "device": 0,
+      "seq": 82,
+      "submitted_utc": 1791390675.653567,
+      "publication_complete_utc": 1791390675.6695402
+    },
+    {
+      "device": 1,
+      "seq": 82,
+      "submitted_utc": 1791390675.7460492,
+      "publication_complete_utc": 1791390675.761478
+    },
+    {
+      "device": 2,
+      "seq": 83,
+      "submitted_utc": 1791390675.8537319,
+      "publication_complete_utc": 1791390675.8696947
+    },
+    {
+      "device": 3,
+      "seq": 83,
+      "submitted_utc": 1791390675.9461942,
+      "publication_complete_utc": 1791390675.962186
+    },
+    {
+      "device": 0,
+      "seq": 84,
+      "submitted_utc": 1791390676.0389328,
+      "publication_complete_utc": 1791390676.0549066
+    },
+    {
+      "device": 1,
+      "seq": 84,
+      "submitted_utc": 1791390676.131669,
+      "publication_complete_utc": 1791390676.1469412
+    },
+    {
+      "device": 2,
+      "seq": 85,
+      "submitted_utc": 1791390676.2253897,
+      "publication_complete_utc": 1791390676.238563
+    },
+    {
+      "device": 3,
+      "seq": 85,
+      "submitted_utc": 1791390676.3149364,
+      "publication_complete_utc": 1791390676.3309135
+    },
+    {
+      "device": 0,
+      "seq": 85,
+      "submitted_utc": 1791390676.40772,
+      "publication_complete_utc": 1791390676.4246917
+    },
+    {
+      "device": 1,
+      "seq": 86,
+      "submitted_utc": 1791390676.4997923,
+      "publication_complete_utc": 1791390676.51585
+    },
+    {
+      "device": 2,
+      "seq": 86,
+      "submitted_utc": 1791390676.592203,
+      "publication_complete_utc": 1791390676.608186
+    },
+    {
+      "device": 3,
+      "seq": 87,
+      "submitted_utc": 1791390676.6839693,
+      "publication_complete_utc": 1791390676.6998942
+    },
+    {
+      "device": 0,
+      "seq": 87,
+      "submitted_utc": 1791390676.7768745,
+      "publication_complete_utc": 1791390676.792966
+    },
+    {
+      "device": 1,
+      "seq": 88,
+      "submitted_utc": 1791390676.871822,
+      "publication_complete_utc": 1791390676.8877687
+    },
+    {
+      "device": 2,
+      "seq": 88,
+      "submitted_utc": 1791390676.9650261,
+      "publication_complete_utc": 1791390676.980233
+    },
+    {
+      "device": 3,
+      "seq": 89,
+      "submitted_utc": 1791390677.0725965,
+      "publication_complete_utc": 1791390677.0881631
+    },
+    {
+      "device": 0,
+      "seq": 89,
+      "submitted_utc": 1791390677.1650224,
+      "publication_complete_utc": 1791390677.1806002
+    },
+    {
+      "device": 1,
+      "seq": 90,
+      "submitted_utc": 1791390677.256835,
+      "publication_complete_utc": 1791390677.272797
+    },
+    {
+      "device": 2,
+      "seq": 90,
+      "submitted_utc": 1791390677.3488429,
+      "publication_complete_utc": 1791390677.364899
+    },
+    {
+      "device": 3,
+      "seq": 91,
+      "submitted_utc": 1791390677.4430857,
+      "publication_complete_utc": 1791390677.4569643
+    },
+    {
+      "device": 0,
+      "seq": 91,
+      "submitted_utc": 1791390677.5335844,
+      "publication_complete_utc": 1791390677.5494604
+    },
+    {
+      "device": 1,
+      "seq": 91,
+      "submitted_utc": 1791390677.6272054,
+      "publication_complete_utc": 1791390677.6440446
+    },
+    {
+      "device": 2,
+      "seq": 92,
+      "submitted_utc": 1791390677.7202232,
+      "publication_complete_utc": 1791390677.7361712
+    },
+    {
+      "device": 3,
+      "seq": 92,
+      "submitted_utc": 1791390677.814183,
+      "publication_complete_utc": 1791390677.8302479
+    },
+    {
+      "device": 0,
+      "seq": 93,
+      "submitted_utc": 1791390677.9067042,
+      "publication_complete_utc": 1791390677.9226506
+    },
+    {
+      "device": 1,
+      "seq": 93,
+      "submitted_utc": 1791390677.9993954,
+      "publication_complete_utc": 1791390678.0153737
+    },
+    {
+      "device": 2,
+      "seq": 94,
+      "submitted_utc": 1791390678.0913925,
+      "publication_complete_utc": 1791390678.1073415
+    },
+    {
+      "device": 3,
+      "seq": 94,
+      "submitted_utc": 1791390678.183039,
+      "publication_complete_utc": 1791390678.1992407
+    },
+    {
+      "device": 0,
+      "seq": 95,
+      "submitted_utc": 1791390678.2913165,
+      "publication_complete_utc": 1791390678.3068175
+    },
+    {
+      "device": 1,
+      "seq": 95,
+      "submitted_utc": 1791390678.3828726,
+      "publication_complete_utc": 1791390678.3985631
+    },
+    {
+      "device": 2,
+      "seq": 96,
+      "submitted_utc": 1791390678.4754522,
+      "publication_complete_utc": 1791390678.4914765
+    },
+    {
+      "device": 3,
+      "seq": 96,
+      "submitted_utc": 1791390678.5679417,
+      "publication_complete_utc": 1791390678.5839694
+    },
+    {
+      "device": 0,
+      "seq": 97,
+      "submitted_utc": 1791390678.6621842,
+      "publication_complete_utc": 1791390678.6761427
+    },
+    {
+      "device": 1,
+      "seq": 97,
+      "submitted_utc": 1791390678.7526793,
+      "publication_complete_utc": 1791390678.7687488
+    },
+    {
+      "device": 2,
+      "seq": 97,
+      "submitted_utc": 1791390678.844531,
+      "publication_complete_utc": 1791390678.8615592
+    },
+    {
+      "device": 3,
+      "seq": 98,
+      "submitted_utc": 1791390678.9366148,
+      "publication_complete_utc": 1791390678.9525354
+    },
+    {
+      "device": 0,
+      "seq": 98,
+      "submitted_utc": 1791390679.0284588,
+      "publication_complete_utc": 1791390679.0444677
+    },
+    {
+      "device": 1,
+      "seq": 99,
+      "submitted_utc": 1791390679.1360657,
+      "publication_complete_utc": 1791390679.15118
+    }
+  ],
+  "generator": "nonblocking publication-completion polling; generation independent of acknowledgement waits; nominal 4 devices x 5Hz",
+  "pending": false,
+  "cpu_seconds": 0.609375,
+  "peak_rss_bytes": 27009024
+}

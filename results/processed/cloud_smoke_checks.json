@@ -1,0 +1,47 @@
+{
+  "scope": "local loopback integration smoke test of prepared cloud scripts; not remote cloud/WAN or physical evidence",
+  "checks": [
+    {
+      "run": "smoke-fifo-q0",
+      "generated": 40,
+      "published": 16,
+      "received": 16,
+      "rejected": 0
+    },
+    {
+      "run": "smoke-latest-q0",
+      "generated": 40,
+      "published": 16,
+      "received": 16,
+      "rejected": 0
+    },
+    {
+      "run": "smoke-fifo-q1",
+      "generated": 40,
+      "published": 16,
+      "received": 16,
+      "rejected": 0
+    },
+    {
+      "run": "smoke-latest-q1",
+      "generated": 40,
+      "published": 16,
+      "received": 16,
+      "rejected": 0
+    },
+    {
+      "run": "smoke-fifo-q2",
+      "generated": 40,
+      "published": 16,
+      "received": 16,
+      "rejected": 0
+    },
+    {
+      "run": "smoke-latest-q2",
+      "generated": 40,
+      "published": 16,
+      "received": 16,
+      "rejected": 0
+    }
+  ]
+}
