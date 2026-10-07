@@ -1,5 +1,6 @@
 """Local integration verification only; this is explicitly not WAN evidence."""
 import json
+import argparse
 import socket
 import sqlite3
 import subprocess
@@ -8,7 +9,8 @@ import time
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def main():
-    out=ROOT/'work/cloud-smoke';out.mkdir(exist_ok=False)
+    p=argparse.ArgumentParser();p.add_argument('--output',default='work/cloud-smoke');a=p.parse_args()
+    out=ROOT/a.output;out.mkdir(exist_ok=False)
     brokerlog=(out/'broker.txt').open('w')
     broker=subprocess.Popen([sys.executable,str(ROOT/'scripts/broker.py'),'18885'],stdout=brokerlog,stderr=subprocess.STDOUT)
     checks=[]

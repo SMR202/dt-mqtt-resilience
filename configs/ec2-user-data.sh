@@ -2,8 +2,9 @@
 # Prepared EC2 Ubuntu bootstrap. Requires an authorized instance launch.
 # No cloud resources are provisioned by this file.
 set -euo pipefail
+shutdown -h +90
 apt-get update
-DEBIAN_FRONTEND=noninteractive apt-get install -y mosquitto python3-venv git
+DEBIAN_FRONTEND=noninteractive apt-get install -y mosquitto python3-venv git chrony
 install -d -o ubuntu -g ubuntu /opt/dt-research
 sudo -u ubuntu git clone --branch research/phase2-reproduction https://github.com/SMR202/dt-mqtt-resilience.git /opt/dt-research/repo
 sudo -u ubuntu python3 -m venv /opt/dt-research/venv

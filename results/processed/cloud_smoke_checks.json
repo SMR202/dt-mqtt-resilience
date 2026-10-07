@@ -4,43 +4,43 @@
     {
       "run": "smoke-fifo-q0",
       "generated": 40,
-      "published": 40,
-      "received": 40,
+      "published": 16,
+      "received": 16,
       "rejected": 0
     },
     {
       "run": "smoke-latest-q0",
       "generated": 40,
-      "published": 29,
-      "received": 29,
+      "published": 16,
+      "received": 16,
       "rejected": 0
     },
     {
       "run": "smoke-fifo-q1",
       "generated": 40,
-      "published": 40,
-      "received": 40,
+      "published": 16,
+      "received": 16,
       "rejected": 0
     },
     {
       "run": "smoke-latest-q1",
       "generated": 40,
-      "published": 29,
-      "received": 29,
+      "published": 16,
+      "received": 16,
       "rejected": 0
     },
     {
       "run": "smoke-fifo-q2",
       "generated": 40,
-      "published": 40,
-      "received": 40,
+      "published": 16,
+      "received": 16,
       "rejected": 0
     },
     {
       "run": "smoke-latest-q2",
       "generated": 40,
-      "published": 29,
-      "received": 29,
+      "published": 16,
+      "received": 16,
       "rejected": 0
     }
   ]
