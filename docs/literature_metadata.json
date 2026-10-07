@@ -1,0 +1,1524 @@
+[
+  {
+    "key": "rate_monitor",
+    "doi": "10.3390/s25247476",
+    "title": "A Data Rate Monitoring Approach for Cyberattack Detection in Digital Twin Communication",
+    "authors": [
+      {
+        "given": "Claudio",
+        "family": "Rodrigues"
+      },
+      {
+        "given": "Waldir S. S.",
+        "family": "Junior"
+      },
+      {
+        "given": "Wilson",
+        "family": "Oliveira"
+      },
+      {
+        "given": "Isomar",
+        "family": "Lima"
+      }
+    ],
+    "venue": [
+      "Sensors"
+    ],
+    "volume": "25",
+    "issue": "24",
+    "page": "7476",
+    "url": "https://doi.org/10.3390/s25247476",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          9
+        ]
+      ]
+    },
+    "verified": "PubMed record 41471470 and Europe PMC full text; Crossref call rate-limited"
+  },
+  {
+    "key": "factory",
+    "doi": "10.3390/machines12110759",
+    "title": "Design and Implementation of Digital Twin Factory Synchronized in Real-Time Using MQTT",
+    "authors": [
+      {
+        "given": "Yechang",
+        "family": "Cho",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Smart Factory Convergence, Sungkyunkwan University, Seobu-ro, Jangan-gu, Suwon-si 16419, Gyeonggi-do, Republic of Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5610-5560",
+        "authenticated-orcid": false,
+        "given": "Sang Do",
+        "family": "Noh",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Industrial Engineering, Sungkyunkwan University, Seobu-ro, Jangan-gu, Suwon-si 16419, Gyeonggi-do, Republic of Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "Machines"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          29
+        ]
+      ]
+    },
+    "volume": "12",
+    "issue": "11",
+    "page": "759",
+    "url": "https://doi.org/10.3390/machines12110759",
+    "verified": "Crossref DOI registration, 2026-10-07"
+  },
+  {
+    "key": "hyperdistributed",
+    "doi": "10.3390/fi16110431",
+    "title": "Flexible Hyper-Distributed IoT–Edge–Cloud Platform for Real-Time Digital Twin Applications on 6G-Intended Testbeds for Logistics and Industry",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0006-6311-8876",
+        "authenticated-orcid": false,
+        "given": "Maria",
+        "family": "Crespo-Aguado",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Institute of Telecommunications and Multimedia Applications (iTEAM), Universitat Politècnica de Valencia (UPV), 46022 Valencia, Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6014-5111",
+        "authenticated-orcid": false,
+        "given": "Raul",
+        "family": "Lozano",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Telecommunications and Multimedia Applications (iTEAM), Universitat Politècnica de Valencia (UPV), 46022 Valencia, Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0402-0220",
+        "authenticated-orcid": false,
+        "given": "Fernando",
+        "family": "Hernandez-Gobertti",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Telecommunications and Multimedia Applications (iTEAM), Universitat Politècnica de Valencia (UPV), 46022 Valencia, Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1711-5168",
+        "authenticated-orcid": false,
+        "given": "Nuria",
+        "family": "Molner",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Telecommunications and Multimedia Applications (iTEAM), Universitat Politècnica de Valencia (UPV), 46022 Valencia, Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2610-7765",
+        "authenticated-orcid": false,
+        "given": "David",
+        "family": "Gomez-Barquero",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Telecommunications and Multimedia Applications (iTEAM), Universitat Politècnica de Valencia (UPV), 46022 Valencia, Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "Future Internet"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          20
+        ]
+      ]
+    },
+    "volume": "16",
+    "issue": "11",
+    "page": "431",
+    "url": "https://doi.org/10.3390/fi16110431",
+    "verified": "Crossref DOI registration, 2026-10-07"
+  },
+  {
+    "key": "budget",
+    "doi": "10.1109/TMC.2024.3455357",
+    "title": "Budget-Constrained Digital Twin Synchronization and Its Application on Fidelity-Aware Queries in Edge Computing",
+    "authors": [
+      {
+        "given": "Yuchen",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Computing, Australian National University, Canberra, ACT, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8207-6740",
+        "authenticated-orcid": false,
+        "given": "Weifa",
+        "family": "Liang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, City University of Hong Kong, Kowloon Tong, Hong Kong"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5438-1468",
+        "authenticated-orcid": false,
+        "given": "Zichuan",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Key Laboratory for Ubiquitous Network and Service Software of Liaoning Province, School of Software, Dalian University of Technology, Dalian, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8396-6825",
+        "authenticated-orcid": false,
+        "given": "Wenzheng",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, Sichuan University, Chengdu, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8702-8302",
+        "authenticated-orcid": false,
+        "given": "Xiaohua",
+        "family": "Jia",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, City University of Hong Kong, Kowloon Tong, Hong Kong"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "IEEE Transactions on Mobile Computing"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "volume": "24",
+    "issue": "1",
+    "page": "165-182",
+    "url": "https://doi.org/10.1109/tmc.2024.3455357",
+    "verified": "Crossref DOI registration, 2026-10-07"
+  },
+  {
+    "key": "etl",
+    "doi": "10.3390/machines12020130",
+    "title": "Digital Twin Data Management: Framework and Performance Metrics of Cloud-Based ETL System",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8136-4540",
+        "authenticated-orcid": false,
+        "given": "Austeja",
+        "family": "Dapkute",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Company “Energy Advice”, LT-44175 Kaunas, Lithuania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9979-6859",
+        "authenticated-orcid": false,
+        "given": "Vytautas",
+        "family": "Siozinys",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Company “Energy Advice”, LT-44175 Kaunas, Lithuania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0319-7342",
+        "authenticated-orcid": false,
+        "given": "Martynas",
+        "family": "Jonaitis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Company “Energy Advice”, LT-44175 Kaunas, Lithuania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6186-3481",
+        "authenticated-orcid": false,
+        "given": "Mantas",
+        "family": "Kaminickas",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Company “Energy Advice”, LT-44175 Kaunas, Lithuania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4224-4631",
+        "authenticated-orcid": false,
+        "given": "Milvydas",
+        "family": "Siozinys",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Company “Energy Advice”, LT-44175 Kaunas, Lithuania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "Machines"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          12
+        ]
+      ]
+    },
+    "volume": "12",
+    "issue": "2",
+    "page": "130",
+    "url": "https://doi.org/10.3390/machines12020130",
+    "verified": "Crossref DOI registration, 2026-10-07"
+  },
+  {
+    "key": "odt",
+    "doi": "10.3390/fi18030137",
+    "title": "Digital Twins at the Edge: A High-Availability Framework for Resilient Data Processing in IoT Sensor Networks",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0001-6506-9768",
+        "authenticated-orcid": false,
+        "given": "Madalin",
+        "family": "Neagu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, Faculty of Automation and Computer Science, Technical University of Cluj-Napoca, 400027 Cluj-Napoca, Romania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0000-9570-5342",
+        "authenticated-orcid": false,
+        "given": "Codruta Maria",
+        "family": "Serban",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, Faculty of Automation and Computer Science, Technical University of Cluj-Napoca, 400027 Cluj-Napoca, Romania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4116-694X",
+        "authenticated-orcid": false,
+        "given": "Anca",
+        "family": "Hangan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, Faculty of Automation and Computer Science, Technical University of Cluj-Napoca, 400027 Cluj-Napoca, Romania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7773-1077",
+        "authenticated-orcid": false,
+        "given": "Gheorghe",
+        "family": "Sebestyen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, Faculty of Automation and Computer Science, Technical University of Cluj-Napoca, 400027 Cluj-Napoca, Romania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "Future Internet"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          6
+        ]
+      ]
+    },
+    "volume": "18",
+    "issue": "3",
+    "page": "137",
+    "url": "https://doi.org/10.3390/fi18030137",
+    "verified": "Crossref DOI registration, 2026-10-07"
+  },
+  {
+    "key": "odte",
+    "doi": "10.1109/OJCOMS.2024.3385659",
+    "title": "ODTE: A Metric for Digital Twin Entanglement",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0992-7948",
+        "authenticated-orcid": false,
+        "given": "Paolo",
+        "family": "Bellavista",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering (DISI), University of Bologna, Bologna, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nicola",
+        "family": "Bicocchi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Engineering Sciences and Methods, University of Modena and Reggio Emilia, Reggio Emilia, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9875-4550",
+        "authenticated-orcid": false,
+        "given": "Mattia",
+        "family": "Fogli",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mathematics and Computer Science, University of Ferrara, Ferrara, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2394-1191",
+        "authenticated-orcid": false,
+        "given": "Carlo",
+        "family": "Giannelli",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mathematics and Computer Science, University of Ferrara, Ferrara, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3918-2107",
+        "authenticated-orcid": false,
+        "given": "Marco",
+        "family": "Mamei",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Engineering Sciences and Methods, University of Modena and Reggio Emilia, Reggio Emilia, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8902-6909",
+        "authenticated-orcid": false,
+        "given": "Marco",
+        "family": "Picone",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Engineering Sciences and Methods, University of Modena and Reggio Emilia, Reggio Emilia, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "IEEE Open Journal of the Communications Society"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "volume": "5",
+    "issue": null,
+    "page": "2377-2390",
+    "url": "https://doi.org/10.1109/ojcoms.2024.3385659",
+    "verified": "Crossref DOI registration, 2026-10-07"
+  },
+  {
+    "key": "aodt",
+    "doi": "10.1109/ACCESS.2025.3591589",
+    "title": "From Age of Information to Age of Digital Twin: A Review on Synchronization Metrics for IoT Networks",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1236-4680",
+        "authenticated-orcid": false,
+        "given": "Ali",
+        "family": "Loubany",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Electrical and Computer Engineering Department, American University of Beirut, Beirut, Lebanon"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0738-0822",
+        "authenticated-orcid": false,
+        "given": "May",
+        "family": "Itani",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Mathematics and Computer Science Department, Beirut Arab University, Beirut, Lebanon"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6548-1624",
+        "authenticated-orcid": false,
+        "given": "Sanaa",
+        "family": "Sharafeddine",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Electrical and Computer Engineering Department, American University of Beirut, Beirut, Lebanon"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "IEEE Access"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "volume": "13",
+    "issue": null,
+    "page": "131102-131119",
+    "url": "https://doi.org/10.1109/access.2025.3591589",
+    "verified": "Crossref DOI registration, 2026-10-07"
+  },
+  {
+    "key": "scheduling",
+    "doi": "10.1109/JIOT.2024.3486125",
+    "title": "Scheduling of Digital Twin Synchronization in Industrial Internet of Things: A Hybrid Inverse Reinforcement Learning Approach",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0004-9349-3701",
+        "authenticated-orcid": false,
+        "given": "Qiuyang",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Networking and Switching Technology, Beijing University of Posts and Telecommunications, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4494-6389",
+        "authenticated-orcid": false,
+        "given": "Ying",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Networking and Switching Technology, Beijing University of Posts and Telecommunications, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2928-193X",
+        "authenticated-orcid": false,
+        "given": "Zhendong",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Information and Communication Engineering, Xi&#x2019;an Jiaotong University, Xi&#x2019;an, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "IEEE Internet of Things Journal"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          1
+        ]
+      ]
+    },
+    "volume": "12",
+    "issue": "5",
+    "page": "5137-5147",
+    "url": "https://doi.org/10.1109/jiot.2024.3486125",
+    "verified": "Crossref DOI registration, 2026-10-07"
+  },
+  {
+    "key": "aoi_energy",
+    "doi": "10.1109/GLOBECOM52923.2024.10901362",
+    "title": "Age-of-Information and Energy Optimization in Digital Twin Edge Networks",
+    "authors": [
+      {
+        "given": "Yongna",
+        "family": "Guo",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "KTH Royal Institute of Technology,School of Electrical Engineering and Computer Science,Stockholm,Sweden"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yaru",
+        "family": "Fu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hong Kong Metropolitan University,School of Science and Technology,China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yan",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Oslo,Department of Informatics,Oslo,Norway"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tony Q. S.",
+        "family": "Quek",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Singapore University of Technology and Design,Information Systems Technology and Design,Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "GLOBECOM 2024 - 2024 IEEE Global Communications Conference"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          8
+        ]
+      ]
+    },
+    "volume": null,
+    "issue": null,
+    "page": "3194-3200",
+    "url": "https://doi.org/10.1109/globecom52923.2024.10901362",
+    "verified": "Crossref DOI registration, 2026-10-07"
+  },
+  {
+    "key": "network_aware",
+    "doi": "10.1109/TII.2021.3067447",
+    "title": "Application-Driven Network-Aware Digital Twin Management in Industrial Edge Environments",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0992-7948",
+        "authenticated-orcid": false,
+        "given": "Paolo",
+        "family": "Bellavista",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2394-1191",
+        "authenticated-orcid": false,
+        "given": "Carlo",
+        "family": "Giannelli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3918-2107",
+        "authenticated-orcid": false,
+        "given": "Marco",
+        "family": "Mamei",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0126-9808",
+        "authenticated-orcid": false,
+        "given": "Matteo",
+        "family": "Mendula",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8902-6909",
+        "authenticated-orcid": false,
+        "given": "Marco",
+        "family": "Picone",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "IEEE Transactions on Industrial Informatics"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          11
+        ]
+      ]
+    },
+    "volume": "17",
+    "issue": "11",
+    "page": "7791-7801",
+    "url": "https://doi.org/10.1109/tii.2021.3067447",
+    "verified": "Crossref DOI registration, 2026-10-07"
+  },
+  {
+    "key": "wldt",
+    "doi": "10.1016/j.softx.2021.100661",
+    "title": "WLDT: A general purpose library to build IoT digital twins",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8902-6909",
+        "authenticated-orcid": false,
+        "given": "Marco",
+        "family": "Picone",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3918-2107",
+        "authenticated-orcid": false,
+        "given": "Marco",
+        "family": "Mamei",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Franco",
+        "family": "Zambonelli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "SoftwareX"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          1
+        ]
+      ]
+    },
+    "volume": "13",
+    "issue": null,
+    "page": "100661",
+    "url": "https://doi.org/10.1016/j.softx.2021.100661",
+    "verified": "Crossref DOI registration, 2026-10-07"
+  },
+  {
+    "key": "opentwins",
+    "doi": "10.1002/spe.3322",
+    "title": "Integrating FMI and ML/AI models on the open‐source digital twin framework OpenTwins",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0000-1207-0290",
+        "authenticated-orcid": false,
+        "given": "Sergio",
+        "family": "Infante",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "ITIS Software University of Málaga  Málaga Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0988-591X",
+        "authenticated-orcid": false,
+        "given": "Cristian",
+        "family": "Martín",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "ITIS Software University of Málaga  Málaga Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9494-9054",
+        "authenticated-orcid": false,
+        "given": "Julia",
+        "family": "Robles",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "ITIS Software University of Málaga  Málaga Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8279-4224",
+        "authenticated-orcid": false,
+        "given": "Bartolomé",
+        "family": "Rubio",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "ITIS Software University of Málaga  Málaga Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0625-2730",
+        "authenticated-orcid": false,
+        "given": "Manuel",
+        "family": "Díaz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "ITIS Software University of Málaga  Málaga Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6169-0787",
+        "authenticated-orcid": false,
+        "given": "Rafael González",
+        "family": "Perea",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Agronomy, Campus Rabanales University of Córdoba  Córdoba Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7763-0954",
+        "authenticated-orcid": false,
+        "given": "Pilar",
+        "family": "Montesinos",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Agronomy, Campus Rabanales University of Córdoba  Córdoba Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5812-5872",
+        "authenticated-orcid": false,
+        "given": "Emilio Camacho",
+        "family": "Poyato",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Agronomy, Campus Rabanales University of Córdoba  Córdoba Spain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "Software: Practice and Experience"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          5
+        ]
+      ]
+    },
+    "volume": "54",
+    "issue": "8",
+    "page": "1470-1490",
+    "url": "https://doi.org/10.1002/spe.3322",
+    "verified": "Crossref DOI registration, 2026-10-07"
+  },
+  {
+    "key": "sync_problem",
+    "doi": "10.1080/24725854.2023.2253869",
+    "title": "The digital twin synchronization problem: Framework, formulations, and analysis",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2584-1020",
+        "authenticated-orcid": false,
+        "given": "Barış",
+        "family": "Tan",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "College of Administrative Sciences and Economics, College of Engineering, Koç University, Istanbul, Turkey"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3902-2007",
+        "authenticated-orcid": false,
+        "given": "Andrea",
+        "family": "Matta",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering, Politecnico di Milano, Milan, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "IISE Transactions"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          2
+        ]
+      ]
+    },
+    "volume": "56",
+    "issue": "6",
+    "page": "652-665",
+    "url": "https://doi.org/10.1080/24725854.2023.2253869",
+    "verified": "Crossref DOI registration, 2026-10-07"
+  },
+  {
+    "key": "combench",
+    "doi": "10.1007/978-3-030-92511-6_5",
+    "title": "ComBench: A Benchmarking Framework for Publish/Subscribe Communication Protocols Under Network Limitations",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7960-0823",
+        "authenticated-orcid": false,
+        "given": "Stefan",
+        "family": "Herrnleben",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Maximilian",
+        "family": "Leidinger",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7481-4099",
+        "authenticated-orcid": false,
+        "given": "Veronika",
+        "family": "Lesch",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Thomas",
+        "family": "Prantl",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9643-6543",
+        "authenticated-orcid": false,
+        "given": "Johannes",
+        "family": "Grohmann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7275-0738",
+        "authenticated-orcid": false,
+        "given": "Christian",
+        "family": "Krupitzer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Samuel",
+        "family": "Kounev",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering",
+      "Performance Evaluation Methodologies and Tools"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "volume": null,
+    "issue": null,
+    "page": "72-92",
+    "url": "https://doi.org/10.1007/978-3-030-92511-6_5",
+    "verified": "Crossref DOI registration, 2026-10-07"
+  },
+  {
+    "key": "camad",
+    "doi": "10.1109/CAMAD59638.2023.10478422",
+    "title": "How to synchronize Digital Twins? A Communication Performance Analysis",
+    "authors": [
+      {
+        "given": "Lal Verda",
+        "family": "Cakir",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Istanbul Technical University,Department of Computer Engineering,Istanbul,Turkey"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sarah",
+        "family": "Al-Shareeda",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Istanbul Technical University,Department of Computer Engineering,Istanbul,Turkey"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sema F.",
+        "family": "Oktug",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Istanbul Technical University,Department of Computer Engineering,Istanbul,Turkey"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mehmet",
+        "family": "Özdem",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "T&#x00FC;rk Telekom,Turkey"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Matthew",
+        "family": "Broadbent",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Edinburgh Napier University,School of Computing, Engineering and The Built Environment,UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Berk",
+        "family": "Canberk",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Edinburgh Napier University,School of Computing, Engineering and The Built Environment,UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "venue": [
+      "2023 IEEE 28th International Workshop on Computer Aided Modeling and Design of Communication Links and Networks (CAMAD)"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          6
+        ]
+      ]
+    },
+    "volume": null,
+    "issue": null,
+    "page": "123-127",
+    "url": "https://doi.org/10.1109/camad59638.2023.10478422",
+    "verified": "Crossref DOI registration, 2026-10-07"
+  }
+]

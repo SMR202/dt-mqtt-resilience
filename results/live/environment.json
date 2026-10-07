@@ -1,0 +1,17 @@
+{
+  "python": "3.10.9 (tags/v3.10.9:1dd9be6, Dec  6 2022, 20:01:21) [MSC v.1934 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "cpu": "AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD",
+  "logical_cpus": 12,
+  "physical_cpus": 6,
+  "ram_bytes": 17107574784,
+  "versions": {
+    "paho-mqtt": "2.1.0",
+    "amqtt": "0.11.3",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.7",
+    "psutil": "7.1.0"
+  },
+  "label": "real MQTT loopback, application-shaped uplink; not cloud WAN or packet loss"
+}

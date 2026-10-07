@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Cite the code package and the verified baseline article; human authorship of a manuscript must be confirmed separately."
+title: "DT-MQTT resilience: reproducible freshness and buffering experiments"
+type: software
+version: 0.2.0
+date-released: 2026-10-07
+repository-code: "https://github.com/SMR202/dt-mqtt-resilience"
+license: MIT
+abstract: "Native reference-core audit, real MQTT loopback evaluation and application simulations for fair latest-state replay versus FIFO and expiry. No public-cloud or packet-loss benchmark is claimed."

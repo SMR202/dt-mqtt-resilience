@@ -11,3 +11,7 @@ __pycache__/
 secrets/
 credentials/
 raw_large_data/
+work/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm

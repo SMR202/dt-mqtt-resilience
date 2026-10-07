@@ -1,0 +1,3 @@
+-r requirements.txt
+reportlab==4.4.4
+pymupdf==1.26.5
